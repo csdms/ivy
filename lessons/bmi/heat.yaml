@@ -1,0 +1,11 @@
+# Heat model configuration
+shape:
+  - 6
+  - 8
+spacing:
+  - 1.0
+  - 1.0
+origin:
+  - 0.0
+  - 0.0
+alpha: 1.0
