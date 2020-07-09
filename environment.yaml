@@ -1,0 +1,18 @@
+# A conda environment for ESPIn lessons.
+#
+# Usage:
+#   $ conda env create --file=environment.yaml
+#   $ source activate espin
+
+name: espin
+channels:
+  - conda-forge
+dependencies:
+  - python =3
+  - numpy
+  - scipy
+  - pandas
+  - notebook
+  - bmipy
+  - pymt >=1.1
+  - landlab >=2.0
