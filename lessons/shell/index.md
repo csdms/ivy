@@ -24,13 +24,37 @@ Unpack them on your computer.
 ### Open a terminal
 
 A terminal is an application that allows a user to communicate
-with the operating system on a computer.
+with the operating system of a computer
+through terse text commands.
 
-### Why are we using a terminal?
+* Linux: terminal
+* macOS: Terminal.app (built-in) or [iTerm.app](https://www.iterm2.com/) (better)
+* Windows: Git Bash Shell in [Git for Windows](https://gitforwindows.org/)
 
-Why would you want to use a terminal over a graphical application?
+At this time,
+if you haven't already done so,
+open a terminal on your computer.
+
+### Why are we using a terminal instead of Finder or Windows Explorer?
+
+When you develop skill with shell commands in a terminal,
+you can do filesystem-specific tasks--moving, copying, renaming, deleting
+files and directories--much faster than with a graphical application.
+
+By analogy, think of keyboard shortcuts on your computer:
+if you want to change from one application to another,
+it's much faster to hit `Cmd-Tab` (on macOS; `Alt-Tab` on Linux and Windows)
+than it is to use a mouse to go find the other application.
+
+Commands tend to be terse to the point of being cryptic,
+not that different from texting shorthand:
+instead of brb, it's `cd`;
+instead of irl, it's `rm`, etc.
+And it's done for the same reason: speed.
 
 ### The command prompt
+
+
 
 ## Sections
 
