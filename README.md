@@ -1,3 +1,5 @@
+![ESPIn logo](./media/ESPIn.png)
+
 # ESPIn
 
 Course material for the Earth Surface Processes Institute (ESPIn) summer school.
