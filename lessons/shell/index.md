@@ -1,4 +1,4 @@
-![ESPIn logo](./media/ESPIn.png)
+![ESPIn logo](../../media/ESPIn.png)
 
 # Introduction to the shell
 
