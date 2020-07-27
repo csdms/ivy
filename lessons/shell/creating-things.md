@@ -21,3 +21,7 @@ described in this section.
 | Ctrl-e           | place cursor at end of line
 | Ctrl-k           | clear text to end of line
 | Ctrl-l           | clear text in terminal
+
+[Introduction to the shell](./index.md) |
+Previous: [Files and directories](./files-and-directories.md) |
+Next: [Pipes and filters](./pipes-and-filters.md)

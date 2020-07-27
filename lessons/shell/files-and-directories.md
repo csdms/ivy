@@ -25,3 +25,8 @@ described in this section.
 | dirs              | print directory stack
 | tree              | view directory tree *(nonstandard)*
 | tab               | complete command
+
+
+[Introduction to the shell](./index.md) |
+Previous: [index](./index.md) |
+Next: [Creating things](./creating-things.md)

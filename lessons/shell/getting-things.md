@@ -16,3 +16,6 @@ The table below summarizes the commands described in this section.
 | zip      | package and compress/uncompress files
 | gzip     | package and compress/uncompress files
 | tar      | package and compress/uncompress files
+
+[Introduction to the shell](./index.md) |
+Previous: [Finding things](./finding-things.md)

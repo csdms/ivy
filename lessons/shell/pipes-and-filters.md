@@ -22,3 +22,7 @@ described in this section.
 | ?                 | match single characters
 | sort              | sorts input
 | sed               | stream editor
+
+[Introduction to the shell](./index.md) |
+Previous: [Creating things](./creating-things.md) |
+Next: [Finding things](./finding-things.md)
