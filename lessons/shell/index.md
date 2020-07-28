@@ -73,12 +73,12 @@ but there's more information in Software Carpentry's
 on which this lesson is based.
 
 
-## The command prompt
+## Enter commands, get results
 
 The command prompt (or shell prompt) is where we enter commands into a terminal.
 It's typically denoted with a dollar sign `$`.
 
-We use the command prompt in a **read-evaluate-print loop (REPL)**;
+We use a terminal in a **read-evaluate-print loop (REPL)**;
 that is, when we enter a command at the prompt, the shell
 
 1. reads the command
