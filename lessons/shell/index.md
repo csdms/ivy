@@ -15,6 +15,20 @@ with the operating system of a computer.
 * Know where to get help, or more information
 
 
+## Get the lesson data
+
+This lesson uses a set of sample files
+from [Software Carpentry](https://software-carpentry.org/).
+which you'll need to follow the lesson.
+
+Please:
+
+1. Download [data-shell.zip](https://swcarpentry.github.io/shell-novice/data/data-shell.zip) and move the file to your Desktop.
+1. Unzip/extract the file (ask your instructor if you need help with this step).
+
+You should end up with a new folder called **data-shell** on your Desktop.
+
+
 ## Open a terminal
 
 A *terminal* is an application that allows a user to communicate
@@ -30,7 +44,7 @@ if you haven't already done so,
 open a terminal on your computer.
 
 
-## Why are we using a terminal instead of Finder or Windows Explorer?
+## Why are we using a terminal?
 
 Because it works. Really well.
 
