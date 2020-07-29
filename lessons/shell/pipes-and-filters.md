@@ -23,6 +23,8 @@ described in this section.
 | sort              | sorts input
 | sed               | stream editor
 
+___
+
 [Introduction to the shell](./index.md) |
 Previous: [Creating things](./creating-things.md) |
 Next: [Finding things](./finding-things.md)

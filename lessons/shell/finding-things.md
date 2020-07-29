@@ -21,6 +21,8 @@ and special characters described in this section.
 | which            | show location of command
 | alias            | make a shortcut for a command
 
+___
+
 [Introduction to the shell](./index.md) |
 Previous: [Pipes and filters](./pipes-and-filters.md)
 Next: [Getting things from elsewhere](./getting-things.md)

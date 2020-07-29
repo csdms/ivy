@@ -216,6 +216,8 @@ described in this section.
 | tab               | complete command
 
 
+___
+
 [Introduction to the shell](./index.md) |
 Previous: [index](./index.md) |
 Next: [Creating things](./creating-things.md)
