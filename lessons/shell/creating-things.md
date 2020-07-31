@@ -143,7 +143,6 @@ described in this section.
 | Ctrl-k           | clear text to end of line
 | Ctrl-l           | clear text in terminal
 
-&nbsp;
 ___
 
 [Introduction to the shell](./index.md) |

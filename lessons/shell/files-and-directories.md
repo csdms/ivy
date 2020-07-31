@@ -215,7 +215,6 @@ described in this section.
 | tree              | view directory tree *(nonstandard)*
 | tab               | complete command
 
-
 ___
 
 [Introduction to the shell](./index.md) |
