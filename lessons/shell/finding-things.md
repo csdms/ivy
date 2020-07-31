@@ -71,7 +71,7 @@ For example, to get information about `find`, type:
 $ man find
 ```
 The `man` command displays documentation for `find`,
-incuding all options and several examples,
+including all options and several examples,
 in a pager.
 The man page for `find` is quite long.
 Press `q` in the pager to quit and return to the terminal.

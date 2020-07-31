@@ -2,7 +2,7 @@
 
 # Getting things from elsewhere
 
-While it's often srightforward to click to download items from a web browser,
+While it's often straightforward to click to download items from a web browser,
 it's also possible to get them with shell commands,
 and the shell commands provide more flexibility.
 

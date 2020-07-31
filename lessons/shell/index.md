@@ -10,7 +10,7 @@ with the operating system of a computer.
 
 * Locate and open the terminal application on your computer
 * Know what a file system is
-* Understand basic shell coomands for manipulating files
+* Understand basic shell commands for manipulating files
 * Get exposure to some intermediate/advanced commands
 * Know where to get help, or more information
 

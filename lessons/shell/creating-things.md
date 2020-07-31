@@ -11,7 +11,7 @@ $ cd ~/Desktop
 /home/mpiper/Desktop
 ```
 Note that by using the tilde `~`,
-we'll get to the Desktop from whereever we are in the filesystem.
+we'll get to the Desktop from wherever we are in the filesystem.
 
 Next,
 use the `mkdir` command to make a new directory:
@@ -44,7 +44,7 @@ Note that a text editor is different than a *word processor*
 (like Microsoft Word)
 which automatically applies markup and formatting to the text.
 
-There are many differnent text editors available;
+There are many different text editors available;
 e.g., `vi`, `emacs`, `atom`, `sublime`,
 but the one we'll use here is called `nano`.
 It trades functionality for simplicity.
