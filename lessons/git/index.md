@@ -48,8 +48,8 @@ Here are some examples...
 This lesson on version control continues in the following sections.
 
 1. [Configuring git and GitHub](./configuring-git.md)
-1. [Use case: Personal project](./git-personal-project.md)
-1. [Use case: Collaborative project](./git-collaborative-project.md)
+1. [Version control in a personal project](./git-personal-project.md)
+1. [Version control in a collaborative project](./git-collaborative-project.md)
 
 
 ## Resources
