@@ -37,6 +37,8 @@ Here are some examples...
 * Explore without fear -- Version control can give you confidence to try
   new things, knowing that if you mess something up, you can always go
   back to a safe point.
+* Share code -- A public repository can be searched and discovered by
+  anyone, augmenting open science.
 * Collaborate -- Work with other scientists on a research project,
   or on writing a proposal or paper.
 * Time machine -- When your team uses version control, as team members
@@ -48,7 +50,7 @@ Here are some examples...
 This lesson on version control continues in the following sections.
 
 1. [Configuring git and GitHub](./configuring-git.md)
-1. [Version control in a personal project](./git-personal-project.md)
+1. [Version control in a single-user project](./git-single-user-project.md)
 1. [Version control in a collaborative project](./git-collaborative-project.md)
 
 

@@ -67,6 +67,11 @@ replacing the brackets with the subcommand;
 e.g., `git config --help` will provide detailed information
 on all of the options for the `config` subcommand.
 
+To see a list of all subcommands, try:
+```
+$ git --help -a
+```
+
 `git` also has a (very long) `man` page:
 ```
 man git 
@@ -86,6 +91,6 @@ the full [git documentation](https://git-scm.com/docs) is available online.
 
 ___
 
-[Introduction to version control with git and GitHub](./index.md) |
+[Introduction to version control](./index.md) |
 Previous: [index](./index.md) |
-Next: [Version control in a personal project](./git-personal-project.md)
+Next: [Version control in a single-user project](./git-single-user-project.md)
