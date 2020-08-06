@@ -123,6 +123,49 @@ the existing **data-shell** directory was clobbered
 when the archive was uncompressed.
 
 
+## Download the ESPIn repository
+
+The ESPIn repository lives on GitHub at
+
+> https://github.com/csdms/espin
+
+In the lesson on [version control](../git/index.md),
+we'll learn how to work with repositories hosted on GitHub,
+but for now,
+we can download the repository as a zip archive
+and uncompress it using the commands we learned above.
+
+Use `wget` to download the zip archive:
+```
+$ wget https://github.com/csdms/espin/archive/main.zip
+```
+
+The `file` command returns a file's type.
+Use it to verify that file downloaded from GitHub
+is actually a zip archive:
+```
+$ file main.zip
+main.zip: Zip archive data, at least v1.0 to extract
+```
+
+Now use `unzip` to uncompress the file:
+```
+$ unzip main.zip
+```
+This creates a new directory, **espin-main**.
+View its contents:
+```
+$ ls espin-main/
+LICENSE          data             lessons
+README.md        environment.yaml media
+```
+
+Note that this is one way of getting files from GitHub.
+A better way is to use `git` to retrieve the repository contents
+along with their histories.
+We'll cover how to do this in the [version control](../git/index.md) lesson.
+
+
 ## Summary
 
 The table below summarizes the commands described in this section.
@@ -134,6 +177,7 @@ The table below summarizes the commands described in this section.
 | zip      | package and compress/uncompress files
 | gzip     | package and compress/uncompress files
 | tar      | package and compress/uncompress files
+| file     | get file type information
 
 ___
 
