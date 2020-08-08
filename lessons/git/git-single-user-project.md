@@ -307,7 +307,7 @@ defying Pareto's principle!).
 <a name="git-fn1">1</a>: The catch here is that none of these are necessarily single-user projects;
 all could involve collaboration.
 In fact,
-it may be best to think of any single-user project as an XXX case
+it may be best to think of any single-user project as a simple case
 of a collaborative project.
 We'll cover collaborative projects next.
 
