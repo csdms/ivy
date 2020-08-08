@@ -7,7 +7,7 @@ we'll work through an example that broadly demonstrates
 how to use version control for a single-user project.
 Imagine, for instance,
 backing up and tracking
-your thesis, a class project, or a journal article[^1].
+your thesis, a class project, or a journal article<sup>[1](#git-fn1)</sup>.
 
 ## Create a repository on GitHub
 
@@ -304,7 +304,7 @@ about using `git` and GitHub
 (with fewer than 20 percent of the available `git` subcommands,
 defying Pareto's principle!).
 
-[^1]: The catch here is that none of these are necessarily single-user projects;
+<a name="git-fn1">1</a>: The catch here is that none of these are necessarily single-user projects;
 all could involve collaboration.
 In fact,
 it may be best to think of any single-user project as an XXX case
