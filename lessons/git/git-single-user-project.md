@@ -304,13 +304,6 @@ about using `git` and GitHub
 (with fewer than 20 percent of the available `git` subcommands,
 defying Pareto's principle!).
 
-<a name="git-fn1">1</a>: The catch here is that none of these are necessarily single-user projects;
-all could involve collaboration.
-In fact,
-it may be best to think of any single-user project as a simple case
-of a collaborative project.
-We'll cover collaborative projects next.
-
 This table summarizes `git` concepts covered in this section:
 
 | Concept      | Description
@@ -335,6 +328,14 @@ This table summarizes the `git` subcommands used in this section:
 | log        | show commit history in repository
 | diff       | show differences between working directory and repository state
 | push       | transfer changes from one clone of a repository to another
+
+
+<a name="git-fn1">1</a>: The catch here is that none of these are necessarily single-user projects;
+all could involve collaboration.
+In fact,
+it may be best to think of any single-user project as a simple case
+of a collaborative project.
+We'll cover collaborative projects next.
 
 ___
 
