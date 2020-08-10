@@ -9,8 +9,8 @@ Course material for the Earth Surface Processes Institute (ESPIn) summer school.
 The full ESPIn schedule is [here](https://docs.google.com/document/d/1bSZgtlyyylG9OgPExBG6n2QR4Fhl5SNR_5hXbrfYUSg/edit#heading=h.mg7jb2qru7hf).
 Topics in this repository include:
 
-* Introduction to the shell
-* Python basics
+* [Introduction to the shell](./lessons/shell/index.md)
+* [Python basics](./lessons/python/index.ipynb) >> Run on the [CSDMS JupyterHub](https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fpython%2Findex.ipynb&branch=master)
 * Python for ESP scientists
 * Version control with git and GitHub
 * The Basic Model Interface (BMI)
