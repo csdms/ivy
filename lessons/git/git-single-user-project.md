@@ -157,6 +157,7 @@ When committing a change to a repository,
 it's a best practice to include a message
 (here, using the `m` option)
 describing why the change is being made.
+It's also a convention to use imperative case.
 Check the result with `git status`:
 ```
 $ git status
