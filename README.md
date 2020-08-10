@@ -9,16 +9,18 @@ held 2020 August 12-14, 17-19.
 ## Topics
 
 The full ESPIn schedule is [here](https://docs.google.com/document/d/1bSZgtlyyylG9OgPExBG6n2QR4Fhl5SNR_5hXbrfYUSg/edit#heading=h.mg7jb2qru7hf).
-Topics in this repository include:
+Topics covered include:
 
-* [Introduction to the Shell](./lessons/shell/index.md)
-* [Python Basics](./lessons/python/index.ipynb) <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fpython%2Findex.ipynb&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
-* [Python for ESP Scientists](./lessons/python/index.ipynb) <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fpython%2Findex.ipynb&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
-* [Version Control with git and GitHub](./lessons/git/index.md)
-* [The Basic Model Interface (BMI)](./lessons/bmi/index.ipynb) <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fbmi%2Findex.ipynb&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
-* [Landlab](./lessons/landlab/index.ipynb) <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Flandlab%2Findex.ipynb&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
-* [The Python Modeling Toolkit (pymt)](./lessons/python/index.ipynb) <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fpymt%2Findex.ipynb&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
-* [Software Engineering Basics](./lessons/git/index.md)
+| Topic | Run on...
+| ----- | ---------
+| [Introduction to the Shell](./lessons/shell/index.md) | 
+| [Python Basics](./lessons/python/index.ipynb) | <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fpython%2Findex.ipynb&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
+| [Python for ESP Scientists](./lessons/python/index.ipynb) | <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fpython%2Findex.ipynb&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
+| [Version Control with git and GitHub](./lessons/git/index.md) |
+| [The Basic Model Interface (BMI)](./lessons/bmi/index.ipynb) | <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fbmi%2Findex.ipynb&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
+| [Landlab](./lessons/landlab/index.ipynb) | <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Flandlab%2Findex.ipynb&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
+| [The Python Modeling Toolkit (pymt)](./lessons/python/index.ipynb) | <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fpymt%2Findex.ipynb&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
+| [Software Engineering Basics](./lessons/git/index.md) |
 
 
 ## Requirements
