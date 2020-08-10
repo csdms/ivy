@@ -2,7 +2,9 @@
 
 # ESPIn
 
-Course material for the Earth Surface Processes Institute (ESPIn) summer school.
+Course material for the Earth Surface Processes Institute (ESPIn) summer school,
+held 2020 August 12-14, 17-19.
+
 
 ## Topics
 
@@ -10,10 +12,11 @@ The full ESPIn schedule is [here](https://docs.google.com/document/d/1bSZgtlyyyl
 Topics in this repository include:
 
 * [Introduction to the shell](./lessons/shell/index.md)
-* [Python basics](./lessons/python/index.ipynb) >> Run on the [CSDMS JupyterHub](https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fpython%2Findex.ipynb&branch=master)
-* Python for ESP scientists
+* [Python basics](./lessons/python/index.ipynb) >> Run on the [CSDMS JupyterHub](https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fpython%2Findex.ipynb&branch=main)
+* [Python for ESP scientists](./lessons/python/index.ipynb) <a href="https://travis-ci.org/csdms/pymt"><img alt="Build Status" src="./media/jupyterhub.png"></a>
+
 * Version control with git and GitHub
-* The Basic Model Interface (BMI)
+* [The Basic Model Interface (BMI)](./lessons/bmi/index.ipynb) >> [CSDMS JupyterHub](https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fbmi%2Findex.ipynb&branch=main)
 * Landlab
 * The Pytho Modeling Toolkit (pymt)
 * Software engineering basics
