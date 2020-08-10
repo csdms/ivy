@@ -59,7 +59,7 @@ Get help on the `git` command itself:
 $ git --help
 ```
 The output from this command shows the most common subcommands.
-Get help on a specfic subcommand with:
+Get help on a specific subcommand with:
 ```
 git [subcommand] --help
 ```

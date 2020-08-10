@@ -11,7 +11,7 @@ your thesis, a class project, or a journal article<sup>[1](#git-fn1)</sup>.
 This is where GitHub is powerful.
 
 
-## Fork a repostory on GitHub
+## Fork a repository on GitHub
 
 We'll start by *forking* a repository on GitHub.
 A fork is a copy of a repository placed under your GitHub account.
@@ -52,7 +52,7 @@ $ git clone https://github.com/[username]/espin
 ```
 where the bracketed text should be replaced with your GitHub username.
 
-The repository is cloned into the directory **espn**.
+The repository is cloned into the directory **espin**.
 Change to it and view its contents:
 ```
 $ cd espin
@@ -97,7 +97,7 @@ nothing to commit, working tree clean
 ```
 
 Alternately,
-we can use the `git branch` command to see the current and availale branches:
+we can use the `git branch` command to see the current and available branches:
 ```
 $ git branch
 * main

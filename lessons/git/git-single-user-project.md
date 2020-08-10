@@ -51,7 +51,7 @@ $ git clone [repository-url]
 ```
 where the bracketed text should be replaced with the URL of your new repository.
 
-The repository is cloned into the directory **espn-example**.
+The repository is cloned into the directory **espin-example**.
 Change to it and view its contents:
 ```
 $ cd espin-example
@@ -69,7 +69,7 @@ Let's add some content.
 
 In the shell lesson,
 we downloaded the [ESPIn repository](https://github.com/csdms/espin)
-as a zip archive and uncomressed it in our **Desktop** directory.
+as a zip archive and uncompressed it in our **Desktop** directory.
 Copy the file **boulder_dem.py** from there to the current directory.
 ```
 $ cp ~/Desktop/espin-main/lessons/se/boulder_dem.py .
@@ -252,7 +252,7 @@ directly to the repository.
 
 Our local repository now differs from the remote on GitHub.
 
-View the history of revisions to the repostory with `git log`:
+View the history of revisions to the repository with `git log`:
 ```
 $ git log
 commit 63f3a8465cfe77d1880c8d3a739e46a1fee14741 (HEAD -> master)
@@ -275,7 +275,7 @@ Date:   Thu Aug 6 15:34:27 2020 -0600
 ```
 
 Let's now transmit the changes from our local repository to the remote.
-We do this with the `git push` subcomand,
+We do this with the `git push` subcommand,
 which has the syntax `git push [remote] [branch]`.
 Here,
 the remote is `origin`
