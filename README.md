@@ -48,6 +48,13 @@ Topics covered include:
 * [Mark Piper](https://instaar.colorado.edu/people/mark-piper/)
 
 
+ESPIn is a community-focused project;
+[contributions](./CONTRIBUTING.rst) that follow
+the [contributor code of conduct](./CODE-OF-CONDUCT.rst) are welcomed,
+and are [acknowledged](./AUTHORS.rst).
+All ESPIn course material is open source,
+released under the [MIT License](./LICENSE).
+
 ESPIn is supported by the National Science Foundation
 under Award Numbers
 [1924259](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1924259) and
