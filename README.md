@@ -13,14 +13,15 @@ Topics covered include:
 
 | Topic | Run on...
 | ----- | ---------
-| [Introduction to the Shell](./lessons/shell/index.md) | 
+| [Introduction to the Shell](./lessons/shell/index.md) | local computer
 | [Python Basics](./lessons/python/index.ipynb) | <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fpython%2Findex.ipynb&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
 | [Python for ESP Scientists](./lessons/python/index.ipynb) | <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fpython%2Findex.ipynb&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
-| [Version Control with git and GitHub](./lessons/git/index.md) |
+| [Version Control with git and GitHub](./lessons/git/index.md) | local computer
 | [The Basic Model Interface (BMI)](./lessons/bmi/index.ipynb) | <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fbmi%2Findex.ipynb&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
 | [Landlab](./lessons/landlab/index.ipynb) | <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Flandlab%2Findex.ipynb&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
 | [The Python Modeling Toolkit (pymt)](./lessons/python/index.ipynb) | <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fpymt%2Findex.ipynb&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
-| [Software Engineering Basics](./lessons/git/index.md) |
+| [Permamodel Toolkit](./lessons/pymt/index.ipynb) | <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fpymt%2Findex.ipynb&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
+| [Software Engineering Basics](./lessons/git/index.md) | local computer
 
 
 ## Requirements
