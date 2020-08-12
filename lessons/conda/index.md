@@ -26,7 +26,7 @@ Because much of our work in ESPIn takes place
 on the [CSDMS JupyterHub](https://csdms.rc.colorado.edu),
 we don't spend much time on `conda` here;
 however,
-we recoomend installing Anaconda on your computer
+we recommend installing Anaconda on your computer
 so that you can use all of the ESPIn course material locally.
 
 Further,
@@ -99,7 +99,7 @@ to fully remove the environment from your Anaconda installation.
 While Python is installed with most operating systems,
 or can be downloaded and installed from source,
 CSDMS recommends the use of Anaconda
-because of its `conda` package managment system.
+because of its `conda` package management system.
 
 This table summarizes `conda` concepts covered in this section:
 
