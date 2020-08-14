@@ -13,6 +13,7 @@ dependencies:
   - scipy
   - pandas
   - notebook
+  - rasterio
   - bmipy
   - pymt >=1.1
   - landlab >=2.0
