@@ -22,7 +22,7 @@ Topics covered include:
 | [The Basic Model Interface (BMI)](./lessons/bmi/index.ipynb) | <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fbmi%2Findex.ipynb&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
 | [Landlab](./lessons/landlab/index.ipynb) | <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Flandlab%2Findex.ipynb&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
 | [The Python Modeling Toolkit (pymt)](./lessons/pymt/index.ipynb) | <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fpymt%2Findex.ipynb&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
-| [Permamodel Toolkit](./lessons/pymt/index.ipynb) | <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fpymt%2Findex.ipynb&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
+| [Permamodel Toolkit](./lessons/permamodel) | <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fpermamodel&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
 | [Software Engineering Basics](./lessons/se/index.md) | local computer
 
 
