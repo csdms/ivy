@@ -2,8 +2,15 @@
 
 # ESPIn
 
-Course material for the Earth Surface Processes Institute (ESPIn) summer school,
-held 2020 August 12-14, 17-19.
+The Earth Surface Processes Institute (ESPIn),
+held 2020 August 12-14, 17-19,
+is an immersive online training experience
+for 25 graduate students, postdoctoral fellows, and early career faculty.
+ESPIn is designed to help participants make advances
+in earth surface processes research
+by teaching cyberinfrastructure skills in numerical modeling,
+best programming practices, open source software development,
+and collaborative coding.
 
 
 ## Topics
@@ -23,7 +30,7 @@ Topics covered include:
 | [Landlab](./lessons/landlab/index.ipynb) | <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Flandlab%2Findex.ipynb&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
 | [The Python Modeling Toolkit (pymt)](./lessons/pymt/index.ipynb) | <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fpymt%2Findex.ipynb&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
 | [Permamodel Toolkit](./lessons/permamodel) | <a href="https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fpermamodel&branch=main"><img alt="Run on CSDMS JupyterHub" src="https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg"></a>
-| [Software Engineering Basics](./lessons/se/index.md) | local computer
+| [Best Practices in Software Development](./lessons/se/index.md) | local computer
 
 
 ## Requirements
