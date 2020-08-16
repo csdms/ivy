@@ -2,22 +2,28 @@
 
 # Best Practices in Software Development
 
-In this lesson, we'll discuss three topics that will improve your productivity
-as an ESP scientist:
+In this lesson, we'll discuss three topics
+that fall under the category of *best practices*--software development techniques
+that aren't required,
+but have been found helpful and productivity-enhancing.
 
-* unit testing
-* continous integration
+The topics:
+
+* unit testing,
+* continous integration, and
 * collaboration techniques on GitHub
 
-*( Maybe say what is meant by "best practices" )*
-
+were selected because they're used on a near-daily basis at CSDMS
+for the development and maintenance of pymt and Landlab,
+and we believe they're helpful, in general,
+for the work of ESP scientists.
 
 
 *Learning objectives:*
 
 * Understand unit testing concepts
-* Understand continuous integration concepts
 * See how to write a unit test for `pytest`
+* Understand continuous integration concepts
 * Understand some recommended behavior for collaborative projects on GitHub
 
 
