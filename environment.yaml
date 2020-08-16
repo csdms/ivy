@@ -14,6 +14,8 @@ dependencies:
   - pandas
   - notebook
   - rasterio
+  - pytest
+  - coverage
   - bmipy
   - pymt >=1.1
   - landlab >=2.0
