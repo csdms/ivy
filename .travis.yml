@@ -1,0 +1,18 @@
+language: python
+
+os:
+  - linux
+
+install:
+  - pip install pytest coverage
+
+before_script:
+  - test -d ./lessons/best-practices
+  - test -f ./lessons/best-practices/examples.py
+  - test -f ./lessons/best-practices/test_examples.py
+
+script:
+  - coverage run -m pytest
+
+after_success:
+  - coverage report
