@@ -11,7 +11,7 @@ The topics:
 
 * unit testing,
 * continous integration, and
-* collaboration techniques on GitHub
+* collaboration techniques
 
 were selected because they're used on a near-daily basis at CSDMS
 for the development and maintenance of pymt and Landlab,
@@ -24,7 +24,7 @@ for the work of ESP scientists.
 * Understand unit testing concepts
 * See how to write a unit test for `pytest`
 * Understand continuous integration concepts
-* Understand some recommended behavior for collaborative projects on GitHub
+* Understand some recommended behaviors for working on collaborative projects
 
 
 ## Topics
@@ -33,5 +33,5 @@ This lesson continues in the following sections.
 
 1. [Unit testing with pytest](./unit-testing.md)
 1. [Continuoues integration with Travis CI](./continuous-integration.md)
-1. [Using GitHub in a collaborative project ("Gitiquette")](./collaboration-etiquette.md)
+1. [Collaborative projects ("Gitiquette")](./collaboration-etiquette.md)
 
