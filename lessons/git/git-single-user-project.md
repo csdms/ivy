@@ -72,12 +72,12 @@ we downloaded the [ESPIn repository](https://github.com/csdms/espin)
 as a zip archive and uncompressed it in our **Desktop** directory.
 Copy the file **boulder_dem.py** from there to the current directory.
 ```
-$ cp ~/Desktop/espin-main/lessons/se/boulder_dem.py .
+$ cp ~/Desktop/espin-main/lessons/best-practices/boulder_dem.py .
 ```
 Alternately,
 we could download the file directly from GitHub with `curl`:
 ```
-$ curl https://raw.githubusercontent.com/csdms/espin/main/lessons/se/boulder_dem.py > boulder_dem.py 
+$ curl https://raw.githububest-practicesrcontent.com/csdms/espin/main/lessons/best-practices/boulder_dem.py > boulder_dem.py 
 ```
 In either case,
 check that the file is now present:
