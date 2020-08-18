@@ -5,7 +5,8 @@
 This lesson describes some best practices
 for working on a collaborative project<sup>[1](#cp-fn1)</sup>.
 
-First, a generic workflow for contributing to a collaborative project:
+When working on a collaborative project,
+the following workflow is recommended:
 
 1. issue
 1. fork
@@ -15,7 +16,7 @@ First, a generic workflow for contributing to a collaborative project:
 1. pull request
 1. merge
 
-Next, a list of recommendations:
+Based on this workflow, some recommendations:
 
 * A good issue should describe the problem. If an error is thrown, the
   text of the error message should be included. A reproduce case
@@ -64,16 +65,12 @@ Next, a list of recommendations:
   (Greg Tucker: "Write for your 'future self'.")
 
 
-Last, a demonstration of this workflow.
-(!!LIVE DEMO!!)
-
-
 ## Summary
 
 Working on a collaborative project is a bit more complicated
 that working alone,
 but following a few simple rules can make things go more smoothly.
-If all else fails, just remember: Be kind.
+If all else fails, just remember: be kind.
 
 
 ## Resources
