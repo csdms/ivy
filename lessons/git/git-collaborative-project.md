@@ -123,7 +123,7 @@ however, this time we'll do so in your fork of the ESPIn repository.
 
 Use your text editor to open the Python script:
 ```
-$ nano ./lessons/se/boulder_dem.py
+$ nano ./lessons/best-practices/boulder_dem.py
 ```
 and recall that we'd like to change the colormap from "jet" to "viridis"
 on line 21 of the file, like so:
@@ -140,7 +140,7 @@ Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
 
-	modified:   lessons/se/boulder_dem.py
+	modified:   lessons/best-practices/boulder_dem.py
 
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
@@ -148,7 +148,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 Commit the change to the branch
 (noting that we're again skipping the staging step):
 ```
-$ git commit lessons/se/boulder_dem.py -m "Use viridis colormap for display"
+$ git commit lessons/best-practices/boulder_dem.py -m "Use viridis colormap for display"
 [mdpiper/change-colormap 5b0d87c] Use viridis colormap for display
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
