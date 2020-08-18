@@ -10,7 +10,7 @@ but have been found helpful and productivity-enhancing.
 The topics:
 
 * unit testing,
-* continous integration, and
+* continuous integration, and
 * collaboration techniques
 
 were selected because they're used on a near-daily basis at CSDMS
@@ -32,6 +32,6 @@ for the work of ESP scientists.
 This lesson continues in the following sections.
 
 1. [Unit testing with pytest](./unit-testing.md)
-1. [Continuoues integration with Travis CI](./continuous-integration.md)
+1. [Continuous integration with Travis CI](./continuous-integration.md)
 1. [Collaborative projects ("Gitiquette")](./collaboration-etiquette.md)
 

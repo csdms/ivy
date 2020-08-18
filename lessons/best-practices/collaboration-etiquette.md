@@ -85,4 +85,4 @@ things I've learned as the result of mistakes I've made.
 ___
 
 [Best Practices in Software Development](./index.md) |
-Previous: [Continuoues integration with Travis CI](./continuous-integration.md)
+Previous: [Continuous integration with Travis CI](./continuous-integration.md)

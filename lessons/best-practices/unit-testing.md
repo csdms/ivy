@@ -166,7 +166,7 @@ This table summarizes the unit testing subcommands used in this section:
 
 ## Resources
 
-* Software Carpentry Incubator [lesson](http://carpentries-incubator.github.io/python-testing/) on unit testing and continous integration (in development)
+* Software Carpentry Incubator [lesson](http://carpentries-incubator.github.io/python-testing/) on unit testing and continuous integration (in development)
 * [*Code Complete*](https://wikipedia.org/wiki/Code_Complete) is a
   comprehensive reference for all aspects of software development;
   it includes a section on unit testing
@@ -179,4 +179,4 @@ ___
 
 [Best Practices in Software Development](./index.md) |
 Previous: [index](./index.md) |
-Next: [Continuoues integration with Travis CI](./continuous-integration.md)
+Next: [Continuous integration with Travis CI](./continuous-integration.md)

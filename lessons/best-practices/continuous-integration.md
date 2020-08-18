@@ -65,7 +65,7 @@ see, e.g., [pymt](https://github.com/csdms/pymt/blob/master/.travis.yml),
 
 ## Summary
 
-Continous integration is used in team projects
+Continuous integration is used in team projects
 to help keep local repositories synchronized across the team.
 It's useful even in individual projects, though,
 because it can be configured to build, test, and run a project
