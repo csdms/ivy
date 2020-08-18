@@ -39,14 +39,14 @@ after_success:
   - coverage report
 ```
 In this configuration file,
-we instruct Travis to perform the build on a Linux system
+we instruct Travis to perform the build on Linux
 (it's easy and quick)
 using its default Python distribution.
 We have very little code to test in the ESPIn repository<sup>[1](#ci-fn1)</sup>,
 but we do have the unit testing example from the previous section.
 Use `pip` to install the *pytest* and *coverage* packages
 into the default Python installation.
-Run *pytest* and *coverage* from the root of the repository,
+Run `pytest` and `coverage` from the root of the repository,
 checking beforehand that the sample files exist.
 Afterward,
 view the coverage report.
