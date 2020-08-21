@@ -97,3 +97,10 @@ This lesson on the shell continues in the following sections.
 1. [Pipes and filters](./pipes-and-filters.md)
 1. [Finding things](./finding-things.md)
 1. [Getting things from elsewhere](./getting-things.md)
+
+
+## Resources
+
+* This lesson is loosely based on the Software Carpentry [shell lesson](https://swcarpentry.github.io/shell-novice/)
+* The [Bash Guide for Beginners](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/) from the Linux Documentation Project
+* The [GNU Bash Manual](https://www.gnu.org/software/bash/manual/) in various formats
