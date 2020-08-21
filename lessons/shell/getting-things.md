@@ -135,9 +135,9 @@ but for now,
 we can download the repository as a zip archive
 and uncompress it using the commands we learned above.
 
-Use `wget` to download the zip archive:
+Use `curl` to download the zip archive:
 ```
-$ wget https://github.com/csdms/espin/archive/main.zip
+$ curl https://codeload.github.com/csdms/espin/zip/main -o main.zip
 ```
 
 The `file` command returns a file's type.
