@@ -128,5 +128,5 @@ This table summarizes shell commands used in this section:
 
 ## Resources
 
-* The `conda` [User guide](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html)
+* The `conda` [User guide](https://docs.conda.io/projects/conda/en/latest/user-guide/index.html); in particular, the section on [managing environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 * A `conda` command [cheatsheet](https://docs.conda.io/projects/conda/en/latest/_downloads/843d9e0198f2a193a3484886fa28163c/conda-cheatsheet.pdf) from Anaconda
