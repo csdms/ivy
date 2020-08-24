@@ -19,13 +19,17 @@ the following workflow is recommended:
 Based on this workflow, some recommendations:
 
 * A good issue should describe the problem. If an error is thrown, the
-  text of the error message should be included. A reproduce case
-  should also be provided, showing the steps that lead up to the
-  error. Don't suggest a solution in the issue write-up. This can be
-  done in a comment. Don't suggest a solution in the issue write-up,
-  but if you have a solution in mind, it's helpful to describe it in a
-  comment. The repository owner gets to make the final decision on
-  what solution should be implemented.
+  text of the error message should be included. Don't screenshot the
+  error--it's not searchable, and the text of the error can't be
+  copy/pasted easily.
+  
+* A reproduce case should be provided for the issue, showing the steps
+  that lead up to the error.
+
+* Don't suggest a solution in the issue write-up, but if you have a
+  solution in mind, it's helpful to describe it in a comment. The
+  repository owner gets to make the final decision on what solution
+  should be implemented.
 
 * Create a new branch to make any changes to the source code. Avoid
   working on the default branch, if possible.
@@ -61,13 +65,29 @@ Based on this workflow, some recommendations:
 * If you're the repository owner, only merge pull requests when all
   tests pass. The default branch to always be clean and working.
 
+And here are a few recommendations that fall outside the workflow:
+
 * Software isn't finished until it has tests and documentation.
-  (Greg Tucker: "Write for your 'future self'.")
+  (Greg Tucker: "Write for your *future self*")
+
+* Avoid including data in a repository. There's some gray area for data
+  used in an example, but the data should be small.
+
+* Use conda environments liberally; you can easily set up an
+  environment for testing, then discard it when finished
+
+* Avoid responding to GitHub issues and pull requests by email--it
+  obscures the context of the issue or pull request, and adds extra
+  text to the thread on GitHub.
+
+If you have suggestions for other best practices,
+please submit them as an [issue](https://github.com/csdms/espin/issues)
+to the ESPIn repository!
 
 
 ## Summary
 
-Working on a collaborative project is a bit more complicated
+Working on a collaborative project is more complicated
 that working alone,
 but following a few simple rules can make things go more smoothly.
 If all else fails, just remember: be kind.
@@ -79,8 +99,8 @@ If all else fails, just remember: be kind.
 * A GitHub [blog post](https://github.blog/2015-01-21-how-to-write-the-perfect-pull-request/) on writing a good pull request
 
 
-<a name="cp-fn1">1</a>: *MP:* Many of these recommended behaviors are
-things I've learned as the result of mistakes I've made.
+<a name="cp-fn1">1</a>: *MP*--Many of these recommended behaviors are
+the result of mistakes I've made.
 
 ___
 
