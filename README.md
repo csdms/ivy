@@ -62,7 +62,12 @@ ESPIn is a community-focused project;
 the [contributor code of conduct](./CODE-OF-CONDUCT.rst) are welcomed,
 and are [acknowledged](./AUTHORS.rst).
 All ESPIn course material is open source,
-released under the [MIT License](./LICENSE).
+released under [CC BY 4.0 and MIT licenses](./LICENSE.md).
+
+Portions of the ESPIn shell and Python lessons were derived
+from material that is Copyright
+[Software Carpentry](http://software-carpentry.org),
+and remixed under their [license](https://github.com/swcarpentry/python-novice-inflammation/blob/gh-pages/LICENSE.md).
 
 ESPIn is supported by the National Science Foundation
 under Award Numbers
