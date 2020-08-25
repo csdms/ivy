@@ -25,7 +25,7 @@ Under the following terms:
   - Copyright Software Carpentry and, where practical,
   linking to http://software-carpentry.org,
   - Copyright Earth Surface Processes Institute and, where practical,
-  linking to http://csdms.colorado.edu),
+  linking to http://csdms.colorado.edu,
 
   providing a [link to the license][cc-by-human],
   and indicating if changes were made. You may do so in any reasonable manner,
