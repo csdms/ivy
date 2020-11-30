@@ -63,6 +63,8 @@ the [contributor code of conduct](./CODE-OF-CONDUCT.rst) are welcomed,
 and are [acknowledged](./AUTHORS.rst).
 All ESPIn course material is open source,
 released under [CC BY 4.0 and MIT licenses](./LICENSE.md).
+If you use the ESPIn course material,
+please [cite](./CITATION.rst) it.
 
 Portions of the ESPIn shell and Python lessons were derived
 from material that is Copyright
