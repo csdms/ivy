@@ -1,9 +1,9 @@
-![ESPIn logo](./media/ESPIn.png)
+![ESPIn logo](./media/ESPIn2021.png)
 
 # ESPIn
 
 The Earth Surface Processes Institute (ESPIn),
-held 2020 August 12-14, 17-19,
+held 2021 June 8-17,
 is an immersive online training experience
 for 25 graduate students, postdoctoral fellows, and early career faculty.
 ESPIn is designed to help participants make advances
@@ -15,7 +15,8 @@ and collaborative coding.
 
 ## Topics
 
-The full ESPIn schedule is [here][espin-schedule].
+<!-- The full ESPIn schedule is [here][espin-schedule]. -->
+The full ESPIn schedule is being updated for 2021.
 Topics covered include:
 
 | Topic | Run on...
