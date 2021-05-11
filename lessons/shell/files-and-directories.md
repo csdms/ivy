@@ -1,4 +1,4 @@
-![ESPIn logo](../../media/ESPIn.png)
+![ESPIn logo](https://github.com/csdms/espin/blob/main/media/ESPIn2021.png)
 
 # Files and directories
 
