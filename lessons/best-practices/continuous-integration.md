@@ -1,66 +1,84 @@
 ![ESPIn logo](https://github.com/csdms/espin/blob/main/media/ESPIn2021.png)
 
-# Continuous integration with Travis CI
+# Continuous integration with GitHub Actions
 
-*Continuous integration* (CI) is a software engineering practice
+*Continuous integration* (CI) is a software engineering practice often used
 where people working together on a project frequently merge their work.
 An automated system then builds and tests the changes,
 ensuring that they work together.
 
-CSDMS uses the continuous integration service Travis CI (https://travis-ci.org).
+CSDMS uses the continuous integration service [GitHub Actions](https://docs.github.com/en/actions).
 What this means in practice is that 
 every time a pull request is submitted to a repository,
-the actions designated in the Travis CI configuration file are performed.
+the jobs designated in the GitHub Actions configuration file(s) are performed.
 While this varies from project to project,
 it typically includes building and testing the software in the pull request
 on Linux, macOS, and Windows.
 
-The ESPIn repository is under CI: https://travis-ci.org/github/csdms/espin.
-The Travis CI configuration file ([.travis.yml](../../.travis.yml))
+The ESPIn repository is under CI: https://github.com/csdms/espin/actions.
+The Actions configuration file ([test.yml](../../.github/workflows/test.yml))
 used for the ESPIn repository is:
 ```yaml
-language: python
+name: Test
 
-os:
-  - linux
+on: [push, pull_request]
 
-install:
-  - pip install pytest coverage
+jobs:
 
-before_script:
-  - test -d ./lessons/best-practices
-  - test -f ./lessons/best-practices/examples.py
-  - test -f ./lessons/best-practices/test_examples.py
+  test:
+    # We want to run on external PRs, but not on our own internal PRs as they'll be run
+    # by the push to the branch. Without this if check, checks are duplicated since
+    # internal PRs match both the push and pull_request events.
+    if:
+      github.event_name == 'push' ||
+      github.event.pull_request.head.repo.full_name != github.repository
 
-script:
-  - coverage run -m pytest
+    runs-on: ubuntu-latest
 
-after_success:
-  - coverage report
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-python@v2
+
+      - name: Install dependencies
+        run: pip install pytest coverage
+
+      - name: Test for files
+        run: |
+          test -d ./lessons/best-practices
+          test -f ./lessons/best-practices/examples.py
+          test -f ./lessons/best-practices/test_examples.py
+
+      - name: Run pytest and coverage
+        run: coverage run -m pytest
+
+      - name: Show coverage report
+        run: coverage report
 ```
 In this configuration file,
-we instruct Travis to perform the build on Linux
-(it's easy and quick)
-using its default Python distribution.
+we instruct Actions to run the "test" job on Linux,
+only on pushes and external pull requests to the repository,
+using a default Python distribution.
 We have very little code to test in the ESPIn repository<sup>[1](#ci-fn1)</sup>,
 but we do have the unit testing example from the previous section.
 Use `pip` to install the *pytest* and *coverage* packages
-into the default Python installation.
+into the default Python distribution.
 Run `pytest` and `coverage` from the root of the repository,
 checking beforehand that the sample files exist.
 Afterward,
 view the coverage report.
 If anything fails in this process,
-Travis CI stops and issues an error message.
+Actions stops and issues an error message.
 
-The first build of the ESPIn repository is available
-on [Travis CI](https://travis-ci.org/github/csdms/espin/builds/718488184).
+The first run of the "test" job on the ESPIn repository
+is [available](https://github.com/csdms/espin/runs/2558250304?check_suite_focus=true)
+on GitHub.
 Success!
 
-For more comprehensive examples of Travis CI configuration files,
-see, e.g., [pymt](https://github.com/csdms/pymt/blob/master/.travis.yml),
-[babelizer](https://github.com/csdms/babelizer/blob/develop/.travis.yml), and
-[bmi-example-c](https://github.com/csdms/bmi-example-c/blob/master/.travis.yml).
+For more comprehensive examples of Actions configuration files,
+including multiple jobs,
+see, e.g., [pymt](https://github.com/csdms/pymt/tree/master/.github/workflows),
+[babelizer](https://github.com/csdms/babelizer/tree/develop/.github/workflows), and
+[bmi-example-c](https://github.com/csdms/bmi-example-c/blob/master/.github/workflows/conda-and-cmake.yml).
 
 
 ## Summary
@@ -76,7 +94,7 @@ alerting a developer when a build or a test fails.
 ## Resources
 
 * A (long, detailed) [blog post](https://martinfowler.com/articles/continuousIntegration.html) on CI by Martin Fowler (father of "refactoring")
-* Travis CI [documentation](https://docs.travis-ci.com/)
+* GitHub Actions [documentation](https://docs.github.com/en/actions)
 
 
 <a name="ci-fn1">1</a>: There's code in the Jupyter Notebooks that can
