@@ -22,10 +22,10 @@ Under the following terms:
 * **Attribution**---You must give appropriate credit, mentioning that
   your work is derived from work that is:
   
-  - Copyright Software Carpentry and, where practical,
-  linking to http://software-carpentry.org,
-  - Copyright Earth Surface Processes Institute and, where practical,
-  linking to http://csdms.colorado.edu,
+  - Copyright Community Surface Dynamics Modeling System and, where practical,
+    linking to https://csdms.colorado.edu,
+  - Copyright Software Carpentry and, where practical, linking to
+    https://software-carpentry.org,
 
   providing a [link to the license][cc-by-human],
   and indicating if changes were made. You may do so in any reasonable manner,
@@ -48,9 +48,8 @@ Notices:
 ## Software
 
 Except where otherwise noted, the example programs and other software
-provided by Software Carpentry and Data Carpentry are made available under the
-[OSI][osi]-approved
-[MIT license][mit-license].
+provided by the Community Surface Dynamics Modeling System are made
+available under the [OSI][osi]-approved [MIT license][mit-license].
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
