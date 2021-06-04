@@ -50,8 +50,7 @@ Here are some examples...
 This lesson on version control continues in the following sections.
 
 1. [Configuring git and GitHub](./configuring-git.md)
-1. [Version control in a single-user project](./git-single-user-project.md)
-1. [Version control in a collaborative project](./git-collaborative-project.md)
+1. [A version control workflow](./git-workflow.md)
 
 
 ## Resources
