@@ -15,8 +15,7 @@ and collaborative coding.
 
 ## Topics
 
-<!-- The full ESPIn schedule is [here][espin-schedule]. -->
-The full ESPIn schedule is being updated for 2021.
+The full ESPIn 2021 schedule is [here][espin-schedule].
 Topics covered include:
 
 | Topic | Run on...
@@ -38,15 +37,17 @@ Topics covered include:
 
 * Laptop
 * Web browser
+* Internet
 * Coffee (optional, but recommended)
 
 
 ## Links
 
-* [Landlab documentation](https://landlab.readthedocs.io/en/v2_dev/)
-* [Basic Model Interface (BMI) documentation](http://bmi.readthedocs.io)
-* [Python Modeling Toolkit (pymt) documentation](http://pymt.readthedocs.io)
-* [Community Surface Dynamics Modeling System (CSDMS)](http://csdms.colorado.edu)
+* [Landlab documentation](https://landlab.readthedocs.io)
+* [Basic Model Interface (BMI) documentation](https://bmi.readthedocs.io)
+* [Babelizer documentation](https://babelizer.readthedocs.io)
+* [Python Modeling Toolkit (pymt) documentation](https://pymt.readthedocs.io)
+* [Community Surface Dynamics Modeling System (CSDMS)](https://csdms.colorado.edu)
 
 
 ## The ESPIn team
@@ -82,7 +83,7 @@ Cybertraining for Earth Surface Processes Modelers*.
 
 <!-- Links -->
 
-[espin-schedule]: https://docs.google.com/document/d/1bSZgtlyyylG9OgPExBG6n2QR4Fhl5SNR_5hXbrfYUSg/edit#heading=h.mg7jb2qru7hf
+[espin-schedule]: https://docs.google.com/document/d/1fZYIEzfK_MhxnowbXiAVkQG7mUOkwQXaHbUTYAZPuLU/edit?usp=sharing
 [badge]: https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg
 [shell]: ./lessons/shell/index.md
 [conda]: ./lessons/conda/index.md
