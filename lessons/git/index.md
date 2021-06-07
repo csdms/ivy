@@ -57,4 +57,5 @@ This lesson on version control continues in the following sections.
 
 * Software Carpentry [lesson](https://swcarpentry.github.io/git-novice/) on version control
 * A [git command cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf) from GitHub
-* The [full git documentation](https://git-scm.com/docs)
+* The full [git documentation](https://git-scm.com/docs)
+* The full [GitHub documentation](https://docs.github.com)
