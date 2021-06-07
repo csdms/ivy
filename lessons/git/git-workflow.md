@@ -24,6 +24,7 @@ We'll broadly follow the series of actions in this workflow:
 * pull request
 * merge
 * pull
+* sync
 
 and we'll frequently refer to this diagram of git remotes:
 
@@ -194,7 +195,7 @@ index 23d368e..41f5c9b 100644
 Then check on the state of the repository with `git status`:
 ```
 $ git status
-On branch main
+On branch mdpiper/update-contributors
 Your branch is up-to-date with 'origin/main'.
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -220,7 +221,7 @@ $ git add CONTRIBUTORS.md
 Check the result of this command with `git status`:
 ```
 $ git status
-On branch main
+On branch mdpiper/update-contributors
 Your branch is up-to-date with 'origin/main'.
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
@@ -243,7 +244,7 @@ To finalize the changes to the repository,
 we *commit* them with `git commit`:
 ```
 $ git commit -m "Add an interesting fact to contributor list"
-[main b979729] Add an interesting fact to contributor list
+[mdpiper/update-contributors 4c9565b] Add an interesting fact to contributor list
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 
@@ -255,26 +256,116 @@ It's also a convention to use imperative case.
 Check the result with `git status`:
 ```
 $ git status
-On branch main
-Your branch is ahead of 'origin/main' by 1 commit.
-  (use "git push" to publish your local commits)
+On branch mdpiper/update-contributors
 nothing to commit, working directory clean
 ```
 
 The file is now a part of the local repository.
 The working directory has no unknown files,
 and the staging area is empty.
-Note that `git` tells us that our local repository
-now differs from the remote repository.
 
 
 ## Push
 
+Our local repository now differs from its remotes.
+
+View the history of revisions to the repository with `git log`:
+```
+$ git log
+commit 4c9565be25ca5c91d66867631112c68301250991
+Author: Mark Piper <mark.piper@colorado.edu>
+Date:   Mon Jun 7 15:19:32 2021 -0600
+
+    Add an interesting fact to contributor list
+
+commit 966dab15533e3a975ebc9bb0a8ca9b5a9f05bf09
+Author: Mark Piper <mark.piper@colorado.edu>
+Date:   Fri Jun 4 12:11:41 2021 -0600
+
+    Add contributors document
+
+commit 97fb4755d5f469ae32fff99864eb49e8ab193457
+Author: Mark Piper <mark.piper@colorado.edu>
+Date:   Fri Jun 4 12:05:49 2021 -0600
+
+    Initial commit
+```
+
+Let's now transmit the changes from our local repository to the *origin* remote.
+We do this with the `git push` subcommand,
+which has the syntax `git push [remote] [branch]`.
+Here,
+the remote is `origin`
+and the branch is `mdpiper/update-contributors`.
+Note that in order to push changes to a remote,
+you must have write access on the remote.
+Therefore, push the changes with:
+```
+$ git push origin mdpiper/update-contributors
+Counting objects: 3, done.
+Delta compression using up to 16 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 387 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'mdpiper/update-contributors' on GitHub by visiting:
+remote:      https://github.com/mdpiper/espin-collaboration/pull/new/mdpiper/update-contributors
+remote:
+To https://github.com/mdpiper/espin-collaboration
+ * [new branch]      mdpiper/update-contributors -> mdpiper/update-contributors
+```
+
+Note that the output from `git push`
+includes a link to create a *pull request* on GitHub.
+Copy/paste this link into your browser
+and we'll create a pull request next.
+
+
 ## Pull request
+
+A *pull request* is a GitHub feature
+that allows you to argue why the changes that you've pushed to a remote
+deserve to be included in that repository.
+In a pull request,
+you have to make a case to the owner of the repository
+that your code improves on theirs.
+
+A pull request includes a title, a body,
+and, optionally, a comment thread.
+The title should be brief, yet descriptive,
+and written as an imperative.
+The body is used to explain your changes
+and to argue for their inclusion in the repository.
+To help make the text more descriptive,
+the body is written in [Markdown](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax),
+a simple markup language.
+In the body,
+you can also `@` other GitHub users (e.g., `@BCampforts`)
+to include them on the pull request.
+The comment thread is used to discuss the merits of the pull request.
+
+GitHub provides [much more information](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
+on pull requests.
+
+Argue well, and your contribution may be accepted by the repository owner!
+
 
 ## Merge
 
-## Pull
+A *merge* occurs after a pull request has been approved.
+Merging joins two or more development histories together in the *upstream* remote.
+Anyone who has push access to this remote can perform a merge.
+
+A *merge conflict* occurs when a line or section of code has been modified
+in more than one branch,
+preventing the histories from being joined.
+Merge conflicts have to be resolved before a pull request can be merged.
+A repository owner can keep changes from one of the branches,
+or make a new change that incorporates changes from both branches.
+
+
+## Pull and sync
 
 ## Summary
 
@@ -304,6 +395,10 @@ This table summarizes `git` and GitHub concepts covered in this section:
 | commit         | a change made to the content of a repository under version control
 | push           | a transfer of commits to a remote
 | pull request   | a process for explaining changes pushed to a repository
+| merge          | joins the history of one branch to another
+| merge conflict | competing line changes in one or branches to be merged
+| sync           | set all remotes to a common point in their histories
+
 
 This table summarizes the `git` subcommands used in this section:
 
@@ -318,6 +413,7 @@ This table summarizes the `git` subcommands used in this section:
 | commit     | finalize a change to a repository
 | log        | show commit history in repository
 | push       | transfer changes from one clone of a repository to another
+| remote     | add, remove, or update remote repositories
 
 
 ___
