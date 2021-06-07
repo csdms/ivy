@@ -20,5 +20,11 @@ dependencies:
   - bmipy
   - pymt >=1.1
   - landlab >=2.0
+  - terrainbento
+  - pymt_child
+  - pymt_hydrotrend
+  - pymt_sedflux
+  - bmi-topography
+  - imageio
   - pip:
     - tdqm
