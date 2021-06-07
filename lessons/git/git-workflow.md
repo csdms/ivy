@@ -158,7 +158,54 @@ You can verify that the new branch is current with `git branch`.
 
 ## Edit
 
-This is the step in the workflow that usually takes the most time.
+Adding or editing content is typically where most of your time is spent
+in a project.
+In this example, however, it'll be trivial.
+
+Recall that the **espin-collaboration** repository
+has a file, **CONTRIBUTORS.md**.
+Change to the repository directory and view its contents:
+```
+$ ls
+CONTRIBUTORS.md LICENSE   README.md
+```
+With your favorite text editor,
+open the file **CONTRIBUTORS.md**
+add your name to the list of contributors,
+along with something interesting.
+Save the file.
+
+Now that we've changed a file that's under version control,
+view the changes with `git diff`:
+```
+$ git diff CONTRIBUTORS.md
+diff --git a/CONTRIBUTORS.md b/CONTRIBUTORS.md
+index 23d368e..41f5c9b 100644
+--- a/CONTRIBUTORS.md
++++ b/CONTRIBUTORS.md
+@@ -2,4 +2,4 @@
+
+ The following people have contributed to this project.
+
+-* Mark Piper
++* Mark Piper (I like to ride my bike)
+```
+
+Then check on the state of the repository with `git status`:
+```
+$ git status
+On branch main
+Your branch is up-to-date with 'origin/main'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   CONTRIBUTORS.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+Note that `git status` gives us a hint at the next step in our workflow.
+
 
 ## Add
 
@@ -209,10 +256,10 @@ This table summarizes the `git` subcommands used in this section:
 | status     | display current state of a repository
 | branch     | create a branch of a repository
 | checkout   | set a branch as the current branch in a repository
+| diff       | show differences between working directory and repository state
 | add        | stage a change to a repository
 | commit     | finalize a change to a repository
 | log        | show commit history in repository
-| diff       | show differences between working directory and repository state
 | push       | transfer changes from one clone of a repository to another
 
 
