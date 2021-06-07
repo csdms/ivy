@@ -4,17 +4,18 @@
 
 In this section,
 we'll work through an example that broadly demonstrates
-how to use version control on a project.
-Imagine, for instance,
-backing up and tracking your thesis, a class project,
-or collaborating on a journal article<sup>[1](#git-fn1)</sup>
+how to use version control on an individual or a group project.
+Imagine, for example,
+backing up and tracking your thesis,
+or collaborating on a journal article
 with a colleague.
-This is where GitHub is powerful.
+<!-- This is where GitHub is powerful. -->
 
-We broadly follow this workflow:
+We'll broadly follow the series of actions in this workflow:
 
 * fork
 * clone
+* status
 * branch
 * edit
 * add
@@ -31,8 +32,8 @@ and we'll frequently refer to this diagram of git remotes:
 
 ## Fork
 
-We'll start by *forking* a repository on GitHub.
-A fork is a copy of a repository, a *remote*, placed under your GitHub account.
+We'll start by forking a repository on GitHub.
+A *fork* is a copy of a repository, a *remote*, placed under your GitHub account.
 Forks are used for repositories where you don't have write access
 (meaning you can view files, but not change them).
 Note that forking is a GitHub, not a `git`, concept.
@@ -83,9 +84,81 @@ CONTRIBUTORS.md LICENSE   README.md
 ```
 
 
+## Status
+
+The next step in the workflow isn't isn't necessary at this point, but it's something we'll return to frequently when working with a repository.
+
+Use the `git status` subcommand to check on the current state of the repository:
+```
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+```
+
+Let's parse this output.
+`git status` displays helpful information about the repository,
+including:
+
+- the current *branch*
+- whether the current branch is synchronized with the *origin* repository
+- whether files are present that aren't in the repository
+
+Branches are covered in the next section.
+The *origin* is the repository from which the current repository was cloned.
+The origin is an instance of a *remote* repository,
+in contrast the to *local* repository on your computer and the *upstream* repository you forked.
+(See the diagram above.)
+
+
 ## Branch
 
+To prepare for making changes to the repository,
+let's make a new branch.
+
+A *branch* is an alternate timeline for the history of a repository.
+Think of `git` branches as analogous to alternate history fiction:
+branches have a common history,
+but at some point they diverge and develop their own histories.
+Branches are used in a collaborative project to propose changes.
+
+The syntax for creating a branch is `git branch [branchname]`.
+It's a convention to use imperative case for the branch name,
+and to prepend your GitHub username.
+Looking ahead,
+let's name this branch `update-contributors`.
+If your GitHub username is `@mdpiper`,
+this would be:
+```
+$ git branch mdpiper/update-contributors
+```
+
+Although we've created a new branch,
+our *current branch*,
+the one accepting changes,
+is still the default `main` branch,
+as we can see with `git branch`:
+```
+$ git branch
+* main
+  mdpiper/update-contributors
+```
+The current branch is marked with an asterisk.
+
+To change the current branch,
+use the `git checkout` subcommand
+(again, for a hypothetical user `@mdpiper`):
+```
+$ git checkout mdpiper/update-contributors
+Switched to branch 'mdpiper/update-contributors
+```
+You can verify that the new branch is current with `git branch`.
+
+
 ## Edit
+
+This is the step in the workflow that usually takes the most time.
 
 ## Add
 
