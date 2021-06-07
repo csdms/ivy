@@ -209,7 +209,64 @@ Note that `git status` gives us a hint at the next step in our workflow.
 
 ## Add
 
+At this point, `git` is aware that a file has changed in the repository.
+
+The next step is to call `git add` on this file
+so that `git` knows that its changes are intended to be included in the repository.
+```
+$ git add CONTRIBUTORS.md
+```
+
+Check the result of this command with `git status`:
+```
+$ git status
+On branch main
+Your branch is up-to-date with 'origin/main'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   CONTRIBUTORS.md
+
+```
+The file has now been placed in the *staging area* of the repository,
+a place to gather changes to the repository before finalizing them.
+
+While this step is needed to add new files to a repository,
+it's not technically needed in the context of this example.
+However, it's often useful, for example when working with a number of files,
+to stage a subset of related changes to be grouped into a single commit.
+
+
 ## Commit
+
+To finalize the changes to the repository,
+we *commit* them with `git commit`:
+```
+$ git commit -m "Add an interesting fact to contributor list"
+[main b979729] Add an interesting fact to contributor list
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+```
+
+When committing a change to a repository,
+it's a good practice to include a message
+(here, using the `m` option)
+describing why the change is being made.
+It's also a convention to use imperative case.
+Check the result with `git status`:
+```
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working directory clean
+```
+
+The file is now a part of the local repository.
+The working directory has no unknown files,
+and the staging area is empty.
+Note that `git` tells us that our local repository
+now differs from the remote repository.
+
 
 ## Push
 
