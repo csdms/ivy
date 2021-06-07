@@ -171,3 +171,52 @@ This is the step in the workflow that usually takes the most time.
 ## Merge
 
 ## Pull
+
+## Summary
+
+The power of GitHub lies in its streamlined support for collaborative development.
+GitHub has rewritten the rules for open source software development,
+and this has diffused into the modern practice of science,
+For example,
+all CSDMS products are open source.
+If you find a problem in our software, documentation,
+Jupyter Notebooks, etc.,
+please fix it and send us pull request!
+You'll get credit for your contribution.
+
+
+This table summarizes `git` and GitHub concepts covered in this section:
+
+| Concept        | Description
+| ------------   | -----------
+| repository     | a storage area for files where history is tracked by version control
+| fork           | a repository copied from elsewhere on GitHub that exists under your GitHub account
+| branch         | a pointer to a timeline of commits to a repository
+| current branch | the active repository branch accepting changes
+| origin         | the repository from which your local repository is cloned
+| local          | the clone of a repository that resides on your computer
+| remote         | a clone of a repository that's not on your computer
+| staging area   | the gathering place for files to be committed to a repository
+| commit         | a change made to the content of a repository under version control
+| push           | a transfer of commits to a remote
+| pull request   | a process for explaining changes pushed to a repository
+
+This table summarizes the `git` subcommands used in this section:
+
+| Subcommand | Description
+| ---------- | -----------
+| clone      | clone a repository into a new directory
+| status     | display current state of a repository
+| branch     | create a branch of a repository
+| checkout   | set a branch as the current branch in a repository
+| add        | stage a change to a repository
+| commit     | finalize a change to a repository
+| log        | show commit history in repository
+| diff       | show differences between working directory and repository state
+| push       | transfer changes from one clone of a repository to another
+
+
+___
+
+[Introduction to version control](./index.md) |
+Previous: [Version control in a single-user project](./git-single-user-project.md)
