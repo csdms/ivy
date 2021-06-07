@@ -93,4 +93,4 @@ ___
 
 [Introduction to version control](./index.md) |
 Previous: [index](./index.md) |
-Next: [Version control in a single-user project](./git-single-user-project.md)
+Next: [A version control workflow](./git-workflow.md)

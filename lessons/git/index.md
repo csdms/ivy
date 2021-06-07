@@ -50,12 +50,12 @@ Here are some examples...
 This lesson on version control continues in the following sections.
 
 1. [Configuring git and GitHub](./configuring-git.md)
-1. [Version control in a single-user project](./git-single-user-project.md)
-1. [Version control in a collaborative project](./git-collaborative-project.md)
+1. [A version control workflow](./git-workflow.md)
 
 
 ## Resources
 
 * Software Carpentry [lesson](https://swcarpentry.github.io/git-novice/) on version control
 * A [git command cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf) from GitHub
-* The [full git documentation](https://git-scm.com/docs)
+* The full [git documentation](https://git-scm.com/docs)
+* The full [GitHub documentation](https://docs.github.com)
