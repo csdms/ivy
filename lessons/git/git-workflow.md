@@ -354,7 +354,7 @@ Argue well, and your contribution may be accepted by the repository owner!
 ## Merge
 
 A *merge* occurs after a pull request has been approved.
-Merging joins two or more development histories together in the *upstream* remote.
+Merging joins two or more branches together in the *upstream* remote.
 Anyone who has push access to this remote can perform a merge.
 
 A *merge conflict* occurs when a line or section of code has been modified
@@ -366,6 +366,55 @@ or make a new change that incorporates changes from both branches.
 
 
 ## Pull and sync
+
+After a pull request has been merged,
+the *upstream* remote includes history not present in the *local* or *origin* remotes.
+We can *sync* these repositories in a few steps.
+
+First,
+use the `git remote` subcommand to view what remotes are being tracked on your local machine:
+```
+origin	https://github.com/mdpiper/espin-collaboration (fetch)
+origin	https://github.com/mdpiper/espin-collaboration (push)
+```
+
+By default,
+the only remote tracked is *origin*.
+We can track the *upstream* remote, as well, with:
+```
+$ git remote add upstream https://github.com/espin-2021/espin-collaboration
+```
+
+Check the result with another call to `git remote`:
+```
+$ git remote -v
+origin	https://github.com/csdms/espin-collaboration (fetch)
+origin	https://github.com/csdms/espin-collaboration (push)
+upstream	https://github.com/espin-2021/espin-collaboration (fetch)
+upstream	https://github.com/espin-2021/espin-collaboration (push)
+```
+
+Next, switch back to the *main* branch in your local repository.
+This is the branch into which the pull request was merged.
+```
+$ git checkout main
+Switched to branch 'main'
+Your branch is up-to-date with 'origin/main'.
+```
+
+Now *pull* the changes from the *upstream* remote into you local repository
+with the `git pull` subcommand:
+```
+$ git pull upstream main
+```
+
+Your local repository is now in sync with the *upstream* remote.
+
+Finally, sync the *origin* remote by pushing the changes from your local repository:
+```
+$ git push origin main
+```
+
 
 ## Summary
 
@@ -412,7 +461,8 @@ This table summarizes the `git` subcommands used in this section:
 | add        | stage a change to a repository
 | commit     | finalize a change to a repository
 | log        | show commit history in repository
-| push       | transfer changes from one clone of a repository to another
+| push       | transfer changes from a local repository to a remote
+| pull       | transfer changes from a remote to a local repository
 | remote     | add, remove, or update remote repositories
 
 
