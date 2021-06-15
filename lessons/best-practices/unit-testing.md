@@ -179,4 +179,4 @@ ___
 
 [Best Practices in Software Development](./index.md) |
 Previous: [index](./index.md) |
-Next: [Continuous integration with Travis CI](./continuous-integration.md)
+Next: [Continuous integration](./continuous-integration.md)
