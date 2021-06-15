@@ -31,6 +31,7 @@ Topics covered include:
 | [The Python Modeling Toolkit (pymt)][pymt] | [![Run on CSDMS JupyterHub][badge]][gp-pymt]
 | [Permamodel Toolkit][permamodel] | [![Run on CSDMS JupyterHub][badge]][gp-permamodel]
 | [Best Practices in Software Development][best-practices] | local computer
+| [Introduction to Cluster Computing][hpc] | local computer
 
 
 ## Requirements
@@ -48,6 +49,7 @@ Topics covered include:
 * [Babelizer documentation](https://babelizer.readthedocs.io)
 * [Python Modeling Toolkit (pymt) documentation](https://pymt.readthedocs.io)
 * [Community Surface Dynamics Modeling System (CSDMS)](https://csdms.colorado.edu)
+* [CSDMS JupyterHub](https://csdms.rc.colorado.edu)
 
 
 ## The ESPIn team
@@ -101,4 +103,5 @@ Cybertraining for Earth Surface Processes Modelers*.
 [permamodel]: ./lessons/permamodel
 [gp-permamodel]: https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fpermamodel&branch=main
 [best-practices]: ./lessons/best-practices/index.md
+[hpc]: ./lessons/hpc/index.md
 [swc-license]: https://github.com/swcarpentry/python-novice-inflammation/blob/gh-pages/LICENSE.md
