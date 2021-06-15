@@ -5,24 +5,13 @@
 This lesson describes some best practices
 for working on a collaborative project<sup>[1](#cp-fn1)</sup>.
 
-When working on a collaborative project,
-the following workflow is recommended:
+Some recommendations:
 
-1. issue
-1. fork
-1. branch
-1. commit
-1. test
-1. pull request
-1. merge
+* Use issues. A good issue should describe th problem. If an error is thrown,
+  the text of the error message should be included. Don't screenshot the
+  error--it's not searchable, and the text of the error can't be copy/pasted
+  easily.
 
-Based on this workflow, some recommendations:
-
-* A good issue should describe the problem. If an error is thrown, the
-  text of the error message should be included. Don't screenshot the
-  error--it's not searchable, and the text of the error can't be
-  copy/pasted easily.
-  
 * A reproduce case should be provided for the issue, showing the steps
   that lead up to the error.
 
@@ -59,8 +48,8 @@ Based on this workflow, some recommendations:
 
 * It's a good idea to request a reviewer on a pull request.
 
-* It's good to review the the test results from Travis CI on each pull
-  request, even when successful.
+* It's good to review the the test results from continuous integration on each
+  pull request, even when successful.
 
 * If you're the repository owner, only merge pull requests when all
   tests pass. The default branch to always be clean and working.
@@ -105,4 +94,5 @@ the result of mistakes I've made.
 ___
 
 [Best Practices in Software Development](./index.md) |
-Previous: [Continuous integration with Travis CI](./continuous-integration.md)
+Previous: [Continuous integration](./continuous-integration.md)
+Next: [FAIR practices for research software](./fair-practices.md)
