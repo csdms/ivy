@@ -34,4 +34,4 @@ This lesson continues in the following sections.
 1. [Unit testing with pytest](./unit-testing.md)
 1. [Continuous integration](./continuous-integration.md)
 1. [Collaborative projects ("Gitiquette")](./collaboration-etiquette.md)
-
+1. [FAIR practices for research software](./fair-practices.md)

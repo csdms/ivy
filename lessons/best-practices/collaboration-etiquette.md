@@ -95,3 +95,4 @@ ___
 
 [Best Practices in Software Development](./index.md) |
 Previous: [Continuous integration](./continuous-integration.md)
+Next: [FAIR practices for research software](./fair-practices.md)
