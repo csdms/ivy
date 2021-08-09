@@ -26,5 +26,4 @@ dependencies:
   - pymt_sedflux
   - bmi-topography
   - imageio
-  - pip:
-    - tdqm
+  - tqdm

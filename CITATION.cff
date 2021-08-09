@@ -1,0 +1,31 @@
+# YAML 1.2
+---
+authors: 
+  -
+    family-names: Piper
+    given-names: Mark
+    orcid: "https://orcid.org/0000-0001-6418-277X"
+  -
+    family-names: Campforts
+    given-names: Benjamin
+    orcid: "https://orcid.org/0000-0001-5699-6714"
+  -
+    family-names: Overeem
+    given-names: Irina
+    orcid: "https://orcid.org/0000-0002-8422-580X"
+  -
+    family-names: Gasparini
+    given-names: Nicole
+    orcid: "https://orcid.org/0000-0002-0803-3697"
+  -
+    family-names: Arthurs
+    given-names: Leilani
+    orcid: "https://orcid.org/0000-0002-6559-3412"
+cff-version: "1.1.0"
+date-released: 2020-08-25
+doi: "10.5281/zenodo.4000979"
+license: "CC BY 4.0"
+message: "If you use this software, please cite it using these metadata."
+title: "Earth Surface Processes Institute (ESPIn) Course Material"
+version: "1.0"
+...
