@@ -14,11 +14,11 @@ a text editor.
 
 The **haiku** file is short.
 For longer files, a *pager* is more appropriate to use.
-Let's change to the **data-shell/data** directory
+Let's change to the **shell-lesson-data/data** directory
 and view the contents of the file **planets.txt**
 with the pager `more`:
 ```
-$ cd data-shell/data/
+$ cd shell-lesson-data/data/
 $ ls
 amino-acids.txt  animals.txt  morse.txt  planets.txt  sunspot.txt
 animal-counts    elements     pdb        salmon.txt
@@ -87,9 +87,9 @@ it takes the output from one command
 and feeds them as input to another command.
 For example,
 get the first five lines of the long directory listing
-for the **data-shell/data/pdb** directory:
+for the **shell-lesson-data/data/pdb** directory:
 ```
-$ ls -l data-shell/data/pdb | head -5
+$ ls -l shell-lesson-data/data/pdb | head -5
 total 208
 -rw-r--r--. 1 mpiper csdms  1516 Aug  7  2019 aldrin.pdb
 -rw-r--r--. 1 mpiper csdms   306 Aug  7  2019 ammonia.pdb
@@ -98,7 +98,7 @@ total 208
 ```
 Actually, how many files are in this directory?
 ```
-$ ls -1 data-shell/data/pdb/ | wc -l
+$ ls -1 shell-lesson-data/data/pdb/ | wc -l
 48
 ```
 In this example,
@@ -109,14 +109,14 @@ The greater than symbol `>` performs the *redirect* action:
 it takes the output from a command
 and redirects it from the terminal to a file.
 For example,
-there are a set of data files in the **data-shell/molecules** directory:
+there are a set of data files in the **shell-lesson-data/molecules** directory:
 ```
-$ ls data-shell/molecules/
+$ ls shell-lesson-data/molecules/
 cubane.pdb  ethane.pdb  methane.pdb  octane.pdb  pentane.pdb  propane.pdb
 ```
 Let's find the lengths of these files and store them in a new file:
 ```
-$ cd data-shell/molecules/
+$ cd shell-lesson-data/molecules/
 $ wc -l *.pdb > ~/Desktop/molecule_pdb_lengths
 $ cd -
 /home/mpiper/Desktop
@@ -136,9 +136,9 @@ here, it's used to match any file that ends with **.pdb**.
 Related to the asterisk is the question mark `?`,
 which is used to match a single character in a filename.
 For example,
-change to the **data-shell** directory and view its contents:
+change to the **shell-lesson-data** directory and view its contents:
 ```
-$ cd data-shell/
+$ cd shell-lesson-data/
 $ ls
 creatures  molecules           notes.txt  solar.pdf
 data       north-pacific-gyre  pizza.cfg  writing

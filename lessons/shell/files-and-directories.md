@@ -41,13 +41,13 @@ We can drill down through directories by providing arguments to `ls`.
 For example, to see the contents of the **Desktop** directory, type:
 ```
 $ ls Desktop
-data-shell  data-shell.zip
+shell-lesson-data  shell-lesson-data.zip
 ```
 You can see the sample files we downloaded earlier.
 We can drill further; for example, to see into the directory containing
 the sample files:
 ```
-$ ls Desktop/data-shell
+$ ls Desktop/shell-lesson-data
 creatures  molecules           notes.txt  solar.pdf
 data       north-pacific-gyre  pizza.cfg  writing
 ```
@@ -158,7 +158,7 @@ hit the `Tab` key,
 and the shell will attempt to complete the command.
 For example,
 from the **Desktop** directory,
-try listing the contents of **data-shell**
+try listing the contents of **shell-lesson-data**
 by typing the first few characters, then hitting the `Tab` key:
 ```
 $ ls da
@@ -172,11 +172,11 @@ printing to the terminal the branch-leaf structure from a point
 in the filesystem.
 For example,
 from the **Desktop** directory,
-view the contents of the **data-shell/writing** directory 
+view the contents of the **shell-lesson-data/writing** directory 
 with `tree`:
 ```
-$ tree data-shell/writing
-data-shell/writing/
+$ tree shell-lesson-data/writing
+shell-lesson-data/writing/
 |-- data
 |   |-- LittleWomen.txt
 |   |-- one.txt

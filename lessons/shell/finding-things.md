@@ -6,8 +6,8 @@ The `grep` command is a powerful tool for matching patterns in files.
 Let's use it to look for unicorns in our files:
 ```
 $ grep -r unicorn .
-./data-shell/creatures/unicorn.dat:1:COMMON NAME: unicorn
-Binary file ./data-shell.zip matches
+./shell-lesson-data/creatures/unicorn.dat:1:COMMON NAME: unicorn
+Binary file ./shell-lesson-data.zip matches
 ```
 The `r` option performs a recursive search,
 starting at the current directory,
@@ -17,7 +17,7 @@ To omit binary files from the search,
 use the `I` option:
 ```
 $ grep -rI unicorn .
-./data-shell/creatures/unicorn.dat:1:COMMON NAME: unicorn
+./shell-lesson-data/creatures/unicorn.dat:1:COMMON NAME: unicorn
 ```
 
 To search only within the current directory,
@@ -26,8 +26,8 @@ Let's find all instances of the word "octane" in the files
 in the current directory:
 ```
 $ grep octane *
-grep: data-shell: Is a directory
-Binary file data-shell.zip matches
+grep: shell-lesson-data: Is a directory
+Binary file shell-lesson-data.zip matches
 molecule_pdb_lengths:4:  30 octane.txt
 molecule_pdb_lengths.bak:4:  30 octane.pdb
 ```
@@ -37,11 +37,11 @@ The `find` command recursively locates all files that match a search pattern.
 Let's find all the files with the extension **.txt**:
 ```
 $ find . -iname "*.txt"
-./data-shell/data/amino-acids.txt
-./data-shell/data/animal-counts/animals.txt
-./data-shell/data/animals.txt
-./data-shell/data/morse.txt
-./data-shell/data/planets.txt
+./shell-lesson-data/data/amino-acids.txt
+./shell-lesson-data/data/animal-counts/animals.txt
+./shell-lesson-data/data/animals.txt
+./shell-lesson-data/data/morse.txt
+./shell-lesson-data/data/planets.txt
 ...
 ```
 The search started at the current directory, `.`
@@ -53,10 +53,10 @@ under the current directory:
 ```
 $ find . -type d
 .
-./data-shell
-./data-shell/creatures
-./data-shell/data
-./data-shell/data/animal-counts
+./shell-lesson-data
+./shell-lesson-data/creatures
+./shell-lesson-data/data
+./shell-lesson-data/data/animal-counts
 ...
 ```
 
