@@ -18,7 +18,7 @@ use the `mkdir` command to make a new directory:
 ```
 $ mkdir new
 $ ls
-data-shell  data-shell.zip  new
+shell-lesson-data  shell-lesson-data.zip  new
 ```
 Change to the new directory and get a listing:
 ```
@@ -86,7 +86,7 @@ $ mv haiku-1 ~/Desktop
 $ ls
 haiku
 $ ls ~/Desktop/
-data-shell  data-shell.zip  haiku-1  new
+shell-lesson-data  shell-lesson-data.zip  haiku-1  new
 ```
 Note that **haiku-1** has been moved from the **new** directory to **Desktop**.
 
@@ -117,7 +117,7 @@ $ mv haiku ..
 $ cd ..
 $ rmdir new
 $ ls
-data-shell  data-shell.zip  haiku
+shell-lesson-data  shell-lesson-data.zip  haiku
 ```
 As `rm` removes files,
 the `rmdir` command removes directories.

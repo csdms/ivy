@@ -23,10 +23,10 @@ which you'll need to follow the lesson.
 
 Please:
 
-1. Download [data-shell.zip](https://swcarpentry.github.io/shell-novice/data/data-shell.zip) and move the file to your Desktop.
+1. Download [shell-lesson-data.zip](https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip) and move the file to your Desktop.
 1. Unzip/extract the file (ask your instructor if you need help with this step).
 
-You should end up with a new folder called **data-shell** on your Desktop.
+You should end up with a new folder called **shell-lesson-data** on your Desktop.
 
 
 ## Open a terminal
@@ -36,7 +36,7 @@ with the operating system of a computer
 through terse text commands.
 
 * Linux: terminal or xterm
-* macOS: Terminal.app (built-in) or [iTerm.app](https://www.iterm2.com/) (better)
+* macOS: Terminal.app (built-in) or [iTerm.app](https://www.iterm2.com/)
 * Windows: Git Bash Shell in [Git for Windows](https://gitforwindows.org/)
 
 At this time,
