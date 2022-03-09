@@ -1,4 +1,4 @@
-![ESPIn logo](https://github.com/csdms/espin/blob/main/media/logo.png)
+![ESPIn logo](https://raw.githubusercontent.com/csdms/espin/main/media/logo.png)
 
 # Collaborative projects ("Gitiquette")
 
