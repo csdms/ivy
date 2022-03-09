@@ -1,4 +1,4 @@
-![ESPIn logo](https://github.com/csdms/espin/blob/main/media/ESPIn2021.png)
+![ESPIn logo](https://github.com/csdms/espin/blob/main/media/logo.png)
 
 # Unit testing with pytest
 
