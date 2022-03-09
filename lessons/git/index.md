@@ -1,4 +1,4 @@
-![ESPIn logo](https://github.com/csdms/espin/blob/main/media/ESPIn2021.png)
+![ESPIn logo](https://raw.githubusercontent.com/csdms/espin/main/media/logo.png)
 
 # Introduction to version control with git and GitHub
 

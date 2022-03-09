@@ -1,4 +1,4 @@
-![ESPIn logo](./media/ESPIn2021.png)
+![ESPIn logo](./media/logo.png)
 
 # ESPIn
 
