@@ -50,11 +50,11 @@ Topics covered include:
 * [OpenEarthscape JupyterHub](https://lab.openearthscape.org)
 
 
-## The ESPIn team
+## The team
 
 * [Irina Overeem](https://www.colorado.edu/geologicalsciences/irina-overeem)
-* [Mark Piper](https://instaar.colorado.edu/people/mark-piper/)
 * [Benjamin Campforts](https://instaar.colorado.edu/people/benjamin-campforts/)
+* [Mark Piper](https://instaar.colorado.edu/people/mark-piper/)
 * [Nicole Gasparini](https://sse.tulane.edu/eens/faculty/gasparini)
 * [Leilani Arthurs](https://www.colorado.edu/geologicalsciences/leilani-arthurs)
 
@@ -73,7 +73,7 @@ from material that is Copyright
 [Software Carpentry](http://software-carpentry.org),
 and remixed under their [license][swc-license].
 
-CSS is supported with funding from the National Science Foundation.
+CSS is supported with funding from the iNational Science Foundation.
 
 
 <!-- Links -->
@@ -83,18 +83,18 @@ CSS is supported with funding from the National Science Foundation.
 [shell]: ./lessons/shell/index.md
 [conda]: ./lessons/conda/index.md
 [notebook]: ./lessons/jupyter/general_jupyter_notebook_tutorial.ipynb
-[gp-notebook]: https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fjupyter%2Findex.ipynb&branch=main
+[gp-notebook]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=lab%2Ftree%2Fespin%2Flessons%2Fjupyter%2Findex.ipynb%3Fautodecode&branch=main
 [python]: ./lessons/python/index.ipynb
-[gp-python]: https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fpython%2Findex.ipynb&branch=main
+[gp-python]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=lab%2Ftree%2Fespin%2Flessons%2Fpython%2Findex.ipynb%3Fautodecode&branch=main
 [git]: ./lessons/git/index.md
 [bmi]: ./lessons/bmi/index.ipynb
-[gp-bmi]: https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fbmi%2Findex.ipynb&branch=main
+[gp-bmi]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=lab%2Ftree%2Fespin%2Flessons%2Fbmi%2Findex.ipynb%3Fautodecode&branch=main
 [landlab]: ./lessons/landlab/index.ipynb
-[gp-landlab]: https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Flandlab%2Findex.ipynb&branch=main
+[gp-landlab]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=lab%2Ftree%2Fespin%2Flessons%2Flandlab%2Findex.ipynb%3Fautodecode&branch=main
 [pymt]: ./lessons/pymt/index.ipynb
-[gp-pymt]: https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fpymt%2Findex.ipynb&branch=main
+[gp-pymt]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=lab%2Ftree%2Fespin%2Flessons%2Fpymt%2Findex.ipynb%3Fautodecode&branch=main
 [permamodel]: ./lessons/permamodel
-[gp-permamodel]: https://csdms.rc.colorado.edu/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=tree%2Fespin%2Flessons%2Fpermamodel&branch=main
+[gp-permamodel]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fespin&urlpath=lab%2Ftree%2Fespin%2Flessons%2Fpermamodel%3Fautodecode&branch=main
 [best-practices]: ./lessons/best-practices/index.md
 [hpc]: ./lessons/hpc/index.md
 [swc-license]: https://github.com/swcarpentry/python-novice-inflammation/blob/gh-pages/LICENSE.md
