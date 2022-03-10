@@ -1,21 +1,19 @@
 ![ESPIn logo](./media/logo.png)
 
-# ESPIn
+# CSDMS Spring School
 
-The Earth Surface Processes Institute (ESPIn),
-held 2021 June 8-17,
-is an immersive online training experience
+The CSDMS Spring School (CSS),
+held 2022 May 10-13,
+is an immersive in-person training experience
 for 25 graduate students, postdoctoral fellows, and early career faculty.
-ESPIn is designed to help participants make advances
+CSS is designed to help participants make advances
 in earth surface processes research
-by teaching cyberinfrastructure skills in numerical modeling,
-best programming practices, open source software development,
-and collaborative coding.
+by teaching skills in collaborative open source software development, programming best practices, and community cyberinfrastructure.
 
 
 ## Topics
 
-The full ESPIn 2021 schedule is [here][espin-schedule].
+The full CSS 2022 schedule is [here][espin-schedule].
 Topics covered include:
 
 | Topic | Run on...
@@ -49,7 +47,7 @@ Topics covered include:
 * [Babelizer documentation](https://babelizer.readthedocs.io)
 * [Python Modeling Toolkit (pymt) documentation](https://pymt.readthedocs.io)
 * [Community Surface Dynamics Modeling System (CSDMS)](https://csdms.colorado.edu)
-* [CSDMS JupyterHub](https://csdms.rc.colorado.edu)
+* [OpenEarthscape JupyterHub](https://lab.openearthscape.org)
 
 
 ## The ESPIn team
@@ -61,26 +59,21 @@ Topics covered include:
 * [Leilani Arthurs](https://www.colorado.edu/geologicalsciences/leilani-arthurs)
 
 
-ESPIn is a community-focused project;
+CSS is a community-focused project;
 [contributions](./CONTRIBUTING.rst) that follow
 the [contributor code of conduct](./CODE-OF-CONDUCT.rst) are welcomed,
 and are [acknowledged](./AUTHORS.rst).
-All ESPIn course material is open source,
+All CSS course material is open source,
 released under [CC BY 4.0 and MIT licenses](./LICENSE.md).
-If you use the ESPIn course material,
+If you use the CSS course material,
 please [cite](./CITATION.cff) it.
 
-Portions of the ESPIn shell and Python lessons were derived
+Portions of the CSS shell and Python lessons were derived
 from material that is Copyright
 [Software Carpentry](http://software-carpentry.org),
 and remixed under their [license][swc-license].
 
-ESPIn is supported by the National Science Foundation
-under Award Numbers
-[1924259](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1924259) and
-[1924185](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1924185),
-*Cybertraining: Pilot: Collaborative Research:
-Cybertraining for Earth Surface Processes Modelers*.
+CSS is supported with funding from the National Science Foundation.
 
 
 <!-- Links -->
