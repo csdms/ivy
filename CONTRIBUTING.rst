@@ -15,7 +15,7 @@ Types of Contributions
 Report Bugs
 ~~~~~~~~~~~
 
-Report bugs at https://github.com/csdms/espin/issues.
+Report bugs at https://github.com/csdms/ivy/issues.
 
 If you are reporting a bug, please include:
 
@@ -38,7 +38,7 @@ and "help wanted" is open to whoever wants to implement it.
 Write Documentation
 ~~~~~~~~~~~~~~~~~~~
 
-ESPIn could always use more documentation, whether as part of the
+CSDMS Ivy could always use more documentation, whether as part of the
 official docs, in docstrings, or even on the web in blog posts,
 articles, and such.
 
@@ -46,7 +46,7 @@ Submit Feedback
 ~~~~~~~~~~~~~~~
 
 The best way to send feedback is to file an issue at
-https://github.com/csdms/espin/issues.
+https://github.com/csdms/ivy/issues.
 
 If you are proposing a feature:
 
@@ -58,26 +58,26 @@ If you are proposing a feature:
 Get Started!
 ------------
 
-Ready to contribute? Here's how to set up ESPIn for local development.
+Ready to contribute? Here's how to set up CSDMS Ivy for local development.
 
-1. Fork the ESPIn repo on GitHub.
-1. Clone your fork locally::
+1. Fork the CSDMS Ivy repo on GitHub.
+2. Clone your fork locally::
 
-    $ git clone git@github.com:your_name_here/espin.git
+    $ git clone git@github.com:your_name_here/ivy.git
 
-1. Create a branch for local development::
+3. Create a branch for local development::
 
     $ git checkout -b name-of-your-bugfix-or-feature
 
    Now you can make your changes locally.
 
-1. Commit your changes and push your branch to GitHub::
+4. Commit your changes and push your branch to GitHub::
 
     $ git add .
     $ git commit -m "Your detailed description of your changes."
     $ git push origin name-of-your-bugfix-or-feature
 
-1. Submit a pull request through the GitHub website.
+5. Submit a pull request through the GitHub website.
 
 Pull Request Guidelines
 -----------------------
@@ -87,8 +87,8 @@ Before you submit a pull request, check that it meets these guidelines:
 1. The pull request should include tests.
 2. If the pull request adds functionality, the docs should be updated. Put
    your new functionality into a function with a docstring, and add the
-   feature to the list in README.rst.
-3. The pull request should work for Python 3.6, 3.7, and 3.8.
+   feature to the list in README.md.
+3. The pull request should work for Python 3.8, 3.9, and 3.10.
    Make sure that the tests pass for all supported Python versions.
 
 Deploying
