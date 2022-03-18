@@ -1,4 +1,4 @@
-![ESPIn logo](https://raw.githubusercontent.com/csdms/espin/main/media/logo.png)
+![Ivy logo](https://raw.githubusercontent.com/csdms/ivy/main/media/logo.png)
 
 # Unit testing with pytest
 
@@ -81,9 +81,9 @@ run `pytest` with:
 ```
 $ pytest -v
 =============================== test session starts ================================
-platform darwin -- Python 3.8.5, pytest-6.0.1, py-1.9.0, pluggy-0.13.1 -- /Users/mpiper/anaconda3/envs/espin/bin/python
+platform darwin -- Python 3.8.5, pytest-6.0.1, py-1.9.0, pluggy-0.13.1 -- /Users/mpiper/anaconda3/envs/ivy/bin/python
 cachedir: .pytest_cache
-rootdir: /Users/mpiper/projects/espin/lessons/best-practices
+rootdir: /Users/mpiper/projects/ivy/lessons/best-practices
 collected 1 item
 
 test_examples.py::test_squareit PASSED                                       [100%]
@@ -102,7 +102,7 @@ Run `pytest` and `coverage` together to generate coverage statistics:
 $ coverage run -m pytest
 =============================== test session starts ================================
 platform darwin -- Python 3.8.5, pytest-6.0.1, py-1.9.0, pluggy-0.13.1
-rootdir: /Users/mpiper/projects/espin/lessons/best-practices
+rootdir: /Users/mpiper/projects/ivy/lessons/best-practices
 collected 1 item
 
 test_examples.py .                                                           [100%]
