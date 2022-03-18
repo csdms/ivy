@@ -1,4 +1,4 @@
-![ESPIn logo](https://raw.githubusercontent.com/csdms/espin/main/media/logo.png)
+![Ivy logo](https://raw.githubusercontent.com/csdms/ivy/main/media/logo.png)
 
 # Introduction to the shell
 
