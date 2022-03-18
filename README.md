@@ -2,19 +2,24 @@
 
 # CSDMS Ivy
 
-CSDMS Ivy is a collection of lessons on
-open source software development
-and community cyberinfrastructure
+CSDMS Ivy is a collection of instructional materials on
+
+* modern, collaborative scientific software development
+* use of community cyberinfrastructure tools
+
+for scientists specializing in earth surface process modeling.
+
+CSDMS Ivy is
 written and maintained by the
 [Community Surface Dynamics Modeling System ](https://csdms.colorado.edu)(CSDMS).
 
 ## Lessons
 
-The CSDMS Ivy lessons are modular and independent,
+CSDMS Ivy lessons are modular and independent,
 although the ordering below represents a typical progression.
-If Anaconda and a `git` client are installed on a user's computer,
-the lessons can be run locally;
-all lessons are also available to run
+The lessons can be run locally
+if a user installs Anaconda and a `git` client on their computer.
+All lessons are also available to run
 on the [OpenEarthscape JupyterHub][jhub].
 
 | Topic | Run on...
@@ -36,21 +41,16 @@ on the [OpenEarthscape JupyterHub][jhub].
 
 CSDMS Ivy is an open source project;
 [contributions](./CONTRIBUTING.rst) that follow
-the [contributor code of conduct](./CODE-OF-CONDUCT.rst) are welcomed,
+the [contributor code of conduct](./CODE-OF-CONDUCT.rst) are welcomed
 and are [acknowledged](./AUTHORS.rst).
 All CSDMS Ivy course material is
 released under [CC BY 4.0 and MIT licenses](./LICENSE.md).
 If you use the CSDMS Ivy course material,
 please [cite](./CITATION.cff) it.
 
-Portions of the CSDMS Ivy shell and Python lessons were derived
-from material that is Copyright
-[Software Carpentry](http://software-carpentry.org),
-and remixed under their [license][swc-license].
-
 ## Acknowledgments
 
-CSDMS Ivy grew out of an National Science Foundation Cybertraining pilot program,
+CSDMS Ivy grew out of a National Science Foundation Cybertraining pilot program,
 *Cybertraining: Pilot: Collaborative Research:
 Cybertraining for Earth Surface Processes Modelers*
 (award numbers
@@ -62,6 +62,11 @@ with a project team of
 [Benjamin Campforts](https://instaar.colorado.edu/people/benjamin-campforts/),
 [Nicole Gasparini](https://sse.tulane.edu/eens/faculty/gasparini), and
 [Mark Piper](https://instaar.colorado.edu/people/mark-piper/).
+
+Portions of the CSDMS Ivy shell and Python lessons were derived
+from material that is Copyright
+[Software Carpentry](http://software-carpentry.org),
+and remixed under their [license][swc-license].
 
 CSDMS Ivy is supported with funding from the National Science Foundation.
 
