@@ -2,11 +2,53 @@
 
 # CSDMS Ivy
 
-CSDMS Ivy is a collection of modular lessons on
+CSDMS Ivy is a collection of lessons on
 open source software development
 and community cyberinfrastructure
 written and maintained by the
 [Community Surface Dynamics Modeling System ](https://csdms.colorado.edu)(CSDMS).
+
+## Lessons
+
+The CSDMS Ivy lessons are modular and independent,
+although the ordering below represents a typical progression.
+If Anaconda and a `git` client are installed on a user's computer,
+the lessons can be run locally;
+all lessons are also available to run
+on the [OpenEarthscape JupyterHub][jhub].
+
+| Topic | Run on...
+| ----- | ---------
+| [Project Jupyter][notebook] | [![Run on CSDMS JupyterHub][badge]][hub-notebook]
+| [Introduction to the Shell][shell] | local computer
+| [Anaconda and conda][conda] | local computer
+| [Python Basics][python] | [![Run on CSDMS JupyterHub][badge]][hub-python]
+| [Python for ESP Scientists][python] | [![Run on CSDMS JupyterHub][badge]][hub-python]
+| [Version Control with git and GitHub][git] | local computer
+| [Landlab][landlab] | [![Run on CSDMS JupyterHub][badge]][hub-landlab]
+| [The Basic Model Interface (BMI)][bmi] | [![Run on CSDMS JupyterHub][badge]][hub-bmi]
+| [The Python Modeling Toolkit (pymt)][pymt] | [![Run on CSDMS JupyterHub][badge]][hub-pymt]
+| [Permamodel Toolkit][permamodel] | [![Run on CSDMS JupyterHub][badge]][hub-permamodel]
+| [Best Practices in Software Development][best-practices] | local computer
+| [Introduction to Cluster Computing][hpc] | local computer
+
+## Contributing
+
+CSDMS Ivy is an open source project;
+[contributions](./CONTRIBUTING.rst) that follow
+the [contributor code of conduct](./CODE-OF-CONDUCT.rst) are welcomed,
+and are [acknowledged](./AUTHORS.rst).
+All CSDMS Ivy course material is
+released under [CC BY 4.0 and MIT licenses](./LICENSE.md).
+If you use the CSDMS Ivy course material,
+please [cite](./CITATION.cff) it.
+
+Portions of the CSDMS Ivy shell and Python lessons were derived
+from material that is Copyright
+[Software Carpentry](http://software-carpentry.org),
+and remixed under their [license][swc-license].
+
+## Acknowledgments
 
 CSDMS Ivy grew out of an National Science Foundation Cybertraining pilot program,
 *Cybertraining: Pilot: Collaborative Research:
@@ -21,48 +63,12 @@ with a project team of
 [Nicole Gasparini](https://sse.tulane.edu/eens/faculty/gasparini), and
 [Mark Piper](https://instaar.colorado.edu/people/mark-piper/).
 
-
-## Lessons
-
-The lessons in CSDMS Ivy are semi-independent.
-They can be run locally on a user's computer,
-or on the OpenEarthscape JupyterHub.
-
-| Topic | Run on...
-| ----- | ---------
-| [Introduction to the Shell][shell] | local computer
-| [Anaconda and conda][conda] | local computer
-| [Jupyter Notebook Tutorial][notebook] | [![Run on CSDMS JupyterHub][badge]][hub-notebook]
-| [Python Basics][python] | [![Run on CSDMS JupyterHub][badge]][hub-python]
-| [Python for ESP Scientists][python] | [![Run on CSDMS JupyterHub][badge]][hub-python]
-| [Version Control with git and GitHub][git] | local computer
-| [The Basic Model Interface (BMI)][bmi] | [![Run on CSDMS JupyterHub][badge]][hub-bmi]
-| [Landlab][landlab] | [![Run on CSDMS JupyterHub][badge]][hub-landlab]
-| [The Python Modeling Toolkit (pymt)][pymt] | [![Run on CSDMS JupyterHub][badge]][hub-pymt]
-| [Permamodel Toolkit][permamodel] | [![Run on CSDMS JupyterHub][badge]][hub-permamodel]
-| [Best Practices in Software Development][best-practices] | local computer
-| [Introduction to Cluster Computing][hpc] | local computer
-
-
-CSDMS Ivy is a community-focused project;
-[contributions](./CONTRIBUTING.rst) that follow
-the [contributor code of conduct](./CODE-OF-CONDUCT.rst) are welcomed,
-and are [acknowledged](./AUTHORS.rst).
-All CSDMS Ivy course material is open source,
-released under [CC BY 4.0 and MIT licenses](./LICENSE.md).
-If you use the CSDMS Ivy course material,
-please [cite](./CITATION.cff) it.
-
-Portions of the CSDMS Ivy shell and Python lessons were derived
-from material that is Copyright
-[Software Carpentry](http://software-carpentry.org),
-and remixed under their [license][swc-license].
-
 CSDMS Ivy is supported with funding from the National Science Foundation.
 
 
 <!-- Links -->
 
+[jhub]: https://csdms.colorado.edu/wiki/JupyterHub
 [badge]: https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg
 [shell]: ./lessons/shell/index.md
 [conda]: ./lessons/conda/index.md
