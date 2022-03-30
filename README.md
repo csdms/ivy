@@ -4,7 +4,7 @@
 
 CSDMS Ivy is a collection of instructional materials on
 
-* modern, collaborative scientific software development
+* modern, collaborative, scientific software development
 * use of community cyberinfrastructure tools
 
 for scientists specializing in earth surface process modeling.
@@ -63,7 +63,7 @@ with a project team of
 [Nicole Gasparini](https://sse.tulane.edu/eens/faculty/gasparini), and
 [Mark Piper](https://instaar.colorado.edu/people/mark-piper/).
 
-Portions of the CSDMS Ivy shell and Python lessons were derived
+Portions of the CSDMS Ivy shell and Python lessons are derived
 from material that is Copyright
 [Software Carpentry](http://software-carpentry.org),
 and remixed under their [license][swc-license].
