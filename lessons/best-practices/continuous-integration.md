@@ -1,4 +1,4 @@
-![ESPIn logo](https://raw.githubusercontent.com/csdms/espin/main/media/logo.png)
+![Ivy logo](https://raw.githubusercontent.com/csdms/ivy/main/media/logo.png)
 
 # Continuous integration with GitHub Actions
 
@@ -15,9 +15,9 @@ While this varies from project to project,
 it typically includes building and testing the software in the pull request
 on Linux, macOS, and Windows.
 
-The ESPIn repository is under CI: https://github.com/csdms/espin/actions.
+The Ivy repository is under CI: https://github.com/csdms/ivy/actions.
 The Actions configuration file ([test.yml](../../.github/workflows/test.yml))
-used for the ESPIn repository is:
+used for the Ivy repository is:
 ```yaml
 name: Test
 
@@ -58,7 +58,7 @@ In this configuration file,
 we instruct Actions to run the "test" job on Linux,
 only on pushes and external pull requests to the repository,
 using a default Python distribution.
-We have very little code to test in the ESPIn repository<sup>[1](#ci-fn1)</sup>,
+We have very little code to test in the Ivy repository<sup>[1](#ci-fn1)</sup>,
 but we do have the unit testing example from the previous section.
 Use `pip` to install the *pytest* and *coverage* packages
 into the default Python distribution.
@@ -69,8 +69,8 @@ view the coverage report.
 If anything fails in this process,
 Actions stops and issues an error message.
 
-The first run of the "test" job on the ESPIn repository
-is [available](https://github.com/csdms/espin/runs/2558250304?check_suite_focus=true)
+The first run of the "test" job on the Ivy repository
+is [available](https://github.com/csdms/ivy/runs/2558250304?check_suite_focus=true)
 on GitHub.
 Success!
 

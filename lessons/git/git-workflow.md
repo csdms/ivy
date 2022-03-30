@@ -1,4 +1,4 @@
-![ESPIn logo](https://raw.githubusercontent.com/csdms/espin/main/media/logo.png)
+![Ivy logo](https://raw.githubusercontent.com/csdms/ivy/main/media/logo.png)
 
 # A version control workflow
 
@@ -28,7 +28,7 @@ We'll broadly follow the series of actions in this workflow:
 
 and we'll frequently refer to this diagram of git remotes:
 
-![git remotes](https://github.com/csdms/espin/blob/main/media/git-remotes-diagram.png "Git remotes")
+![git remotes](https://github.com/csdms/ivy/blob/main/media/git-remotes-diagram.png "Git remotes")
 
 
 ## Fork
@@ -39,15 +39,15 @@ Forks are used for repositories where you don't have write access
 (meaning you can view files, but not change them).
 Note that forking is a GitHub, not a `git`, concept.
 
-Let's use the repository https://github.com/espin-2021/espin-collaboration as an example.
+Let's use the repository https://github.com/csdms/ivy-collaboration as an example.
 
-1. Go to the [repository page](https://github.com/espin-2021/espin-collaboration) on GitHub.
+1. Go to the [repository page](https://github.com/csdms/ivy-collaboration) on GitHub.
 1. From the top right of the repository page, select the *Fork* button--you'll
    be asked where to create the fork; select your GitHub account.
 
 After the fork is created,
 the path to the repository on GitHub will read
-**[username]/espin-collaboration** instead of **espin-2021/espin-collaboration**,
+**[username]/ivy-collaboration** instead of **csdms/ivy-collaboration**,
 where **[username]** is your GitHub username,
 indicating your ownership of this copy of the repository.
 
@@ -74,12 +74,12 @@ $ git clone [repository-url]
 ```
 where the bracketed text should be replaced with the URL of your new repository.
 
-The repository is cloned into the directory **espin-collaboration**.
+The repository is cloned into the directory **ivy-collaboration**.
 Change to it and view its contents:
 ```
-$ cd espin-collaboration
+$ cd ivy-collaboration
 $ pwd
-/Users/mpiper/Desktop/espin-collaboration
+/Users/mpiper/Desktop/ivy-collaboration
 $ ls
 CONTRIBUTORS.md LICENSE   README.md
 ```
@@ -163,9 +163,9 @@ Adding or editing content is typically where most of your time is spent
 in a project.
 In this example, however, it'll be trivial.
 
-Recall that the **espin-collaboration** repository
+Recall that the **ivy-collaboration** repository
 has a file, **CONTRIBUTORS.md**.
-Change to the repository directory and view its contents:
+View the contents of the repository:
 ```
 $ ls
 CONTRIBUTORS.md LICENSE   README.md
@@ -173,7 +173,8 @@ CONTRIBUTORS.md LICENSE   README.md
 With your favorite text editor,
 open the file **CONTRIBUTORS.md**
 add your name to the list of contributors,
-along with something interesting.
+along with something interesting
+(but not too interesting--this is a public repository).
 Save the file.
 
 Now that we've changed a file that's under version control,
@@ -310,9 +311,9 @@ Total 3 (delta 1), reused 0 (delta 0)
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 remote:
 remote: Create a pull request for 'mdpiper/update-contributors' on GitHub by visiting:
-remote:      https://github.com/mdpiper/espin-collaboration/pull/new/mdpiper/update-contributors
+remote:      https://github.com/mdpiper/ivy-collaboration/pull/new/mdpiper/update-contributors
 remote:
-To https://github.com/mdpiper/espin-collaboration
+To https://github.com/mdpiper/ivy-collaboration
  * [new branch]      mdpiper/update-contributors -> mdpiper/update-contributors
 ```
 
@@ -326,7 +327,7 @@ and we'll create a pull request next.
 
 A *pull request* is a GitHub feature
 that allows you to argue why the changes that you've pushed to a remote
-deserve to be included in that repository.
+deserve to be merged into that repository.
 In a pull request,
 you have to make a case to the owner of the repository
 that your code improves on theirs.
@@ -374,24 +375,24 @@ We can *sync* these repositories in a few steps.
 First,
 use the `git remote` subcommand to view what remotes are being tracked on your local machine:
 ```
-origin	https://github.com/mdpiper/espin-collaboration (fetch)
-origin	https://github.com/mdpiper/espin-collaboration (push)
+origin	https://github.com/mdpiper/ivy-collaboration (fetch)
+origin	https://github.com/mdpiper/ivy-collaboration (push)
 ```
 
 By default,
 the only remote tracked is *origin*.
 We can track the *upstream* remote, as well, with:
 ```
-$ git remote add upstream https://github.com/espin-2021/espin-collaboration
+$ git remote add upstream https://github.com/csdms/ivy-collaboration
 ```
 
 Check the result with another call to `git remote`:
 ```
 $ git remote -v
-origin	https://github.com/csdms/espin-collaboration (fetch)
-origin	https://github.com/csdms/espin-collaboration (push)
-upstream	https://github.com/espin-2021/espin-collaboration (fetch)
-upstream	https://github.com/espin-2021/espin-collaboration (push)
+origin	https://github.com/csdms/ivy-collaboration (fetch)
+origin	https://github.com/csdms/ivy-collaboration (push)
+upstream	https://github.com/csdms/ivy-collaboration (fetch)
+upstream	https://github.com/csdms/ivy-collaboration (push)
 ```
 
 Next, switch back to the *main* branch in your local repository.

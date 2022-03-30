@@ -1,4 +1,4 @@
-![ESPIn logo](https://raw.githubusercontent.com/csdms/espin/main/media/logo.png)
+![Ivy logo](https://raw.githubusercontent.com/csdms/ivy/main/media/logo.png)
 
 # Collaborative projects ("Gitiquette")
 
@@ -70,8 +70,8 @@ And here are a few recommendations that fall outside the workflow:
   text to the thread on GitHub.
 
 If you have suggestions for other best practices,
-please submit them as an [issue](https://github.com/csdms/espin/issues)
-to the ESPIn repository!
+please submit them as an [issue](https://github.com/csdms/ivy/issues)
+to the Ivy repository!
 
 
 ## Summary

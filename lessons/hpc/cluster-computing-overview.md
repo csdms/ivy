@@ -1,4 +1,4 @@
-![ESPIn logo](https://raw.githubusercontent.com/csdms/espin/main/media/logo.png)
+![Ivy logo](https://raw.githubusercontent.com/csdms/ivy/main/media/logo.png)
 
 # Overview of cluster computing
 
@@ -20,7 +20,7 @@ act as a single computer.
 
 A typical cluster is diagrammed here:
 
-![A typical cluster computer configuration. (Public domain image from https://en.wikipedia.org/wiki/File:Beowulf.png)](https://github.com/csdms/espin/blob/main/media/Beowulf.png)
+![A typical cluster computer configuration. (Public domain image from https://en.wikipedia.org/wiki/File:Beowulf.png)](https://github.com/csdms/ivy/blob/main/media/Beowulf.png)
 
 Note how the outside world can only communicate with the cluster through the server
 (i.e., the head node, in the terminology we're using);

@@ -1,4 +1,4 @@
-![ESPIn logo](https://raw.githubusercontent.com/csdms/espin/main/media/logo.png)
+![Ivy logo](https://raw.githubusercontent.com/csdms/ivy/main/media/logo.png)
 
 # Getting things from elsewhere
 
@@ -123,11 +123,11 @@ the existing **shell-lesson-data** directory was clobbered
 when the archive was uncompressed.
 
 
-## Download the ESPIn repository
+## Download the Ivy repository
 
-The ESPIn repository lives on GitHub at
+The Ivy repository lives on GitHub at
 
-> https://github.com/csdms/espin
+> https://github.com/csdms/ivy
 
 In the lesson on [version control](../git/index.md),
 we'll learn how to work with repositories hosted on GitHub,
@@ -137,7 +137,7 @@ and uncompress it using the commands we learned above.
 
 Use `curl` to download the zip archive:
 ```
-$ curl https://codeload.github.com/csdms/espin/zip/main -o main.zip
+$ curl https://codeload.github.com/csdms/ivy/zip/main -o main.zip
 ```
 
 The `file` command returns a file's type.
@@ -152,10 +152,10 @@ Now use `unzip` to uncompress the file:
 ```
 $ unzip main.zip
 ```
-This creates a new directory, **espin-main**.
+This creates a new directory, **ivy-main**.
 View its contents:
 ```
-$ ls espin-main/
+$ ls ivy-main/
 LICENSE          data             lessons
 README.md        environment.yaml media
 ```

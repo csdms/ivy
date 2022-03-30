@@ -1,4 +1,4 @@
-![ESPIn logo](https://raw.githubusercontent.com/csdms/espin/main/media/logo.png)
+![Ivy logo](https://raw.githubusercontent.com/csdms/ivy/main/media/logo.png)
 
 # Anaconda and conda
 
@@ -22,51 +22,62 @@ With `conda`, you can:
 packages from a Python installation.
 `conda` ensures that the packages work together without conflict.
 
-Because much of our work in ESPIn takes place
-on the [CSDMS JupyterHub](https://csdms.rc.colorado.edu),
+Because much of our work with Ivy takes place
+on the [OpenEarthscape JupyterHub](https://csdms.colorado.edu/wiki/JupyterHub),
 we don't spend much time on `conda` here;
 however,
 we recommend installing Anaconda on your computer
-so that you can use all of the ESPIn course material locally.
+so that you can use all of the CSDMS Ivy course material locally.
 
 Further,
 to ensure you have all the correct packages needed to use the course material,
 we ask that you set up an *environment*,
 an independent Python installation managed by `conda`.
 To do so,
-we'll need an *environment file* from the ESPIn repository.
+we'll need an *environment file* from the Ivy repository.
 
 In the ["Getting things from elsewhere"](../shell/getting-things.md) section
 of the shell lesson,
-we downloaded the ESPIn repository as a zip archive and uncompressed it
+we downloaded the Ivy repository as a zip archive and uncompressed it
 in our **Desktop** directory.
 In a terminal,
 change to this directory and view the file **environment.yaml** with `cat`:
 ```
-$ cd ~/Desktop/espin-main
+$ cd ~/Desktop/ivy-main
 $ cat environment.yaml
-# A conda environment for ESPIn lessons.
+# A conda environment for CSDMS Ivy lessons.
 #
 # Usage:
 #   $ conda env create --file=environment.yaml
-#   $ source activate espin
+#   $ source activate ivy
 
-name: espin
+name: ivy
 channels:
   - conda-forge
 dependencies:
   - python =3
+  - pip
   - numpy
   - scipy
   - pandas
   - notebook
+  - rasterio
+  - pytest
+  - coverage
   - bmipy
   - pymt >=1.1
   - landlab >=2.0
+  - terrainbento
+  - pymt_child
+  - pymt_hydrotrend
+  - pymt_sedflux
+  - bmi-topography
+  - imageio
+  - tqdm
 ```
 
 The environment file lists all the packages needed to run the course material.
-If a package has a dependency not listed
+If a package has a dependency not explicitly listed
 (e.g., `pymt` is built on `xarray`),
 `conda` finds a compatible package version for you.
 
@@ -77,9 +88,11 @@ $ conda env create --file=environment.yaml
 
 Once the environment has been created, type
 ```
-$ source activate espin
+$ conda activate ivy
 ```
 to make this environment current.
+(Note on Linux and macOS,
+you may have to use `source` instead of `conda` to activate the environment.)
 
 Later,
 when finished using the environment, type
@@ -89,9 +102,9 @@ $ conda deactivate
 to return to the base environment,
 and
 ```
-$ conda remove -n espin --all
+$ conda remove -n ivy --all
 ```
-to fully remove the environment from your Anaconda installation.
+to fully remove the environment and all its packages from your Anaconda installation.
 
 
 ## Summary
@@ -123,7 +136,7 @@ This table summarizes shell commands used in this section:
 
 | Command      | Description
 | ------------ | -----------
-| source       | runs a script
+| source       | runs a script on a Unix-based operating system
 
 
 ## Resources

@@ -1,10 +1,10 @@
-# A conda environment for ESPIn lessons.
+# A conda environment for CSDMS Ivy lessons.
 #
 # Usage:
 #   $ conda env create --file=environment.yaml
-#   $ source activate espin
+#   $ source activate ivy
 
-name: espin
+name: ivy
 channels:
   - conda-forge
 dependencies:
