@@ -74,7 +74,7 @@ CSDMS Ivy is supported with funding from the National Science Foundation.
 <!-- Links -->
 
 [jhub]: https://csdms.colorado.edu/wiki/JupyterHub
-[badge]: https://img.shields.io/badge/CSDMS-JupyterHub-orange.svg
+[badge]: https://img.shields.io/badge/OpenEarthscape-JupyterHub-orange
 [shell]: ./lessons/shell/index.md
 [conda]: ./lessons/conda/index.md
 [notebook]: ./lessons/jupyter/general_jupyter_notebook_tutorial.ipynb
