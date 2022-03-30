@@ -24,16 +24,16 @@ on the [OpenEarthscape JupyterHub][jhub].
 
 | Topic | Run on...
 | ----- | ---------
-| [Project Jupyter][notebook] | [![Run on CSDMS JupyterHub][badge]][hub-notebook]
+| [Project Jupyter][notebook] | [![Run on OpenEarthscape JupyterHub][badge]][hub-notebook]
 | [Introduction to the Shell][shell] | local computer
 | [Anaconda and conda][conda] | local computer
-| [Python Basics][python] | [![Run on CSDMS JupyterHub][badge]][hub-python]
-| [Python for ESP Scientists][python] | [![Run on CSDMS JupyterHub][badge]][hub-python]
+| [Python Basics][python] | [![Run on OpenEarthscape JupyterHub][badge]][hub-python]
+| [Python for ESP Scientists][python] | [![Run on OpenEarthscape JupyterHub][badge]][hub-python]
 | [Version Control with git and GitHub][git] | local computer
-| [Landlab][landlab] | [![Run on CSDMS JupyterHub][badge]][hub-landlab]
-| [The Basic Model Interface (BMI)][bmi] | [![Run on CSDMS JupyterHub][badge]][hub-bmi]
-| [The Python Modeling Toolkit (pymt)][pymt] | [![Run on CSDMS JupyterHub][badge]][hub-pymt]
-| [Permamodel Toolkit][permamodel] | [![Run on CSDMS JupyterHub][badge]][hub-permamodel]
+| [Landlab][landlab] | [![Run on OpenEarthscape JupyterHub][badge]][hub-landlab]
+| [The Basic Model Interface (BMI)][bmi] | [![Run on OpenEarthscape JupyterHub][badge]][hub-bmi]
+| [The Python Modeling Toolkit (pymt)][pymt] | [![Run on OpenEarthscape JupyterHub][badge]][hub-pymt]
+| [Permamodel Toolkit][permamodel] | [![Run on OpenEarthscape JupyterHub][badge]][hub-permamodel]
 | [Best Practices in Software Development][best-practices] | local computer
 | [Introduction to Cluster Computing][hpc] | local computer
 
