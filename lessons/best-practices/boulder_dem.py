@@ -4,7 +4,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 
-topo_file = "../../data/boulder-topography.asc"
+topo_file = "../../data/topo.asc"
 
 
 def read():
