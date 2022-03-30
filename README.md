@@ -25,17 +25,17 @@ on the [OpenEarthscape JupyterHub][jhub].
 | Topic | Run on...
 | ----- | ---------
 | [Project Jupyter][notebook] | [![Run on OpenEarthscape JupyterHub][badge]][hub-notebook]
-| [Introduction to the Shell][shell] | local computer
-| [Anaconda and conda][conda] | local computer
+| [Introduction to the Shell][shell] | [![Run on OpenEarthscape JupyterHub][badge]][hub-shell]
+| [Anaconda and conda][conda] | [![Run on OpenEarthscape JupyterHub][badge]][hub-conda]
 | [Python Basics][python] | [![Run on OpenEarthscape JupyterHub][badge]][hub-python]
 | [Python for ESP Scientists][python] | [![Run on OpenEarthscape JupyterHub][badge]][hub-python]
-| [Version Control with git and GitHub][git] | local computer
+| [Version Control with git and GitHub][git] | [![Run on OpenEarthscape JupyterHub][badge]][hub-git]
 | [Landlab][landlab] | [![Run on OpenEarthscape JupyterHub][badge]][hub-landlab]
 | [The Basic Model Interface (BMI)][bmi] | [![Run on OpenEarthscape JupyterHub][badge]][hub-bmi]
 | [The Python Modeling Toolkit (pymt)][pymt] | [![Run on OpenEarthscape JupyterHub][badge]][hub-pymt]
 | [Permamodel Toolkit][permamodel] | [![Run on OpenEarthscape JupyterHub][badge]][hub-permamodel]
-| [Best Practices in Software Development][best-practices] | local computer
-| [Introduction to Cluster Computing][hpc] | local computer
+| [Best Practices in Software Development][best-practices] | [![Run on OpenEarthscape JupyterHub][badge]][hub-best-practices]
+| [Introduction to Cluster Computing][hpc] | [![Run on OpenEarthscape JupyterHub][badge]][hub-hpc]
 
 ## Contributing
 
@@ -76,12 +76,15 @@ CSDMS Ivy is supported with funding from the National Science Foundation.
 [jhub]: https://csdms.colorado.edu/wiki/JupyterHub
 [badge]: https://img.shields.io/badge/OpenEarthscape-JupyterHub-orange
 [shell]: ./lessons/shell/index.md
+[hub-shell]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2Flessons%2Fshell%2Findex.md%3Fautodecode&branch=main
 [conda]: ./lessons/conda/index.md
+[hub-conda]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2Flessons%2Fconda%2Findex.md%3Fautodecode&branch=main
 [notebook]: ./lessons/jupyter/general_jupyter_notebook_tutorial.ipynb
 [hub-notebook]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2Flessons%2Fjupyter%2Findex.ipynb%3Fautodecode&branch=main
 [python]: ./lessons/python/index.ipynb
 [hub-python]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2Flessons%2Fpython%2Findex.ipynb%3Fautodecode&branch=main
 [git]: ./lessons/git/index.md
+[hub-git]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2Flessons%2Fgit%2Findex.md%3Fautodecode&branch=main
 [bmi]: ./lessons/bmi/index.ipynb
 [hub-bmi]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2Flessons%2Fbmi%2Findex.ipynb%3Fautodecode&branch=main
 [landlab]: ./lessons/landlab/index.ipynb
@@ -91,5 +94,7 @@ CSDMS Ivy is supported with funding from the National Science Foundation.
 [permamodel]: ./lessons/permamodel
 [hub-permamodel]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2Flessons%2Fpermamodel%3Fautodecode&branch=main
 [best-practices]: ./lessons/best-practices/index.md
+[hub-best-practices]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2Flessons%2Fbest-practices%2Findex.md%3Fautodecode&branch=main
 [hpc]: ./lessons/hpc/index.md
+[hub-hpc]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2Flessons%2Fhpc%2Findex.md%3Fautodecode&branch=main
 [swc-license]: https://github.com/swcarpentry/python-novice-inflammation/blob/gh-pages/LICENSE.md
