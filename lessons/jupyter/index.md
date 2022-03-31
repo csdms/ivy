@@ -23,17 +23,17 @@ in their own workspace.
 A JupyterHub can be installed in the cloud, on a server, or locally.
 
 Through the NSF-funded [OpenEarthscape][oes] project,
-CSDMS provides a [JupyterHub][csdms-jhub]
+CSDMS provides a [JupyterHub][jhub]
 where Ivy course material can be viewed and run.
 Click this button:
 
-[![Run on OpenEarthscape JupyterHub][badge]][csdms-jhub-link]
+[![Run on OpenEarthscape JupyterHub][badge]][jhub-link]
 
 to open the CSDMS Ivy lessons directly on the OpenEarthscape JupyterHub!
 
 > **Note:** The OpenEarthscape JupyterHub is password-protected.
   Please contact your instructor about obtaining a login,
-  or visit [this][csdms-jhub-info] CSDMS wiki page for more information.
+  or visit [this][jhub-info] CSDMS wiki page for more information.
 
 ## JupyterLab
 
@@ -89,9 +89,9 @@ The majority of the CSDMS Ivy course material is built as notebooks.
 <!-- Links, by alpha -->
 
 [badge]: https://img.shields.io/badge/OpenEarthscape-JupyterHub-orange
-[csdms-jhub]: https://lab.openearthscape.org
-[csdms-jhub-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2F%3Fautodecode&branch=main
-[csdms-jhub-info]: https://csdms.colorado.edu/wiki/JupyterHub
+[jhub]: https://lab.openearthscape.org
+[jhub-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2Fstart.ipynb%3Fautodecode&branch=main
+[jhub-info]: https://csdms.colorado.edu/wiki/JupyterHub
 [ipython]: https://ipython.org/
 [jupyter]: https://jupyter.org/
 [jupyterhub-docs]: https://jupyterhub.readthedocs.io
