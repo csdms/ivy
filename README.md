@@ -76,7 +76,7 @@ from material that is copyright
 [Software Carpentry][swc]
 and remixed under their [license][swc-license].
 The Project Jupyter lesson
-is derived from the [Code to Communicate][coco] project
+is taken from the [Code to Communicate][coco] project
 and modified under their [license][coco-license].
 
 CSDMS Ivy is supported with funding from the National Science Foundation.
