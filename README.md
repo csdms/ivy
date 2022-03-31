@@ -58,7 +58,7 @@ please [cite](./CITATION.cff) it.
 
 ## Acknowledgments
 
-CSDMS Ivy grew out of a National Science Foundation Cybertraining pilot program,
+CSDMS Ivy grew from a National Science Foundation Cybertraining pilot program,
 *Cybertraining: Pilot: Collaborative Research:
 Cybertraining for Earth Surface Processes Modelers*
 (award numbers
