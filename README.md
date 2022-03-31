@@ -24,7 +24,7 @@ on the [OpenEarthscape JupyterHub][jhub].
 
 | Topic | Run on...
 | ----- | ---------
-| [Project Jupyter][notebook] | [![Run on OpenEarthscape JupyterHub][badge]][hub-notebook]
+| [Project Jupyter][jupyter] | [![Run on OpenEarthscape JupyterHub][badge]][hub-jupyter]
 | [Introduction to the Shell][shell] | [![Run on OpenEarthscape JupyterHub][badge]][hub-shell]
 | [Anaconda and conda][conda] | [![Run on OpenEarthscape JupyterHub][badge]][hub-conda]
 | [Python Basics][python] | [![Run on OpenEarthscape JupyterHub][badge]][hub-python]
@@ -65,8 +65,11 @@ with a project team of
 
 Portions of the CSDMS Ivy shell and Python lessons are derived
 from material that is Copyright
-[Software Carpentry](http://software-carpentry.org),
+[Software Carpentry][swc]
 and remixed under their [license][swc-license].
+The Project Jupyter lesson
+is derived from the [Code to Communicate][coco] project
+and modified under their [license][coco-license].
 
 CSDMS Ivy is supported with funding from the National Science Foundation.
 
@@ -75,12 +78,12 @@ CSDMS Ivy is supported with funding from the National Science Foundation.
 
 [jhub]: https://csdms.colorado.edu/wiki/JupyterHub
 [badge]: https://img.shields.io/badge/OpenEarthscape-JupyterHub-orange
+[jupyter]: ./lessons/jupyter/index.md
+[hub-jupyter]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2Flessons%2Fjupyter%2Findex.md%3Fautodecode&branch=main
 [shell]: ./lessons/shell/index.md
 [hub-shell]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2Flessons%2Fshell%2Findex.md%3Fautodecode&branch=main
 [conda]: ./lessons/conda/index.md
 [hub-conda]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2Flessons%2Fconda%2Findex.md%3Fautodecode&branch=main
-[notebook]: ./lessons/jupyter/general_jupyter_notebook_tutorial.ipynb
-[hub-notebook]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2Flessons%2Fjupyter%2Findex.ipynb%3Fautodecode&branch=main
 [python]: ./lessons/python/index.ipynb
 [hub-python]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2Flessons%2Fpython%2Findex.ipynb%3Fautodecode&branch=main
 [git]: ./lessons/git/index.md
@@ -97,4 +100,7 @@ CSDMS Ivy is supported with funding from the National Science Foundation.
 [hub-best-practices]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2Flessons%2Fbest-practices%2Findex.md%3Fautodecode&branch=main
 [hpc]: ./lessons/hpc/index.md
 [hub-hpc]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2Flessons%2Fhpc%2Findex.md%3Fautodecode&branch=main
+[swc]: http://software-carpentry.org
 [swc-license]: https://github.com/swcarpentry/python-novice-inflammation/blob/gh-pages/LICENSE.md
+[coco]: https://github.com/CodeToCommunicate
+[coco-license]: https://github.com/CodeToCommunicate/CoCoLessons/blob/main/LICENSE
