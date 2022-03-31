@@ -65,8 +65,11 @@ with a project team of
 
 Portions of the CSDMS Ivy shell and Python lessons are derived
 from material that is Copyright
-[Software Carpentry](http://software-carpentry.org),
+[Software Carpentry][swc]
 and remixed under their [license][swc-license].
+The Project Jupyter lesson
+is derived from the [Code to Communicate][coco] project
+and modified under their [license][coco-license].
 
 CSDMS Ivy is supported with funding from the National Science Foundation.
 
@@ -97,4 +100,7 @@ CSDMS Ivy is supported with funding from the National Science Foundation.
 [hub-best-practices]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2Flessons%2Fbest-practices%2Findex.md%3Fautodecode&branch=main
 [hpc]: ./lessons/hpc/index.md
 [hub-hpc]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2Flessons%2Fhpc%2Findex.md%3Fautodecode&branch=main
+[swc]: http://software-carpentry.org
 [swc-license]: https://github.com/swcarpentry/python-novice-inflammation/blob/gh-pages/LICENSE.md
+[coco]: https://github.com/CodeToCommunicate
+[coco-license]: https://github.com/CodeToCommunicate/CoCoLessons/blob/main/LICENSE
