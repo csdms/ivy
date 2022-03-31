@@ -24,7 +24,7 @@ A JupyterHub can be installed in the cloud, on a server, or locally.
 
 Through the NSF-funded [OpenEarthscape][oes] project,
 CSDMS provides a [JupyterHub][csdms-jhub]
-where CSDMS Ivy course material can be viewed and run.
+where Ivy course material can be viewed and run.
 Click this button:
 
 [![Run on OpenEarthscape JupyterHub][badge]][csdms-jhub-link]
@@ -38,7 +38,7 @@ to open the CSDMS Ivy lessons directly on the OpenEarthscape JupyterHub!
 ## JupyterLab
 
 JupyterLab is a browser-based interactive development environment.
-It provides tools for writing code and creating notebooks, including
+It provides tools for writing code and creating notebooks, including:
 
 - a file browser,
 - launchers for notebooks, data files, and images,
@@ -61,14 +61,15 @@ Notebooks are live documents,
 with the ability to display tabular data and graphics,
 as well as interactive displays with widgets.
 A notebook is made of cells.
-Each cell can hold code, text (using Markdown), equations, or visualizations.
+Each cell can hold code, formatted text (using Markdown), equations,
+or visualizations.
 
 To get a sense of their popularity,
 by [one estimate](https://github.com/parente/nbestimate/blob/master/estimate.ipynb),
 there are currently over 7.5 million notebooks hosted on GitHub.
 The estimate is presented, of course, in a notebook.
 
-The majority of the CSDMS Ivy course material is built as Notebooks.
+The majority of the CSDMS Ivy course material is built as notebooks.
 
 ## Resources
 
@@ -93,8 +94,8 @@ The majority of the CSDMS Ivy course material is built as Notebooks.
 [csdms-jhub-info]: https://csdms.colorado.edu/wiki/JupyterHub
 [ipython]: https://ipython.org/
 [jupyter]: https://jupyter.org/
-[jupyterhub-docs]: (https://jupyterhub.readthedocs.io)
-[jupyterlab-docs]: (https://jupyterlab.readthedocs.io)
+[jupyterhub-docs]: https://jupyterhub.readthedocs.io
+[jupyterlab-docs]: https://jupyterlab.readthedocs.io
 [jupyter-notebook-docs]: https://jupyter-notebook.readthedocs.io
 [oes]: https://openearthscape.org/
 [swc-ppp]: https://swcarpentry.github.io/python-novice-gapminder/
