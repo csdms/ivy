@@ -28,7 +28,7 @@ We'll broadly follow the series of actions in this workflow:
 
 and we'll frequently refer to this diagram of git remotes:
 
-![git remotes](https://github.com/csdms/ivy/blob/main/media/git-remotes-diagram.png "Git remotes")
+![git remotes](https://raw.githubusercontent.com/csdms/ivy/main/media/git-remotes-diagram.png "Git remotes")
 
 
 ## Fork

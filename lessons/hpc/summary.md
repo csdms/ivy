@@ -3,7 +3,7 @@
 # Summary
 
 * A cluster computer is a supercomputer assembled from cheap, replaceable nodes linked by a fast network.
-* Work to be performed on a cluster -- a "job" -- is organized as a script, typically in bash or in Python.
+* Work to be performed on a cluster--a "job"--is organized as a script, typically in bash or in Python.
 * Jobs are scheduled on the head node of a cluster, while work is performed on the compute nodes.
 * Slurm commands are used to submit and monitor jobs on a cluster.
 
