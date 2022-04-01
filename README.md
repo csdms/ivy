@@ -94,7 +94,7 @@ CSDMS Ivy is supported with funding from the National Science Foundation.
 [bmi]: ./lessons/bmi/index.ipynb
 [landlab]: ./lessons/landlab/index.ipynb
 [pymt]: ./lessons/pymt/index.ipynb
-[permamodel]: ./lessons/permamodel
+[permamodel]: ./lessons/permamodel/index.ipynb
 [best-practices]: ./lessons/best-practices/index.md
 [hpc]: ./lessons/hpc/index.md
 [jhub-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2Fstart.ipynb%3Fautodecode&branch=main
