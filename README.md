@@ -7,7 +7,7 @@ CSDMS Ivy is a collection of instructional materials on
 * modern, collaborative, scientific software development, and
 * use of community cyberinfrastructure tools
 
-for scientists specializing in earth surface process modeling.
+for researchers in earth and planetary surface processes.
 
 CSDMS Ivy is
 written and maintained by the
