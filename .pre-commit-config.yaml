@@ -3,4 +3,4 @@ repos:
     rev: v1.13.7  # CURRENT_TAG/COMMIT_HASH
     hooks:
     - id: jupytext
-      args: [--to, notebook, "README.md"]
+      args: [--sync]
