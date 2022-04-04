@@ -1,5 +1,27 @@
 ![Ivy logo](./media/logo.png)
 
+<!-- Links -->
+
+[jhub]: https://csdms.colorado.edu/wiki/JupyterHub
+[badge]: https://img.shields.io/badge/OpenEarthscape-JupyterHub-orange
+[jupyter]: ./lessons/jupyter/index.md
+[shell]: ./lessons/shell/index.md
+[conda]: ./lessons/conda/index.md
+[python]: ./lessons/python/index.ipynb
+[git]: ./lessons/git/index.md
+[bmi]: ./lessons/bmi/index.ipynb
+[landlab]: ./lessons/landlab/index.ipynb
+[pymt]: ./lessons/pymt/index.ipynb
+[permamodel]: ./lessons/permamodel/index.ipynb
+[best-practices]: ./lessons/best-practices/index.md
+[hpc]: ./lessons/hpc/index.md
+[jhub-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2FREADME.ipynb%3Fautodecode&branch=main
+[jhub-info]: https://csdms.colorado.edu/wiki/JupyterHub
+[swc]: http://software-carpentry.org
+[swc-license]: https://github.com/swcarpentry/python-novice-inflammation/blob/gh-pages/LICENSE.md
+[coco]: https://github.com/CodeToCommunicate
+[coco-license]: https://github.com/CodeToCommunicate/CoCoLessons/blob/main/LICENSE
+
 # CSDMS Ivy
 
 CSDMS Ivy is a collection of instructional materials on
@@ -80,26 +102,3 @@ is taken from the [Code to Communicate][coco] project
 and modified under their [license][coco-license].
 
 CSDMS Ivy is supported with funding from the National Science Foundation.
-
-
-<!-- Links -->
-
-[jhub]: https://csdms.colorado.edu/wiki/JupyterHub
-[badge]: https://img.shields.io/badge/OpenEarthscape-JupyterHub-orange
-[jupyter]: ./lessons/jupyter/index.md
-[shell]: ./lessons/shell/index.md
-[conda]: ./lessons/conda/index.md
-[python]: ./lessons/python/index.ipynb
-[git]: ./lessons/git/index.md
-[bmi]: ./lessons/bmi/index.ipynb
-[landlab]: ./lessons/landlab/index.ipynb
-[pymt]: ./lessons/pymt/index.ipynb
-[permamodel]: ./lessons/permamodel/index.ipynb
-[best-practices]: ./lessons/best-practices/index.md
-[hpc]: ./lessons/hpc/index.md
-[jhub-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2Fstart.ipynb%3Fautodecode&branch=main
-[jhub-info]: https://csdms.colorado.edu/wiki/JupyterHub
-[swc]: http://software-carpentry.org
-[swc-license]: https://github.com/swcarpentry/python-novice-inflammation/blob/gh-pages/LICENSE.md
-[coco]: https://github.com/CodeToCommunicate
-[coco-license]: https://github.com/CodeToCommunicate/CoCoLessons/blob/main/LICENSE
