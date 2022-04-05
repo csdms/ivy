@@ -28,4 +28,4 @@ dependencies:
   - imageio
   - tqdm
   - jupytext
-  - pre-install
+  - pre-commit
