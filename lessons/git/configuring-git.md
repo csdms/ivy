@@ -93,4 +93,4 @@ ___
 
 [Introduction to version control](./index.md) |
 Previous: [index](./index.md) |
-Next: [A version control workflow](./git-workflow.md)
+Next: [GitHub authentication](./github-authentication.md)

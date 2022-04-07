@@ -470,4 +470,4 @@ This table summarizes the `git` subcommands used in this section:
 ___
 
 [Introduction to version control](./index.md) |
-Previous: [Version control in a single-user project](./git-single-user-project.md)
+Previous: [GitHub authentication](./github-authentication.md)
