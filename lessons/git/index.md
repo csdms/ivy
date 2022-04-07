@@ -50,6 +50,7 @@ Here are some examples...
 This lesson on version control continues in the following sections.
 
 1. [Configuring git and GitHub](./configuring-git.md)
+1. [GitHub authentication](./github-authentication.md)
 1. [A version control workflow](./git-workflow.md)
 
 
@@ -57,5 +58,10 @@ This lesson on version control continues in the following sections.
 
 * Software Carpentry [lesson](https://swcarpentry.github.io/git-novice/) on version control
 * A [git command cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf) from GitHub
+* [Secure shell (SSH)](https://en.wikipedia.org/wiki/Secure_Shell) description on Wikipedia
+* In the GitHub documentation:
+  * [Create a PAT](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
+  * [Create an SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+  * [Add an SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 * The full [git documentation](https://git-scm.com/docs)
 * The full [GitHub documentation](https://docs.github.com)
