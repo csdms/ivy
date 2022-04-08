@@ -3,13 +3,12 @@
 # A version control workflow
 
 In this section,
-we'll work through an example that broadly demonstrates
+we'll work through a long-ish example that demonstrates
 how to use version control on an individual or a group project.
-Imagine, for example,
+Imagine, for instance,
 backing up and tracking your thesis,
-or collaborating on a journal article
+or collaborating on writing a journal article
 with a colleague.
-<!-- This is where GitHub is powerful. -->
 
 We'll broadly follow the series of actions in this workflow:
 
@@ -66,13 +65,15 @@ On your computer, open a terminal and change to your **Desktop** directory:
 ```
 $ cd ~/Desktop
 ```
+Note that this is a convenience; you can do the following steps anywhere on the filesystem.
 
 Now clone your repository from GitHub.
 The syntax for the `git clone` subcommand is
 ```
 $ git clone [repository-url]
 ```
-where the bracketed text should be replaced with the URL of your new repository.
+where the bracketed text should be replaced with the SSH URL of your new repository.
+You'll be prompted to enter the password for your SSH key.
 
 The repository is cloned into the directory **ivy-collaboration**.
 Change to it and view its contents:
@@ -165,13 +166,13 @@ In this example, however, it'll be trivial.
 
 Recall that the **ivy-collaboration** repository
 has a file, **CONTRIBUTORS.md**.
-View the contents of the repository:
+View the files in the repository:
 ```
 $ ls
 CONTRIBUTORS.md LICENSE   README.md
 ```
 With your favorite text editor,
-open the file **CONTRIBUTORS.md**
+open **CONTRIBUTORS.md**
 add your name to the list of contributors,
 along with something interesting
 (but not too interesting--this is a public repository).
@@ -316,6 +317,7 @@ remote:
 To https://github.com/mdpiper/ivy-collaboration
  * [new branch]      mdpiper/update-contributors -> mdpiper/update-contributors
 ```
+You'll again be prompted to enter the password for your SSH key.
 
 Note that the output from `git push`
 includes a link to create a *pull request* on GitHub.
@@ -375,24 +377,24 @@ We can *sync* these repositories in a few steps.
 First,
 use the `git remote` subcommand to view what remotes are being tracked on your local machine:
 ```
-origin	https://github.com/mdpiper/ivy-collaboration (fetch)
-origin	https://github.com/mdpiper/ivy-collaboration (push)
+origin	git@github.com:mdpiper/ivy-collaboration.git (fetch)
+origin	git@github.com:mdpiper/ivy-collaboration.git (push)
 ```
 
 By default,
 the only remote tracked is *origin*.
 We can track the *upstream* remote, as well, with:
 ```
-$ git remote add upstream https://github.com/csdms/ivy-collaboration
+$ git remote add upstream git@github.com:csdms/ivy-collaboration.git
 ```
 
 Check the result with another call to `git remote`:
 ```
 $ git remote -v
-origin	https://github.com/csdms/ivy-collaboration (fetch)
-origin	https://github.com/csdms/ivy-collaboration (push)
-upstream	https://github.com/csdms/ivy-collaboration (fetch)
-upstream	https://github.com/csdms/ivy-collaboration (push)
+origin	git@github.com:mdpiper/ivy-collaboration.git (fetch)
+origin	git@github.com:mdpiper/ivy-collaboration.git (push)
+upstream	git@github.com:csdms/ivy-collaboration.git (fetch)
+upstream	git@github.com:csdms/ivy-collaboration.git (push)
 ```
 
 Next, switch back to the *main* branch in your local repository.
@@ -470,4 +472,4 @@ This table summarizes the `git` subcommands used in this section:
 ___
 
 [Introduction to version control](./index.md) |
-Previous: [Version control in a single-user project](./git-single-user-project.md)
+Previous: [GitHub authentication](./github-authentication.md)

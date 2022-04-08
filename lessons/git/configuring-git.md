@@ -6,7 +6,7 @@ When using `git` for the first time on a computer,
 some setup is required.
 Start by opening a terminal
 (your preferred terminal app on Linux or macOS;
-the Git Bash Shell on Windows).
+Git Bash on Windows).
 
 Make sure `git` is installed and in the application search path:
 ```
@@ -93,4 +93,4 @@ ___
 
 [Introduction to version control](./index.md) |
 Previous: [index](./index.md) |
-Next: [A version control workflow](./git-workflow.md)
+Next: [GitHub authentication](./github-authentication.md)
