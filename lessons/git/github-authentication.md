@@ -6,8 +6,7 @@ GitHub allows users to connect to remote repositories
 through two protocols, HTTPS and SSH.
 
 When using HTTPS,
-you have to supply your username and
-a personal access token (PAT)--a long string of characters--on
+a user must supply a personal access token (PAT)--a long string of characters--on
 every connection attempt.
 
 When using SSH,
@@ -35,7 +34,7 @@ If you have a **.ssh** directory with one of these files:
 * **id_ecdsa.pub**
 * **id_ed25519.pub**
 
-you can skip ahead to the "Adding an SSH key to GitHub" section.
+you can skip ahead to the [Add an SSH key to GitHub](./github-authentication.md#add-an-ssh-key-to-github) section.
 
 If you don't have a **.ssh** directory
 or one of the three supported key types,
@@ -46,7 +45,7 @@ proceed to the next section.
 To create a new SSH key,
 type the following into a terminal:
 ```
-$ ssh-keygen -t ed25519 -C "your_email@example.com"
+$ ssh-keygen -t ed25519 -C "[your email address]"
 ```
 The `-t` flag specifies the type of key to create;
 in this case,
@@ -73,7 +72,7 @@ Now that we have an SSH key pair,
 we need to add the public key to GitHub.
 
 Start by copying the public key.
-From a terminal, print the key:
+Print the key to the terminal with `cat`:
 ```
 $ cat ~/.ssh/id_ed25519.pub
 ssh-ed25519 AA4WC3NzqC45ZD81NTR5AQAAIBbFO9USDsVFLRIiBJ9Y6wJil4AFrW5ysRrGNCd5wDvy mark.piper@colorado.edu
