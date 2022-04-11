@@ -15,33 +15,18 @@ with the operating system of a computer.
 * Know where to get help, or more information
 
 
-## Get the lesson data
-
-This lesson uses a set of sample files
-from [Software Carpentry](https://software-carpentry.org/).
-which you'll need to follow the lesson.
-
-Please:
-
-1. Download [shell-lesson-data.zip](https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip) and move the file to your Desktop.
-1. Unzip/extract the file (ask your instructor if you need help with this step).
-
-You should end up with a new folder called **shell-lesson-data** on your Desktop.
-
-
 ## Open a terminal
 
 A *terminal* is an application that allows a user to communicate
 with the operating system of a computer
 through terse text commands.
 
+* JupyterLab: Terminal app in the Launcher
 * Linux: terminal or xterm
 * macOS: Terminal.app (built-in) or [iTerm.app](https://www.iterm2.com/)
-* Windows: Git Bash Shell in [Git for Windows](https://gitforwindows.org/)
+* Windows: Git Bash in [Git for Windows](https://gitforwindows.org/)
 
-At this time,
-if you haven't already done so,
-open a terminal on your computer.
+At this time, if you haven't already done so, open a terminal.
 
 
 ## Why are we using a terminal?
@@ -78,8 +63,8 @@ on which this lesson is based.
 The command prompt (or shell prompt) is where we enter commands into a terminal.
 It's typically denoted with a dollar sign `$`.
 
-We use a terminal in a **read-evaluate-print loop (REPL)**;
-that is, when we enter a command at the prompt, the shell
+We use a terminal in a [read-evaluate-print loop](https://en.wikipedia.org/wiki/Read%E2%80%93eval%E2%80%93print_loop) (REPL);
+that is, when we enter a command at the prompt, the shell:
 
 1. reads the command
 1. evaluates the command
@@ -90,7 +75,7 @@ This process is repeated every time we enter a command.
 
 ## Topics
 
-This lesson on the shell continues in the following sections.
+This lesson on the shell continues in the following sections:
 
 1. [Files and directories](./files-and-directories.md)
 1. [Creating things](./creating-things.md)
@@ -98,6 +83,12 @@ This lesson on the shell continues in the following sections.
 1. [Finding things](./finding-things.md)
 1. [Getting things from elsewhere](./getting-things.md)
 
+Alternately,
+we provide a shorter lesson in which we provide only the most relevant information:
+
+1. [The shell, in brief](./short-shell.md)
+
+This shortened lesson is designed to run on the OpenEarthscape JupyterHub.
 
 ## Resources
 
