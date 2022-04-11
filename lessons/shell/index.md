@@ -92,6 +92,7 @@ This shortened lesson is designed to run on the OpenEarthscape JupyterHub.
 
 ## Resources
 
+* [Five reasons why researchers should learn to love the command line](https://www.nature.com/articles/d41586-021-00263-0)
 * This lesson is loosely based on the Software Carpentry [shell lesson](https://swcarpentry.github.io/shell-novice/)
 * The [Bash Guide for Beginners](http://www.tldp.org/LDP/Bash-Beginners-Guide/html/) from the Linux Documentation Project
 * The [GNU Bash Manual](https://www.gnu.org/software/bash/manual/) in various formats
