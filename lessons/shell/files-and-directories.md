@@ -26,6 +26,21 @@ Note that I executed this command on a Linux machine;
 the home directory on a macOS or Windows machine will be slightly different.
 
 
+## Get the lesson data
+
+Before we go further,
+this lesson uses a set of sample files
+from [Software Carpentry](https://software-carpentry.org/).
+which you'll need to follow the lesson.
+
+Please:
+
+1. Download [shell-lesson-data.zip](https://swcarpentry.github.io/shell-novice/data/shell-lesson-data.zip) and move the file to your Desktop.
+1. Unzip/extract the file (ask your instructor if you need help with this step).
+
+You should end up with a new folder called **shell-lesson-data** on your Desktop.
+
+
 ## Directory listings
 
 Next, let's look at the contents of this directory.
