@@ -205,6 +205,18 @@ However, the directory must be empty before it can be removed.
 
 ## Summary
 
+The table below summarizes the concepts described in this lesson.
+
+| Concept | Description |
+| ------- | ----------- |
+| file system       | the part of operating system that organizes how information is stored and accessed |
+| path              | a string that gives the location of a file or directory on the file system |
+| absolute path     | a path that starts at the root of the file system |
+| relative path     | a path that starts at the current directory |
+| current directory | the path where the shell process is currently working |
+| home directory    | the default path location for a user to store files and directories |
+| parent directory  | the path one directory closer to the root |
+
 The table below summarizes the commands and special characters described in this lesson.
 
 | Command | Description |
