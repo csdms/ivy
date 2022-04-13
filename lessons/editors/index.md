@@ -39,31 +39,27 @@ it's not necessarily the best idea.
 ## Text editors
 
 Text editors help you write code.
-They offer features such as
+For example, most offer features such as
 * syntax highlighting
 * command completion
 * automatic indentation
 * parenthesis and bracket matching
 
-Every text editor has advantages and disadvantages.
+Free and open source
+text editors that are typically installed on a UNIX-based operating system include
+[nano][nano],
+[vi/m][vim], and
+[emacs][emacs].
+A sampling of other prominent text editors (some of which you have to pay for) includes
+[VS Code][code],
+[Sublime Text][sublime],
+[Atom][atom],
+[TextMate][textmate] (macOS),
+[Nova][nova] (macOS), and
+[Notepad++][nppp] (Windows).
+
+Every text editor has its advantages and disadvantages.
 It's best to find one you like and learn how to use it well.
-
-
-Consider these rough categories of applications.
-
-Text editors that are typically installed on a UNIX-based operating system:
-
-* nano
-* vi/m
-* emacs
-
-A sampling of other prominent text editors:
-
-* VS Code
-* Sublime Text
-* Atom
-* TextMate (macOS)
-* Notepad++ (Windows)
 
 ## Development environments
 
@@ -84,7 +80,7 @@ It doesn't really matter which text editor you use--find one you like
 and learn how to use it well.
 Don't write code with a word processor.
 
-### Note
+### Note 1
 
 We don't use text editors much in Ivy
 because most of the course material is in Jupyter Notebook.
@@ -92,6 +88,25 @@ However,
 when you write code for school or work,
 you will undoubtedly use a text editor (or a development environment).
 
+### Note 2
+
+Don't get so attached to your text editor that you think your choice is superior to other's.
+[Seriously][editor-war].
+
 ## Resources
 
-https://en.wikipedia.org/wiki/Text_editor#Plain_text_vs._rich_text
+* https://en.wikipedia.org/wiki/Text_editor#Plain_text_vs._rich_text
+* https://en.wikipedia.org/wiki/List_of_text_editors
+
+<!-- Links (by alpha) -->
+
+[atom]: https://en.wikipedia.org/wiki/Atom_(text_editor)
+[code]: https://en.wikipedia.org/wiki/Visual_Studio_Code
+[editor-war]: https://en.wikipedia.org/wiki/Editor_war
+[emacs]: https://en.wikipedia.org/wiki/Emacs
+[nano]: https://en.wikipedia.org/wiki/GNU_nano
+[nova]: https://nova.app/
+[nppp]: https://en.wikipedia.org/wiki/Notepad%2B%2B
+[sublime]: https://en.wikipedia.org/wiki/Sublime_Text
+[textmate]: https://en.wikipedia.org/wiki/TextMate
+[vim]: https://en.wikipedia.org/wiki/Vim_(text_editor)
