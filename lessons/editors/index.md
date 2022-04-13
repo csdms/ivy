@@ -63,14 +63,19 @@ It's best to find one you like and learn how to use it well.
 
 ## Development environments
 
-Integrated development environments (IDEs) for Python (again, a sampling):
-* Spyder
-* PyCharm
-* Eclipse
-
-The distinction between a text editor and an IDE is heavily blurred.
-Typically, we can consider an IDE to contain a text editor
+An *integrated development environment* (IDE)
+is a program that includes a comprehensive set of tools for creating software.
+IDEs amalgamate tools of the software development process that are typically distributed across text editors, shell programs, and websites.
+The distinction between a text editor and an IDE is heavily blurred, though;
+typically, we can consider an IDE to contain a text editor
 as one of its components.
+
+
+Two popular IDEs for Python are
+Spyder and
+PyCharm.
+
+The choice between using an IDE versus a text editor plus other tools is largely a matter of taste.
 
 ## Summary
 
