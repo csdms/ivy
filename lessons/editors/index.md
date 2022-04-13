@@ -90,7 +90,7 @@ you will undoubtedly use a text editor (or a development environment).
 
 ### Note 2
 
-Don't get so attached to your text editor that you think your choice is superior to other's.
+Don't get so attached to your text editor that you think your choice is superior to others.
 [Seriously][editor-war].
 
 ## Resources
