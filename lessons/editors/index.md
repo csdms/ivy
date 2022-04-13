@@ -11,25 +11,30 @@ programs that help you write code.
 * Understand the difference between a text editor and a word processor
 * Know when to use a text editor
 * See common traits of text editors
-* Get exposure to the idea of a development environment
+* Understand what a development environment is
 
 ## Rich text, plain text
 
-What is plain text versus rich text?
+What is plain text and what is rich text?
+Broadly:
 
-Code is text.
+* *Plain text* is made from the characters you see on your keyboard.
+Plain text is stored in a text file.
+Code is plain text.
 
-### Text editor, word processor
+* *Rich text* is formed from plain text,
+but includes additional metadata
+like fonts, styles, colors, and other formatting.
+Rich text may include embedded images and videos.
+Rich text is typically stored in a binary, often proprietary, file format.
+A Microsoft Word doc is rich text.
 
-What is a text editor?
-
-What is a word processor?
-
-It's key to understand the difference between a text editor
-and a word processor.
-Text editors deal with plain text.
-Word processors deal with rich text.
-Microsoft Word and Google Docs.
+*Text editors* are designed to work with plain text.
+*Word processors* are designed to work with rich text.
+It's difficult (but not impossible)
+to create one type of text with the tool designed for the other,
+but just as a screwdriver can sometimes be used as a hammer,
+it's not necessarily the best idea.
 
 ## Text editors
 
