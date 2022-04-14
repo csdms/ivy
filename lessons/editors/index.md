@@ -70,10 +70,9 @@ The distinction between a text editor and an IDE is heavily blurred, though;
 typically, we can consider an IDE to contain a text editor
 as one of its components.
 
-
 Two popular IDEs for Python are
-Spyder and
-PyCharm.
+[Spyder][spyder] and
+[PyCharm][pycharm].
 
 The choice between using an IDE versus a text editor plus other tools is largely a matter of taste.
 
@@ -85,23 +84,23 @@ It doesn't really matter which text editor you use--find one you like
 and learn how to use it well.
 Don't write code with a word processor.
 
-### Note 1
+***Note #1***
 
 We don't use text editors much in Ivy
 because most of the course material is in Jupyter Notebook.
 However,
 when you write code for school or work,
-you will undoubtedly use a text editor (or a development environment).
+you will undoubtedly use a text editor (or an IDE).
 
-### Note 2
+***Note #2***
 
 Don't get so attached to your text editor that you think your choice is superior to others.
 [Seriously][editor-war].
 
 ## Resources
 
-* https://en.wikipedia.org/wiki/Text_editor#Plain_text_vs._rich_text
-* https://en.wikipedia.org/wiki/List_of_text_editors
+* [Plain text vs. rich text](https://en.wikipedia.org/wiki/Text_editor#Plain_text_vs._rich_text)
+* A [list of text editors](https://en.wikipedia.org/wiki/List_of_text_editors)
 
 <!-- Links (by alpha) -->
 
@@ -112,6 +111,8 @@ Don't get so attached to your text editor that you think your choice is superior
 [nano]: https://en.wikipedia.org/wiki/GNU_nano
 [nova]: https://nova.app/
 [nppp]: https://en.wikipedia.org/wiki/Notepad%2B%2B
+[pycharm]: https://en.wikipedia.org/wiki/PyCharm
+[spyder]: https://en.wikipedia.org/wiki/Spyder_(software)
 [sublime]: https://en.wikipedia.org/wiki/Sublime_Text
 [textmate]: https://en.wikipedia.org/wiki/TextMate
 [vim]: https://en.wikipedia.org/wiki/Vim_(text_editor)
