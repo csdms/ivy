@@ -21,6 +21,7 @@ Broadly:
 * *Plain text* is made from the characters you see on your keyboard.
 Plain text is stored in a text file.
 Code is plain text.
+This Markdown file is plain text.
 
 * *Rich text* is formed from plain text,
 but includes additional metadata
@@ -83,10 +84,21 @@ Write code with a text editor.
 It doesn't really matter which text editor you use--find one you like
 and learn how to use it well.
 Don't write code with a word processor.
+Plain text is [future-proof](https://en.wikipedia.org/wiki/Future-proof).
+
+This table summarizes the concepts covered in this lesson:
+
+| Concept      | Description
+| ------------ | -----------
+| plain text | Text without formatting
+| rich text | Text with formatting
+| text editor | A program for writing plain text
+| word processor | A program for writing rich text
+| integrated development environment | A program with a comprehensive set of tools for creating software
 
 ***Note #1***
 
-We don't use text editors much in Ivy
+We don't use text editors often in Ivy
 because most of the course material is in Jupyter Notebook.
 However,
 when you write code for school or work,
@@ -100,7 +112,7 @@ Don't get so attached to your text editor that you think your choice is superior
 ## Resources
 
 * [Plain text vs. rich text](https://en.wikipedia.org/wiki/Text_editor#Plain_text_vs._rich_text)
-* A [list of text editors](https://en.wikipedia.org/wiki/List_of_text_editors)
+* [A list of text editors](https://en.wikipedia.org/wiki/List_of_text_editors)
 
 <!-- Links (by alpha) -->
 
