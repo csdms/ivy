@@ -6,6 +6,7 @@
 [badge]: https://img.shields.io/badge/OpenEarthscape-JupyterHub-orange
 [jupyter]: ./lessons/jupyter/index.md
 [shell]: ./lessons/shell/index.md
+[editors]: ./lessons/editors/index.md
 [conda]: ./lessons/conda/index.md
 [python]: ./lessons/python/index.ipynb
 [git]: ./lessons/git/index.md
@@ -42,6 +43,7 @@ although the ordering below represents a typical progression.
 
 1. [Project Jupyter][jupyter]
 1. [Introduction to the Shell][shell]
+1. [Text Editors and Development Environments][editors]
 1. [Anaconda and conda][conda]
 1. [Python Basics][python]
 1. [Version Control with git and GitHub][git]
