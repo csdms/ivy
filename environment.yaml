@@ -18,8 +18,9 @@ dependencies:
   - pytest
   - coverage
   - bmipy
-  - pymt >=1.1
-  - landlab >=2.0
+  # - bmi-example-python
+  - pymt >=1.3
+  - landlab >=2.5
   - terrainbento
   - pymt_child
   - pymt_hydrotrend
