@@ -180,6 +180,66 @@ Also note that **README.md** and **readme.md** in the home directory are
 different files!
 The file systems in Linux and macOS are case-sensitive.
 
+## Viewing files
+
+We've seen how to manipulate the names and locations of files.
+How can we see what's *in* a file?
+
+There are several shell tools available to do this.
+The simplest is `cat`,
+which prints the contents of the file to the screen.
+For example, try:
+```
+$ cat readme.md
+```
+(The output is long, so we've chosen to omit it here.)
+
+Similar to `cat` are `head` and `tail`, which by default show the first and last 10 lines of a file:
+```
+$ head readme.md 
+![Ivy logo](./media/logo.png)
+
+<!-- Links -->
+
+[jhub]: https://csdms.colorado.edu/wiki/JupyterHub
+[badge]: https://img.shields.io/badge/OpenEarthscape-JupyterHub-orange
+[jupyter]: ./lessons/jupyter/index.md
+[shell]: ./lessons/shell/index.md
+[editors]: ./lessons/editors/index.md
+[conda]: ./lessons/conda/index.md
+```
+```
+$ tail readme.md 
+
+Portions of the CSDMS Ivy shell and Python lessons are derived
+from material that is copyright
+[Software Carpentry][swc]
+and remixed under their [license][swc-license].
+The Project Jupyter lesson
+is taken from the [Code to Communicate][coco] project
+and modified under their [license][coco-license].
+
+CSDMS Ivy is supported with funding from the National Science Foundation.
+```
+
+Slightly more advanced are tools called "pagers"; `more` and `less` are examples.
+A pager fills the screen with lines of text.
+If there's more text than screen,
+tap the `Space` key on your keyboard to advance to the next screen of text.
+Use the `b` key to go back.
+Use the `q` key to quit the pager.
+Try this with:
+```
+$ more readme.md
+```
+Pagers are handy for stepping through large files one screen at a time.
+
+How would we change the contents of a file?
+That's a topic unto itself.
+We'll visit it in a separate [lesson](../editors/index.md) on text editors.
+
+## Deleting files and directories
+
 Files can be deleted with the `rm` command.
 Remove our **readme.md** file with:
 ```
@@ -190,8 +250,7 @@ $ rm readme.md
 There is no concept of a "trash" or "recycle" bin in the shell.
 Once a file is removed, it's gone, irrevocably.
 
-## Removing a directory
-
+Directories are deleted with the `rmdir` command.
 As a last step, let's delete the **new** directory:
 ```
 $ rmdir new
