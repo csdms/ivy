@@ -17,6 +17,7 @@ Contributors
 * Katy Barnhart
 * Eric Hutton
 * Albert Kettner
+* Allen Lee (@alee)
 * Nathan Lyons
 * Margaux Mouchene
 * Mariela Perignon
