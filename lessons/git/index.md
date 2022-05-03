@@ -65,4 +65,4 @@ This lesson on version control continues in the following sections.
   * [Adding a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 * The full [git documentation](https://git-scm.com/docs)
 * The full [GitHub documentation](https://docs.github.com)
-* [The Basics of GitHub](https://github.com/education/github-starter-course) from [GitHub Education](https://education.github.com/)
+* [The Basics of Git and GitHub](https://github.com/comses-education/github-starter-course) from [CoMSES Net](https://comses.net/)
