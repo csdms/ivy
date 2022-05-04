@@ -16,12 +16,14 @@
 [permamodel]: ./lessons/permamodel/index.ipynb
 [best-practices]: ./lessons/best-practices/index.md
 [hpc]: ./lessons/hpc/index.md
-[jhub-link]: https://css.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2FREADME.ipynb%3Fautodecode&branch=main
+[jhub-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2FREADME.ipynb%3Fautodecode&branch=main
 [jhub-info]: https://csdms.colorado.edu/wiki/JupyterHub
 [swc]: http://software-carpentry.org
 [swc-license]: https://github.com/swcarpentry/python-novice-inflammation/blob/gh-pages/LICENSE.md
 [coco]: https://github.com/CodeToCommunicate
 [coco-license]: https://github.com/CodeToCommunicate/CoCoLessons/blob/main/LICENSE
+[comses]: https://comses.net
+[comses-license]: https://github.com/comses/git-fair-clinic/blob/main/LICENSE
 
 # CSDMS Ivy
 
@@ -102,5 +104,8 @@ and remixed under their [license][swc-license].
 The Project Jupyter lesson
 is taken from the [Code to Communicate][coco] project
 and modified under their [license][coco-license].
+The FAIR software lesson is adapted,
+under [license][comses-license],
+from a [CoMSES Net][comses] presentation.
 
 CSDMS Ivy is supported with funding from the National Science Foundation.

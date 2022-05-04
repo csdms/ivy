@@ -17,6 +17,7 @@ Contributors
 * Katy Barnhart
 * Eric Hutton
 * Albert Kettner
+* Allen Lee
 * Nathan Lyons
 * Margaux Mouchene
 * Mariela Perignon

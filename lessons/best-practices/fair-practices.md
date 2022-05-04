@@ -2,9 +2,7 @@
 
 # FAIR practices for research software
 
-*Allen Lee (Arizona State University)*
-
-FAIR is
+*FAIR* is
 
 * Findable
 * Accessible
@@ -19,19 +17,17 @@ What steps can you take to make your code FAIR?
 
 1. Document your code
 
-    - narrative documentation and descriptive metadata
-    - explicit, versioned, software, system, and data dependencies community /
-      domain specific standards
+    - Narrative documentation and descriptive metadata
+    - Explicit, versioned, software, system, and data dependencies community / domain specific standards
 
 1. Archive your code
 
-    - TRUSTed digital repository or software registry (e.g., Zenodo for GitHub repositories)
+    - TRUSTed digital repository or software registry (e.g., [Zenodo](https://zenodo.org/) for GitHub repositories)
 
 1. Use version control (the hard part)
 
-    - descriptive commit messages
-    - clear provenance (goals: small focused commits, clean history, linkages
-      between commits, issues, and pull requests, continuous integration)
+    - Descriptive commit messages
+    - Clear provenance (goals: small focused commits, clean history, linkages between commits, issues, and pull requests, continuous integration)
 
 ## Resources
 

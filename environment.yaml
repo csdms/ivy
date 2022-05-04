@@ -24,7 +24,7 @@ dependencies:
   - terrainbento
   - pymt_child
   - pymt_hydrotrend
-  - pymt_sedflux
+  - pymt_sedflux  # [unix]
   - bmi-topography
   - imageio
   - tqdm
