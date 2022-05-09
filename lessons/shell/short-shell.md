@@ -291,6 +291,10 @@ The table below summarizes the commands and special characters described in this
 | cp      | copies a file |
 | mv      | moves or renames a file |
 | diff    | compares contents of files |
+| cat     | display contents of file |
+| head    | display first lines of file |
+| tail    | display last lines of file |
+| more    | page through contents of file |
 | rm      | deletes a file (permanently) |
 | mkdir   | creates a directory |
 | rmdir   | deletes a directory (permanently) |
