@@ -90,7 +90,7 @@ The majority of the CSDMS Ivy course material is built as notebooks.
 
 [badge]: https://img.shields.io/badge/OpenEarthscape-JupyterHub-orange
 [jhub]: https://lab.openearthscape.org
-[jhub-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2Fstart.ipynb%3Fautodecode&branch=main
+[jhub-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2FREADME.ipynb%3Fautodecode&branch=main
 [jhub-info]: https://csdms.colorado.edu/wiki/JupyterHub
 [ipython]: https://ipython.org/
 [jupyter]: https://jupyter.org/
