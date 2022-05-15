@@ -38,6 +38,7 @@ What steps can you take to make your code FAIR?
 * Hinson (2019): [Dealing with Software Collapse](https://doi.org/10.1109/MCSE.2019.2900945) (and original [blog post](http://blog.khinsen.net/posts/2017/01/13/sustainable-software-and-reproducible-research-dealing-with-software-collapse/))
 * Jackson (2018): [Software Deposit: What to deposit](https://doi.org/10.5281/zenodo.1327325)
 * Gil *et al.* (2016): [Toward the Geoscience Paper of the Future: Best practices for documenting and sharing research from data to software to provenance](https://doi.org/10.1002/2015EA000136)
+* Wilson *et al.* (2014): [Best practices for scientific computing](https://doi.org/10.1371/journal.pbio.1001745)
 * LeVeque *et al.* (2012): [Reproducible research for scientific computing: Tools and strategies for changing the culture](https://www.computer.org/csdl/magazine/cs/2012/04/mcs2012040013/13rRUy3gn1m)
 
 ___
