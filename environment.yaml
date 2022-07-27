@@ -28,5 +28,3 @@ dependencies:
   - bmi-topography
   - imageio
   - tqdm
-  - jupytext
-  - pre-commit
