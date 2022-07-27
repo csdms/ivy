@@ -1,0 +1,13 @@
+# An update to the `ivy` environment that includes packages not available
+# on Windows. The `ivy` environment must exist.
+#
+# See https://stackoverflow.com/a/43873901/1563298
+#
+# Usage:
+#   $ conda env update --name ivy --file environment.unix.yaml --prune
+
+channels:
+  - conda-forge
+dependencies:
+  - pymt_cem
+  - pymt_sedflux

@@ -1,8 +1,12 @@
-# A conda environment for CSDMS Ivy lessons.
+# A conda environment file for the CSDMS Ivy lessons.
+#
+# This file is used to create the `ivy` environment on Linux, macOS, and
+# Windows. See "environment.unix.yaml" for additional packages that aren't
+# available on Windows.
 #
 # Usage:
-#   $ conda env create --file=environment.yaml
-#   $ source activate ivy
+#   $ conda env create --file environment.yaml
+#   $ conda activate ivy
 
 name: ivy
 channels:
@@ -24,9 +28,6 @@ dependencies:
   - terrainbento
   - pymt_child
   - pymt_hydrotrend
-  - pymt_sedflux  # [unix]
   - bmi-topography
   - imageio
   - tqdm
-  - jupytext
-  - pre-commit
