@@ -2,7 +2,7 @@
 
 # Anaconda and conda
 
-One attribute of Python that makes it a great language for science
+One feature of Python that makes it a great language for science
 is its abundance of packages (numpy! scipy! pandas! xarray! pymt!).
 Package management can be difficult, though,
 especially when a typical Python installation contains dozens of packages.
@@ -13,8 +13,8 @@ the [Anaconda Distribution](https://www.anaconda.com/products/distribution).
 
 With `conda`, you can:
 
-* list
 * install
+* list
 * update
 * remove
 
@@ -44,11 +44,15 @@ change to this directory and view the file **environment.yaml** with `cat`:
 ```
 $ cd ~/Desktop/ivy-main
 $ cat environment.yaml
-# A conda environment for CSDMS Ivy lessons.
+# A conda environment file for the CSDMS Ivy lessons.
+#
+# This file is used to create the `ivy` environment on Linux, macOS, and
+# Windows. See "environment.unix.yaml" for additional packages that aren't
+# available on Windows.
 #
 # Usage:
-#   $ conda env create --file=environment.yaml
-#   $ source activate ivy
+#   $ conda env create --file environment.yaml
+#   $ conda activate ivy
 
 name: ivy
 channels:
@@ -64,25 +68,25 @@ dependencies:
   - pytest
   - coverage
   - bmipy
-  - pymt >=1.1
-  - landlab >=2.0
+  # - bmi-example-python
+  - pymt >=1.3
+  - landlab >=2.5
   - terrainbento
   - pymt_child
   - pymt_hydrotrend
-  - pymt_sedflux
   - bmi-topography
   - imageio
   - tqdm
 ```
 
-The environment file lists all the packages needed to run the course material.
+The environment file lists the packages needed to run the course material.
 If a package has a dependency not explicitly listed
 (e.g., `pymt` is built on `xarray`),
 `conda` finds a compatible package version for you.
 
 To create the environment, type:
 ```
-$ conda env create --file=environment.yaml
+$ conda env create --file environment.yaml
 ```
 
 Once the environment has been created, type
@@ -92,6 +96,15 @@ $ conda activate ivy
 to make this environment current.
 (Note on Linux and macOS,
 you may have to use `source` instead of `conda` to activate the environment.)
+
+Some packages used in Ivy aren't built for Windows.
+These packages have been listed in a second environment file,
+**environment.unix.yaml**.
+To update the `ivy` environment on Linux or macOS
+with these packages, type:
+```
+$ conda env update --name ivy --file environment.unix.yaml --prune
+```
 
 Later,
 when finished using the environment, type
