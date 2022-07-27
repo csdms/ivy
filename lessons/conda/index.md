@@ -9,8 +9,7 @@ especially when a typical Python installation contains dozens of packages.
 
 This is where the `conda` *package manager* is handy,
 and a primary reason why CSDMS uses (and we recommend)
-the Anaconda Python distribution
-(now called [Anaconda Individual Edition](https://www.anaconda.com/products/individual)).
+the [Anaconda Distribution](https://www.anaconda.com/products/distribution).
 
 With `conda`, you can:
 
