@@ -15,6 +15,7 @@ Contributors
 
 * Jordan Adams
 * Katy Barnhart
+* Albert Einstein
 * Eric Hutton
 * Albert Kettner
 * Allen Lee
