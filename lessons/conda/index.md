@@ -3,7 +3,7 @@
 # Anaconda and conda
 
 One feature of Python that makes it a great language for science
-is its abundance of packages (numpy! scipy! pandas! xarray! pymt!).
+is its abundance of packages (numpy! scipy! pandas! xarray! landlab!).
 Package management can be difficult, though,
 especially when a typical Python installation contains dozens of packages.
 
@@ -31,18 +31,14 @@ so that you can use all of the CSDMS Ivy course material locally.
 Further,
 to ensure you have all the correct packages needed to use the course material,
 we ask that you set up an *environment*,
-an independent Python installation managed by `conda`.
+an independent, isolated, Python installation managed by `conda`.
 To do so,
 we'll need an *environment file* from the Ivy repository.
 
-In the ["Getting things from elsewhere"](../shell/getting-things.md) section
-of the shell lesson,
-we downloaded the Ivy repository as a zip archive and uncompressed it
-in our **Desktop** directory.
 In a terminal,
-change to this directory and view the file **environment.yaml** with `cat`:
+change to the Ivy repository directory and view the file **environment.yaml** with `cat`:
 ```
-$ cd ~/Desktop/ivy-main
+$ cd ~/ivy
 $ cat environment.yaml
 # A conda environment file for the CSDMS Ivy lessons.
 #
@@ -118,6 +114,15 @@ $ conda remove -n ivy --all
 ```
 to fully remove the environment and all its packages from your Anaconda installation.
 
+## Mamba
+
+`mamba` is a drop-in replacement for `conda`.
+It supports most `conda` commands,
+and it's typically faster,
+since it reimplements the slower parts of `conda` in C++.
+Learn more about `mamba`
+at its [GitHub repository](https://github.com/mamba-org/mamba)
+and through its [documentation](https://mamba.readthedocs.io).
 
 ## Summary
 
