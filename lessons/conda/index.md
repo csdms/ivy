@@ -35,14 +35,10 @@ an independent Python installation managed by `conda`.
 To do so,
 we'll need an *environment file* from the Ivy repository.
 
-In the ["Getting things from elsewhere"](../shell/getting-things.md) section
-of the shell lesson,
-we downloaded the Ivy repository as a zip archive and uncompressed it
-in our **Desktop** directory.
 In a terminal,
-change to this directory and view the file **environment.yaml** with `cat`:
+change to the Ivy repository directory and view the file **environment.yaml** with `cat`:
 ```
-$ cd ~/Desktop/ivy-main
+$ cd ~/ivy
 $ cat environment.yaml
 # A conda environment file for the CSDMS Ivy lessons.
 #
