@@ -31,7 +31,7 @@ so that you can use all of the CSDMS Ivy course material locally.
 Further,
 to ensure you have all the correct packages needed to use the course material,
 we ask that you set up an *environment*,
-an independent Python installation managed by `conda`.
+an independent, isolated, Python installation managed by `conda`.
 To do so,
 we'll need an *environment file* from the Ivy repository.
 
@@ -114,6 +114,15 @@ $ conda remove -n ivy --all
 ```
 to fully remove the environment and all its packages from your Anaconda installation.
 
+## Mamba
+
+`mamba` is a drop-in replacement for `conda`.
+It supports most `conda` commands,
+and it's typically faster,
+since it reimplements the slower parts of `conda` in C++.
+Learn more about `mamba`
+at its [GitHub repository](https://github.com/mamba-org/mamba)
+and through its [documentation](https://mamba.readthedocs.io).
 
 ## Summary
 
