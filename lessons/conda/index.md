@@ -3,7 +3,7 @@
 # Anaconda and conda
 
 One feature of Python that makes it a great language for science
-is its abundance of packages (numpy! scipy! pandas! xarray! pymt!).
+is its abundance of packages (numpy! scipy! pandas! xarray! landlab!).
 Package management can be difficult, though,
 especially when a typical Python installation contains dozens of packages.
 
