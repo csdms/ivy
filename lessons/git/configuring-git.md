@@ -15,10 +15,11 @@ $ git --version
 
 Configure `git` on your machine with the following commands:
 ```
-$ git config --global user.name "[your name]"
-$ git config --global user.email "[your email address]"
+$ git config --global user.name "YOUR NAME"
+$ git config --global user.email "YOUR EMAIL"
 ```
-Substitute your name and email address in the brackets above.
+Substitute your name and email address above,
+keeping the quote marks.
 This information is used by `git`,
 as well as GitHub and other `git`-based services.
 (A quick reminder,
