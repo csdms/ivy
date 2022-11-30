@@ -56,13 +56,13 @@ This lesson on version control continues in the following sections.
 
 ## Resources
 
-* Software Carpentry [lesson](https://swcarpentry.github.io/git-novice/) on version control
 * A [git command cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf) from GitHub
-* [Secure shell (SSH)](https://en.wikipedia.org/wiki/Secure_Shell) description on Wikipedia
+* The full [git documentation](https://git-scm.com/docs)
+* The full [GitHub documentation](https://docs.github.com)
 * In the GitHub documentation:
   * [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
   * [Generating a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
   * [Adding a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
-* The full [git documentation](https://git-scm.com/docs)
-* The full [GitHub documentation](https://docs.github.com)
+* A (great) BSSw blog post: [A Different Way of Looking at Git](https://bssw.io/blog_posts/a-different-way-of-looking-at-git)
 * [The Basics of Git and GitHub](https://github.com/comses-education/github-starter-course) from [CoMSES Net](https://comses.net/)
+* Software Carpentry [lesson](https://swcarpentry.github.io/git-novice/) on version control
