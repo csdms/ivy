@@ -1,31 +1,50 @@
-# YAML 1.2
----
-authors: 
-  -
-    family-names: Piper
+# This CITATION.cff file was generated with cffinit.
+# https://citation-file-format.github.io/cff-initializer-javascript/
+
+cff-version: 1.2.0
+title: CSDMS Ivy
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - family-names: Piper
     given-names: Mark
-    orcid: "https://orcid.org/0000-0001-6418-277X"
-  -
-    family-names: Campforts
+    orcid: 'https://orcid.org/0000-0001-6418-277X'
+  - family-names: Campforts
     given-names: Benjamin
-    orcid: "https://orcid.org/0000-0001-5699-6714"
-  -
-    family-names: Overeem
+    orcid: 'https://orcid.org/0000-0001-5699-6714'
+  - family-names: Overeem
     given-names: Irina
-    orcid: "https://orcid.org/0000-0002-8422-580X"
-  -
-    family-names: Gasparini
+    orcid: 'https://orcid.org/0000-0002-8422-580X'
+  - family-names: Gasparini
     given-names: Nicole
-    orcid: "https://orcid.org/0000-0002-0803-3697"
-  -
-    family-names: Arthurs
+    orcid: 'https://orcid.org/0000-0002-0803-3697'
+  - family-names: Arthurs
     given-names: Leilani
-    orcid: "https://orcid.org/0000-0002-6559-3412"
-cff-version: "1.1.0"
-date-released: 2020-08-25
-doi: "10.5281/zenodo.4000979"
-license: "CC BY 4.0"
-message: "If you use this software, please cite it using these metadata."
-title: "Earth Surface Processes Institute (ESPIn) Course Material"
-version: "1.0"
-...
+    orcid: 'https://orcid.org/0000-0002-6559-3412'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.4000979
+    description: >-
+      Earth Surface Processes Institute (ESPIn) course
+      material
+repository-code: 'https://github.com/csdms/ivy'
+url: 'https://github.com/csdms/ivy'
+abstract: >-
+  Course material on scientific software development for
+  researchers in earth and planetary surface processes.
+keywords:
+  - csdms
+  - geosciences
+  - landlab
+  - bmi
+  - pymt
+  - python
+  - git
+  - shell
+  - jupyter
+license: CC-BY-4.0
+commit: fadbf531910512e272c1e7e96f8766f3a1ef4101
+version: '2022.0'
+date-released: '2022-09-27'
