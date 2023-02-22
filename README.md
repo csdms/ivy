@@ -89,13 +89,7 @@ CSDMS Ivy grew from a National Science Foundation Cybertraining pilot program,
 Cybertraining for Earth Surface Processes Modelers*
 (award numbers
 [1924259](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1924259) and
-[1924185](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1924185)),
-led by [Irina Overeem](https://www.colorado.edu/geologicalsciences/irina-overeem)
-with a project team of
-[Leilani Arthurs](https://www.colorado.edu/geologicalsciences/leilani-arthurs),
-[Benjamin Campforts](https://instaar.colorado.edu/people/benjamin-campforts/),
-[Nicole Gasparini](https://sse.tulane.edu/eens/faculty/gasparini), and
-[Mark Piper](https://instaar.colorado.edu/people/mark-piper/).
+[1924185](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1924185)).
 
 Portions of the CSDMS Ivy shell and Python lessons are derived
 from material that is copyright
