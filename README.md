@@ -3,7 +3,7 @@
 <!-- Links -->
 
 [jhub]: https://csdms.colorado.edu/wiki/JupyterHub
-[badge]: https://img.shields.io/badge/OpenEarthscape-JupyterHub-orange
+[badge]: https://img.shields.io/badge/Run%20on-EarthscapeHub-orange
 [jupyter]: ./lessons/jupyter/index.md
 [shell]: ./lessons/shell/index.md
 [editors]: ./lessons/editors/index.md
@@ -60,14 +60,14 @@ although the ordering below represents a typical progression.
 The lessons can be run locally
 if a user installs Anaconda and a `git` client on their computer.
 All lessons are also available to run
-on the [OpenEarthscape JupyterHub][jhub].
+on [EarthscapeHub][jhub].
 Click this button:
 
-[![Run on OpenEarthscape JupyterHub][badge]][jhub-link]
+[![Run on EarthscapeHub][badge]][jhub-link]
 
-to open the lessons directly on the OpenEarthscape JupyterHub!
+to open the lessons directly on the EarthscapeHub *lab* instance!
 
-> **Note:** The OpenEarthscape JupyterHub is password-protected.
+> **Note:** The EarthscapeHub *lab* instance is password-protected.
   Please contact your instructor about obtaining a login,
   or visit [this][jhub-info] CSDMS wiki page for more information.
 
