@@ -22,7 +22,7 @@ packages from a Python installation.
 `conda` ensures that the packages work together without conflict.
 
 Because much of our work with Ivy takes place
-on the [OpenEarthscape JupyterHub](https://csdms.colorado.edu/wiki/JupyterHub),
+on [EarthscapeHub](https://csdms.colorado.edu/wiki/JupyterHub),
 we don't spend much time on `conda` here;
 however,
 we recommend installing Anaconda on your computer

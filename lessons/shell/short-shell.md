@@ -3,7 +3,7 @@
 # The shell, in brief
 
 This shortened introduction to the shell
-is designed to run on the OpenEarthscape JupyterHub.
+is designed to run on [EarthscapeHub][jhub]
 
 ## Files and directories
 
@@ -202,7 +202,6 @@ $ head readme.md
 <!-- Links -->
 
 [jhub]: https://csdms.colorado.edu/wiki/JupyterHub
-[badge]: https://img.shields.io/badge/OpenEarthscape-JupyterHub-orange
 [jupyter]: ./lessons/jupyter/index.md
 [shell]: ./lessons/shell/index.md
 [editors]: ./lessons/editors/index.md

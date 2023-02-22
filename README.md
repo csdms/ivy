@@ -3,7 +3,7 @@
 <!-- Links -->
 
 [jhub]: https://csdms.colorado.edu/wiki/JupyterHub
-[badge]: https://img.shields.io/badge/OpenEarthscape-JupyterHub-orange
+[badge]: https://img.shields.io/badge/Run%20on-EarthscapeHub-orange
 [jupyter]: ./lessons/jupyter/index.md
 [shell]: ./lessons/shell/index.md
 [editors]: ./lessons/editors/index.md
@@ -60,14 +60,14 @@ although the ordering below represents a typical progression.
 The lessons can be run locally
 if a user installs Anaconda and a `git` client on their computer.
 All lessons are also available to run
-on the [OpenEarthscape JupyterHub][jhub].
+on [EarthscapeHub][jhub].
 Click this button:
 
-[![Run on OpenEarthscape JupyterHub][badge]][jhub-link]
+[![Run on EarthscapeHub][badge]][jhub-link]
 
-to open the lessons directly on the OpenEarthscape JupyterHub!
+to open the lessons directly on the EarthscapeHub *lab* instance!
 
-> **Note:** The OpenEarthscape JupyterHub is password-protected.
+> **Note:** The EarthscapeHub *lab* instance is password-protected.
   Please contact your instructor about obtaining a login,
   or visit [this][jhub-info] CSDMS wiki page for more information.
 
@@ -89,13 +89,7 @@ CSDMS Ivy grew from a National Science Foundation Cybertraining pilot program,
 Cybertraining for Earth Surface Processes Modelers*
 (award numbers
 [1924259](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1924259) and
-[1924185](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1924185)),
-led by [Irina Overeem](https://www.colorado.edu/geologicalsciences/irina-overeem)
-with a project team of
-[Leilani Arthurs](https://www.colorado.edu/geologicalsciences/leilani-arthurs),
-[Benjamin Campforts](https://instaar.colorado.edu/people/benjamin-campforts/),
-[Nicole Gasparini](https://sse.tulane.edu/eens/faculty/gasparini), and
-[Mark Piper](https://instaar.colorado.edu/people/mark-piper/).
+[1924185](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1924185)).
 
 Portions of the CSDMS Ivy shell and Python lessons are derived
 from material that is copyright
