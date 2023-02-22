@@ -88,7 +88,7 @@ we provide a shorter lesson in which we provide only the most relevant informati
 
 1. [The shell, in brief](./short-shell.md)
 
-This shortened lesson is designed to run on the OpenEarthscape JupyterHub.
+This shortened lesson is designed to run on [EarthscapeHub](https://csdms.colorado.edu/wiki/JupyterHub).
 
 ## Resources
 

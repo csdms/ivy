@@ -27,11 +27,11 @@ CSDMS provides a [JupyterHub][jhub]
 where Ivy course material can be viewed and run.
 Click this button:
 
-[![Run on OpenEarthscape JupyterHub][badge]][jhub-link]
+[![Run on EarthscapeHub][badge]][jhub-link]
 
-to open the CSDMS Ivy lessons directly on the OpenEarthscape JupyterHub!
+to open the lessons directly on the EarthscapeHub *lab* instance!
 
-> **Note:** The OpenEarthscape JupyterHub is password-protected.
+> **Note:** The EarthscapeHub *lab* instance is password-protected.
   Please contact your instructor about obtaining a login,
   or visit [this][jhub-info] CSDMS wiki page for more information.
 
@@ -50,7 +50,7 @@ Like JupyterHub, JupyterLab can be installed
 in the cloud, on a server, or locally.
 
 Take a few minutes to familiarize yourself with the JupyterLab interface
-on the OpenEarthscape Jupyterhub.
+on EarthscapeHub.
 
 ## Jupyter Notebook
 
@@ -88,7 +88,7 @@ The majority of the CSDMS Ivy course material is built as notebooks.
 
 <!-- Links, by alpha -->
 
-[badge]: https://img.shields.io/badge/OpenEarthscape-JupyterHub-orange
+[badge]: https://img.shields.io/badge/Run%20on-EarthscapeHub-orange
 [jhub]: https://lab.openearthscape.org
 [jhub-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2FREADME.ipynb%3Fautodecode&branch=main
 [jhub-info]: https://csdms.colorado.edu/wiki/JupyterHub
