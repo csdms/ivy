@@ -8,7 +8,7 @@ An automated system then builds and tests the changes,
 ensuring that they work together.
 
 CSDMS uses the continuous integration service [GitHub Actions](https://docs.github.com/en/actions).
-What this means in practice is that 
+What this means in practice is that
 every time a pull request is submitted to a repository,
 the jobs designated in the GitHub Actions configuration file(s) are performed.
 While this varies from project to project,

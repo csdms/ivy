@@ -75,7 +75,7 @@ $ git --help -a
 
 `git` also has a (very long) `man` page:
 ```
-man git 
+man git
 ```
 
 Finally,

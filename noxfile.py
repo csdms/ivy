@@ -1,4 +1,3 @@
-import os
 import pathlib
 import shutil
 
@@ -20,7 +19,6 @@ def test(session: nox.Session) -> None:
         "auto",
         "-vvv",
     ] + session.posargs
-
 
     with session.chdir("lessons/best-practices"):
         for fname in ["examples.py", "test_examples.py"]:
@@ -61,11 +59,7 @@ def lint(session: nox.Session) -> None:
 @nox.session(python=False)
 def clean(session):
     """Remove all .venv's, build files and caches in the directory."""
-    root_folders = (
-        [ ".pytest_cache", ".venv", ".nox" ]
-        if not session.posargs
-        else []
-    )
+    root_folders = [".pytest_cache", ".venv", ".nox"] if not session.posargs else []
 
     with session.chdir(ROOT):
         for folder in root_folders:

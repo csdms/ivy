@@ -196,7 +196,7 @@ $ cat readme.md
 
 Similar to `cat` are `head` and `tail`, which by default show the first and last 10 lines of a file:
 ```
-$ head readme.md 
+$ head readme.md
 ![Ivy logo](./media/logo.png)
 
 <!-- Links -->
@@ -208,7 +208,7 @@ $ head readme.md
 [conda]: ./lessons/conda/index.md
 ```
 ```
-$ tail readme.md 
+$ tail readme.md
 
 Portions of the CSDMS Ivy shell and Python lessons are derived
 from material that is copyright
