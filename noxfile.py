@@ -6,9 +6,6 @@ import nox
 ROOT = pathlib.Path(__file__).parent
 
 
-nox.options.sessions = ["lint", "test", "test-bmi", "test-notebooks"]
-
-
 @nox.session
 def test(session: nox.Session) -> None:
     """Run the tests."""
