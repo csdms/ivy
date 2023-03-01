@@ -31,15 +31,11 @@ repos:
     - flake8-comprehensions
     - flake8-simplify
 
-- repo: https://gitlab.com/kennon.mckeever/nbhooks
-  rev: 1.0.1
+- repo: https://github.com/kynan/nbstripout
+  rev: 0.6.1
   hooks:
-  - id: nb-ensure-clean
-    name: nb-ensure-clean
-    description: Ensure that committed Jupyter notebooks contain no outputs.
-    entry: nb-ensure-clean
-    files: \.ipynb$
-    language: python
+    - id: nbstripout
+      description: Strip output from jupyter notebooks
 
 - repo: https://github.com/asottile/pyupgrade
   rev: v3.3.1
