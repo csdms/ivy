@@ -12,23 +12,41 @@ jobs:
       github.event_name == 'push' ||
       github.event.pull_request.head.repo.full_name != github.repository
 
-    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        python-version: ["3.8", "3.9", "3.10", "3.11"]
+
+    runs-on: ${{ matrix.os }}
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v3
+      - uses: conda-incubator/setup-miniconda@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+          miniforge-variant: Mambaforge
+          miniforge-version: latest
 
-      - name: Install dependencies
-        run: pip install pytest coverage
+      - name: Install nox
+        run: pip install nox
 
-      - name: Test for files
-        run: |
-          test -d ./lessons/best-practices
-          test -f ./lessons/best-practices/examples.py
-          test -f ./lessons/best-practices/test_examples.py
+      - name: Test
+        run: nox -s test
 
-      - name: Run pytest and coverage
-        run: coverage run -m pytest
+  test-notebooks:
+    name: Test the notebooks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
 
-      - name: Show coverage report
-        run: coverage report
+      - uses: conda-incubator/setup-miniconda@v2
+        with:
+          python-version: "3.11"
+          miniforge-variant: Mambaforge
+          miniforge-version: latest
+
+      - name: Install nox
+        run: pip install nox
+
+      - name: Test
+        run: nox -s test-notebooks
