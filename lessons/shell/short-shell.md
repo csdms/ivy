@@ -51,19 +51,19 @@ We can drill down through directories by providing arguments to `ls`.
 For example, to see the contents of the **ivy** directory, type:
 ```
 $ ls ivy
-AUTHORS.rst         CONTRIBUTING.rst    README.md           lessons
-CITATION.cff        LICENSE.md          data                media
-CODE-OF-CONDUCT.rst README.ipynb        environment.yaml
+AUTHORS.rst          CONTRIBUTING.rst  README.md              lessons     pytest.ini
+CITATION.cff         LICENSE.md        environment.unix.yaml  media
+CODE-OF-CONDUCT.rst  README.ipynb      environment.yaml       noxfile.py
 ```
 
 You can see that the CSDMS Ivy lesson files
 have been added to the JupyterHub.
 We can drill further; for example,
-to see into the directory containing data files, type:
+to see into the directory containing lessons, type:
 ```
-$ ls ivy/data
-Europe.csv                 swc_python.zip
-EuropePoints_xp25_ym30.csv topo.asc
+$ ls ivy/lessons
+best-practices  conda    git  jupyter  permamodel  python           shell
+bmi             editors  hpc  landlab  pymt        requirements.in
 ```
 
 ## Changing directories
