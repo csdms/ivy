@@ -9,6 +9,7 @@ ROOT = pathlib.Path(__file__).parent
 @nox.session
 def test(session: nox.Session) -> None:
     """Run the tests."""
+    session.install("matplotlib", "pandas")
     session.install("pytest", "pytest-xdist")
 
     args = [

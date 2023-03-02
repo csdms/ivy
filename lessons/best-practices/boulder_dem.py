@@ -3,7 +3,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-topo_file = "../../data/topo.asc"
+topo_file = "./data/topo.asc"
 
 
 def read():
