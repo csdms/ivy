@@ -42,6 +42,7 @@ def test_notebooks(session: nox.Session) -> None:
 
     session.conda_install("nbmake", "pytest", "pytest-xdist")
     session.conda_install("--file", "lessons/requirements.in")
+    session.install("git+https://github.com/csdms/bmi-example-python.git")
 
     session.run(*args)
 
