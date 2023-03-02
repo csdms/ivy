@@ -62,3 +62,5 @@ repos:
     - id: forbid-new-submodules
     - id: mixed-line-ending
     - id: trailing-whitespace
+    - id: file-contents-sorter
+      files: requirements.(in|txt)
