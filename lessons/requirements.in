@@ -3,6 +3,7 @@ bmi-topography
 bmipy
 imageio
 landlab >=2.5
+matplotlib
 notebook
 numpy
 pandas
