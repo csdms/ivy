@@ -1,9 +1,8 @@
-name: Flake8
+name: Lint
 
 on: [push, pull_request]
 
 jobs:
-
   lint:
     # We want to run on external PRs, but not on our own internal PRs as they'll be run
     # by the push to the branch. Without this if check, checks are duplicated since
@@ -15,12 +14,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Set up Python 3.8
-        uses: actions/setup-python@v2
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v4
         with:
-          python-version: 3.8
+          python-version: 3.11
 
       - name: Lint
         run: |
-          pip install flake8
-          flake8 lessons
+          pip install nox
+          nox -s lint

@@ -83,7 +83,6 @@ The majority of the CSDMS Ivy course material is built as notebooks.
   JupyterLab and Jupyter Notebook
 - A collection of [notable Jupyter Notebooks](https://github.com/jupyter/jupyter/wiki)
   and a comprehensive [tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
-- A fun Jupyter Notebook [tutorial](./general_jupyter_notebook_tutorial.ipynb) from Shelley Knuth, Director of Research Computing at CU Boulder
 
 
 <!-- Links, by alpha -->

@@ -57,8 +57,8 @@ The `nano` editor has a simple interface.
 Just type text.
 I'll enter the following:
 
-> Yesterday it worked  
-> Today it is not working  
+> Yesterday it worked
+> Today it is not working
 > Software is like that.
 
 (Funny, but computers are deterministic.

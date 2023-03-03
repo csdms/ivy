@@ -1,17 +1,16 @@
 """An example of reading topographical data from a file and displaying it."""
 
-import pandas as pd
 import matplotlib.pyplot as plt
+import pandas as pd
 
-
-topo_file = "../../data/topo.asc"
+topo_file = "./data/topo.asc"
 
 
 def read():
     try:
         topo = pd.read_csv(topo_file, header=None)
-    except IOError:
-        print("IOError: file '{}' cannot be read".format(topo_file))
+    except OSError:
+        print(f"IOError: file {topo_file!r} cannot be read")
     else:
         return topo
 

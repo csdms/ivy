@@ -21,7 +21,7 @@ Under the following terms:
 
 * **Attribution**---You must give appropriate credit, mentioning that
   your work is derived from work that is:
-  
+
   - Copyright Community Surface Dynamics Modeling System and, where practical,
     linking to https://csdms.colorado.edu,
   - Copyright Software Carpentry and, where practical, linking to

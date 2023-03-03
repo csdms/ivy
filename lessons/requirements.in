@@ -1,0 +1,16 @@
+# bmi-example-python
+bmi-topography
+bmipy
+imageio
+landlab >=2.5
+matplotlib
+notebook
+numpy
+pandas
+pymt >=1.3
+pymt_child
+pymt_hydrotrend
+rasterio
+scipy
+terrainbento
+tqdm
