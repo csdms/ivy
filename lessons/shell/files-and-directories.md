@@ -187,7 +187,7 @@ printing to the terminal the branch-leaf structure from a point
 in the filesystem.
 For example,
 from the **Desktop** directory,
-view the contents of the **shell-lesson-data/writing** directory 
+view the contents of the **shell-lesson-data/writing** directory
 with `tree`:
 ```
 $ tree shell-lesson-data/writing
