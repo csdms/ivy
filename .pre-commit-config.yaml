@@ -28,9 +28,16 @@ repos:
     - id: nbqa-pyupgrade
       args: ["--py38-plus"]
     - id: nbqa-isort
-#     - id: nbqa-flake8
-#       args: ["--extend-ignore=E402"]
-#       exclude: ^lessons/landlab/landlab-terrainbento
+    - id: nbqa-flake8
+      args: ["--extend-ignore=E402"]
+      exclude: |
+          (?x)^(
+              lessons/landlab/landlab-terrainbento/|
+              lessons/landlab/landlab/create_a_component.ipynb|
+              lessons/landlab/landlab/intro-to-grids.ipynb|
+              lessons/landlab/landlab/landlab-fault-scarp-for-espin.ipynb|
+              lessons/landlab/landlab/practice-your-skills.ipynb
+          )
 
 - repo: https://github.com/pycqa/flake8
   rev: 6.0.0
