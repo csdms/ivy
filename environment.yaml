@@ -12,22 +12,24 @@ name: ivy
 channels:
   - conda-forge
 dependencies:
-  - python =3
-  - pip
-  - numpy
-  - scipy
-  - pandas
-  - notebook
-  - rasterio
-  - pytest
-  - coverage
+  - python >=3.9
+  - bmi-topography
   - bmipy
-  # - bmi-example-python
-  - pymt >=1.3
+  - imageio
   - landlab >=2.5
-  - terrainbento
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - pip
+  - pymt >=1.3
   - pymt_child
   - pymt_hydrotrend
-  - bmi-topography
-  - imageio
+  - rasterio
+  - scipy
+  - terrainbento
   - tqdm
+  - coverage  # testing
+  - pytest  # testing
+  - pip:
+    - git+https://github.com/csdms/bmi-example-python.git
