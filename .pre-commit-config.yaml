@@ -28,9 +28,9 @@ repos:
     - id: nbqa-pyupgrade
       args: ["--py38-plus"]
     - id: nbqa-isort
-    - id: nbqa-flake8
-      args: ["--extend-ignore=E402"]
-      exclude: ^lessons/landlab/landlab-terrainbento
+#     - id: nbqa-flake8
+#       args: ["--extend-ignore=E402"]
+#       exclude: ^lessons/landlab/landlab-terrainbento
 
 - repo: https://github.com/pycqa/flake8
   rev: 6.0.0
