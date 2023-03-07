@@ -1,0 +1,3 @@
+[tool.nbqa.skip_celltags]
+flake8 = ["skip-flake8", "flake8-skip"]
+
