@@ -48,6 +48,67 @@ def test_notebooks(session: nox.Session) -> None:
     session.run(*args)
 
 
+@nox.session(name="insert-toc")
+def insert_toc(session: nox.Session) -> None:
+    session.install("git+https://github.com/mcflugen/heartfelt-hooks.git")
+
+    notebooks = (
+        "lessons/landlab/landlab/bedrock_landslides_on_dems.ipynb",
+        "lessons/landlab/landlab/create_a_component-solution.ipynb",
+        "lessons/landlab/landlab/fault-scarp.ipynb",
+        "lessons/landlab/landlab/intro-to-grids-solution.ipynb",
+        "lessons/landlab/landlab/intro_part_for_component_clinic.ipynb",
+        "lessons/landlab/landlab/landlab-fault-scarp-for-espin-solution.ipynb",
+        "lessons/landlab/landlab/overland_flow.ipynb",
+        "lessons/landlab/landlab/practice-your-skills-solution.ipynb",
+        "lessons/landlab/landlab/tidal_flow_calculator.ipynb",
+    )
+
+    for notebook in notebooks:
+        session.run("insert-toc", "--in-place", "--allow-missing-toc", "-vvv", notebook)
+
+
+@nox.session(name="hide-solutions")
+def hide_solutions(session: nox.Session) -> None:
+    session.install("git+https://github.com/mcflugen/heartfelt-hooks.git")
+
+    insert_toc(session)
+
+    solution_notebooks = (
+        (
+            "lessons/landlab/landlab/practice-your-skills-solution.ipynb",
+            "lessons/landlab/landlab/practice-your-skills.ipynb",
+        ),
+        (
+            "lessons/landlab/landlab/intro-to-grids-solution.ipynb",
+            "lessons/landlab/landlab/intro-to-grids.ipynb",
+        ),
+        (
+            "lessons/landlab/landlab/landlab-fault-scarp-for-espin-solution.ipynb",
+            "lessons/landlab/landlab/landlab-fault-scarp-for-espin.ipynb",
+        ),
+        (
+            "lessons/landlab/landlab/create_a_component-solution.ipynb",
+            "lessons/landlab/landlab/create_a_component.ipynb",
+        ),
+    )
+
+    for solution, lesson in solution_notebooks:
+        shutil.copy(solution, solution + ".bak")
+        out = session.run(
+            "hide-solution-cells",
+            "--silent",
+            "--tags-to-hide=solution",
+            solution,
+            external=True,
+            silent=True,
+        )
+
+        session.log(f"overwriting {lesson}")
+        with open(lesson, "w") as fp:
+            fp.write(out)
+
+
 @nox.session
 def lint(session: nox.Session) -> None:
     """Look for lint."""

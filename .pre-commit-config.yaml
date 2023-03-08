@@ -22,6 +22,23 @@ repos:
     types_or: [python, pyi, jupyter]
     additional_dependencies: [".[jupyter]"]
 
+- repo: https://github.com/nbQA-dev/nbQA
+  rev: 1.6.3
+  hooks:
+    - id: nbqa-pyupgrade
+      args: ["--py38-plus"]
+    - id: nbqa-isort
+    - id: nbqa-flake8
+      args: ["--extend-ignore=E402"]
+      exclude: |
+          (?x)^(
+              lessons/landlab/landlab-terrainbento/|
+              lessons/landlab/landlab/create_a_component.ipynb|
+              lessons/landlab/landlab/intro-to-grids.ipynb|
+              lessons/landlab/landlab/landlab-fault-scarp-for-espin.ipynb|
+              lessons/landlab/landlab/practice-your-skills.ipynb
+          )
+
 - repo: https://github.com/pycqa/flake8
   rev: 6.0.0
   hooks:
@@ -36,6 +53,7 @@ repos:
   hooks:
     - id: nbstripout
       description: Strip output from jupyter notebooks
+      args: [--drop-empty-cells]
 
 - repo: https://github.com/asottile/pyupgrade
   rev: v3.3.1
@@ -48,6 +66,12 @@ repos:
   hooks:
   - id: isort
     files: \.py$
+
+# - repo: https://github.com/mcflugen/heartfelt-hooks
+#   rev: v0.2.0
+#   hooks:
+#   - id: check-whitespace
+#   - id: check-mixed-case
 
 - repo: https://github.com/pre-commit/pre-commit-hooks
   rev: v4.4.0
