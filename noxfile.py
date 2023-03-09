@@ -55,7 +55,6 @@ def insert_toc(session: nox.Session) -> None:
     notebooks = (
         "lessons/landlab/landlab/bedrock_landslides_on_dems.ipynb",
         "lessons/landlab/landlab/create_a_component-solution.ipynb",
-        "lessons/landlab/landlab/fault-scarp.ipynb",
         "lessons/landlab/landlab/intro-to-grids-solution.ipynb",
         "lessons/landlab/landlab/intro_part_for_component_clinic.ipynb",
         "lessons/landlab/landlab/landlab-fault-scarp-for-espin-solution.ipynb",
