@@ -8,10 +8,12 @@ how to use version control on an individual or a group project.
 Imagine, for instance,
 backing up and tracking your thesis,
 or collaborating on writing a journal article
-with a colleague.
+with a colleague,
+or contributing to a Python library someone else has written.
 
 We'll broadly follow the series of actions in this workflow:
 
+* issue
 * fork
 * clone
 * status
@@ -30,24 +32,57 @@ and we'll frequently refer to this diagram of git remotes:
 ![git remotes](https://raw.githubusercontent.com/csdms/ivy/main/lessons/git/media/git-remotes-diagram.png "Git remotes")
 
 
+## Issue
+
+Say you're working with a Python library and you find a bug.
+How can you communicate this problem to the library's author?
+If the library is hosted on GitHub,
+this is where an *issue* is used.
+With an issue,
+you can report a bug,
+request a feature,
+or just ask a question about a repository.
+Issues are the primary way to communicate with a repository owner on GitHub.
+
+An issue includes a title, a body,
+and, optionally, a comment thread.
+The title should be brief, yet descriptive.
+The body is used to describe the issue;
+it can written in [Markdown](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax),
+a simple markup language.
+In the body,
+you can also `@` other GitHub users (e.g., `@mcflugen`)
+to include them on the issue.
+The comment thread is used to discuss the issue.
+GitHub provides [much more information](https://docs.github.com/en/issues/tracking-your-work-with-issues)
+on writing issues.
+
+Let's use the repository https://github.com/csdms/ivy-collaboration as an example.
+
+1. Click the link above to go to the repository page on GitHub.
+1. From the top left of the repository page, select the *Issues* button to create a new issue.
+
+In the new issue,
+request to be added as a contributor to the `ivy-collaboration` repository.
+Create a title and add appropriate language to the body of the issue to make your request.
+
 ## Fork
 
-We'll start by forking a repository on GitHub.
-A *fork* is a copy of a repository, a *remote*, placed under your GitHub account.
+After creating an issue,
+we can propose a change to the example repository.
+
+Start this process with a *fork*--a copy of a repository, a *remote*, placed under your GitHub account.
 Forks are used for repositories where you don't have write access
 (meaning you can view files, but not change them).
 Note that forking is a GitHub, not a `git`, concept.
 
-Let's use the repository https://github.com/csdms/ivy-collaboration as an example.
-
-1. Go to the [repository page](https://github.com/csdms/ivy-collaboration) on GitHub.
-1. From the top right of the repository page, select the *Fork* button--you'll
-   be asked where to create the fork; select your GitHub account.
+From the top right of https://github.com/csdms/ivy-collaboration,
+select the *Fork* button--you'll be asked where to create the fork; select your GitHub account.
 
 After the fork is created,
 the path to the repository on GitHub will read
-**[username]/ivy-collaboration** instead of **csdms/ivy-collaboration**,
-where **[username]** is your GitHub username,
+`[username]/ivy-collaboration` instead of `csdms/ivy-collaboration`,
+where `[username]` is your GitHub username,
 indicating your ownership of this copy of the repository.
 
 
@@ -61,9 +96,9 @@ As the name suggests,
 a cloned repository is an identical, but separate,
 copy of the current state of the original.
 
-On your computer, open a terminal and change to your **Desktop** directory:
+On your computer, open a terminal and change to your home directory:
 ```
-$ cd ~/Desktop
+$ cd
 ```
 Note that this is a convenience; you can do the following steps anywhere on the filesystem.
 
@@ -73,14 +108,12 @@ The syntax for the `git clone` subcommand is
 $ git clone [repository-url]
 ```
 where the bracketed text should be replaced with the SSH URL of your new repository.
-You'll be prompted to enter the password for your SSH key.
+You'll be prompted to enter the passphrase for your SSH key.
 
-The repository is cloned into the directory **ivy-collaboration**.
+The repository is cloned into the directory `ivy-collaboration`.
 Change to it and view its contents:
 ```
 $ cd ivy-collaboration
-$ pwd
-/Users/mpiper/Desktop/ivy-collaboration
 $ ls
 CONTRIBUTORS.md LICENSE   README.md
 ```
@@ -155,7 +188,7 @@ use the `git checkout` subcommand
 $ git checkout mdpiper/update-contributors
 Switched to branch 'mdpiper/update-contributors
 ```
-You can verify that the new branch is current with `git branch`.
+You can verify that the new branch is current with `git branch` or `git status`.
 
 
 ## Edit
@@ -164,16 +197,16 @@ Adding or editing content is typically where most of your time is spent
 in a project.
 In this example, however, it'll be trivial.
 
-Recall that the **ivy-collaboration** repository
-has a file, **CONTRIBUTORS.md**.
+Recall that the `ivy-collaboration` repository
+has a file, `CONTRIBUTORS.md`.
 View the files in the repository:
 ```
 $ ls
 CONTRIBUTORS.md LICENSE   README.md
 ```
 With your favorite text editor,
-open **CONTRIBUTORS.md**
-add your name to the list of contributors,
+open `CONTRIBUTORS.md`
+and add your name to the list of contributors,
 along with something interesting
 (but not too interesting--this is a public repository).
 Save the file.
@@ -245,8 +278,8 @@ to stage a subset of related changes to be grouped into a single commit.
 To finalize the changes to the repository,
 we *commit* them with `git commit`:
 ```
-$ git commit -m "Add an interesting fact to contributor list"
-[mdpiper/update-contributors 4c9565b] Add an interesting fact to contributor list
+$ git commit -m "Add member to contributor list"
+[mdpiper/update-contributors 4c9565b] Add member to contributor list
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
 
@@ -317,7 +350,7 @@ remote:
 To https://github.com/mdpiper/ivy-collaboration
  * [new branch]      mdpiper/update-contributors -> mdpiper/update-contributors
 ```
-You'll again be prompted to enter the password for your SSH key.
+You'll again be prompted to enter the passphrase for your SSH key.
 
 Note that the output from `git push`
 includes a link to create a *pull request* on GitHub.
@@ -327,22 +360,21 @@ and we'll create a pull request next.
 
 ## Pull request
 
-A *pull request* is a GitHub feature
-that allows you to argue why the changes that you've pushed to a remote
+A *pull request* allows you to argue why the changes that you've pushed to a remote
 deserve to be merged into that repository.
 In a pull request,
 you have to make a case to the owner of the repository
 that your code improves on theirs.
 
-A pull request includes a title, a body,
+Like an issue,
+a pull request includes a title, a body,
 and, optionally, a comment thread.
 The title should be brief, yet descriptive,
 and written as an imperative.
-The body is used to explain your changes
+The body,
+written in [Markdown](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax),
+is used to explain your changes
 and to argue for their inclusion in the repository.
-To help make the text more descriptive,
-the body is written in [Markdown](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax),
-a simple markup language.
 In the body,
 you can also `@` other GitHub users (e.g., `@BCampforts`)
 to include them on the pull request.
@@ -351,7 +383,7 @@ The comment thread is used to discuss the merits of the pull request.
 GitHub provides [much more information](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 on pull requests.
 
-Argue well, and your contribution may be accepted by the repository owner!
+Argue well and your contribution may be accepted by the repository owner!
 
 
 ## Merge
@@ -375,8 +407,9 @@ the *upstream* remote includes history not present in the *local* or *origin* re
 We can *sync* these repositories in a few steps.
 
 First,
-use the `git remote` subcommand to view what remotes are being tracked on your local machine:
+use the `git remote` subcommand to view what remotes are being tracked by your local repository:
 ```
+$ git remote -v
 origin	git@github.com:mdpiper/ivy-collaboration.git (fetch)
 origin	git@github.com:mdpiper/ivy-collaboration.git (push)
 ```
@@ -418,6 +451,10 @@ Finally, sync the *origin* remote by pushing the changes from your local reposit
 $ git push origin main
 ```
 
+All three repositories,
+*local*, *origin*, and *upstream*,
+now contain the same information.
+
 
 ## Summary
 
@@ -428,7 +465,8 @@ For example,
 all CSDMS products are open source.
 If you find a problem in our software, documentation,
 Jupyter Notebooks, etc.,
-please fix it and send us pull request!
+please create an issue,
+or just fix it and send us pull request!
 You'll get credit for your contribution.
 
 
@@ -437,6 +475,7 @@ This table summarizes `git` and GitHub concepts covered in this section:
 | Concept        | Description
 | ------------   | -----------
 | repository     | a storage area for files where history is tracked by version control
+| issue | a tool for tracking work on GitHub
 | fork           | a repository copied from elsewhere on GitHub that exists under your GitHub account
 | branch         | a pointer to a timeline of commits to a repository
 | current branch | the active repository branch accepting changes

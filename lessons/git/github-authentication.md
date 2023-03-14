@@ -45,13 +45,14 @@ proceed to the next section.
 To create a new SSH key,
 type the following into a terminal:
 ```
-$ ssh-keygen -t ed25519 -C "[your email address]"
+$ ssh-keygen -t ed25519 -C "YOUR EMAIL"
 ```
 The `-t` flag specifies the type of key to create;
 in this case,
 using the [ed25519](https://en.wikipedia.org/wiki/EdDSA#Ed25519) algorithm.
-Use the email address associated with your GitHub account.
-Follow the prompts and enter a password.
+Use the email address associated with your GitHub account,
+keeping the quote marks.
+Follow the prompts and enter a passphrase for the key.
 
 Check the contents of your **.ssh** directory (which will now exist if it didn't before):
 ```
@@ -60,7 +61,7 @@ id_ed25519      id_ed25519.pub
 ```
 You now have an SSH key pair (private, public).
 
-Remember your password!
+Remember your passphrase!
 You'll have to enter it when connecting to GitHub.
 Optionally,
 you can use the `ssh-agent` service on your computer to store the password;
@@ -93,11 +94,11 @@ That's it!
 
 ## Test your SSH key
 
-To check that GitHub has your SSH key, type the following in terminal:
+To check that GitHub has your SSH key, type the following in a terminal:
 ```
 $ ssh -T git@github.com
 ```
-You'll be prompted to enter the password for your key.
+You'll be prompted to enter the passphrase for your key.
 
 If you get a return like
 ```
