@@ -13,6 +13,7 @@ or contributing to a Python library someone else has written.
 
 We'll broadly follow the series of actions in this workflow:
 
+* issue
 * fork
 * clone
 * status
@@ -31,19 +32,52 @@ and we'll frequently refer to this diagram of git remotes:
 ![git remotes](https://raw.githubusercontent.com/csdms/ivy/main/lessons/git/media/git-remotes-diagram.png "Git remotes")
 
 
+## Issue
+
+Say you're working with a Python library and you find a bug.
+How can you communicate this problem to the library's author?
+If the library is hosted on GitHub,
+this is where an *issue* is used.
+With an issue,
+you can report a bug,
+request a feature,
+or just ask a question about a repository.
+Issues are the primary vehicle for communicating with a repository owner on GitHub.
+
+An issue includes a title, a body,
+and, optionally, a comment thread.
+The title should be brief, yet descriptive.
+The body is used to describe the issue;
+it can written in [Markdown](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax),
+a simple markup language.
+In the body,
+you can also `@` other GitHub users (e.g., `@mcflugen`)
+to include them on the issue.
+The comment thread is used to discuss the issue.
+GitHub provides [much more information](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
+on writing issues.
+
+Let's use the repository https://github.com/csdms/ivy-collaboration as an example.
+
+1. Click the link above to go to the repository page on GitHub.
+1. From the top left of the repository page, select the *Issues* button to create a new issue.
+
+In the new issue,
+request to be added as a contributor to the `ivy-collaboration` repository.
+Create a title and add appropriate language to the body of the issue to make your request.
+
 ## Fork
 
-We'll start by forking a repository on GitHub.
-A *fork* is a copy of a repository, a *remote*, placed under your GitHub account.
+After creating an issue,
+we can propose a change to the example repository.
+
+Start this process with a *fork*---a copy of a repository, a *remote*, placed under your GitHub account.
 Forks are used for repositories where you don't have write access
 (meaning you can view files, but not change them).
 Note that forking is a GitHub, not a `git`, concept.
 
-Let's use the repository https://github.com/csdms/ivy-collaboration as an example.
-
-1. Go to the [repository page](https://github.com/csdms/ivy-collaboration) on GitHub.
-1. From the top right of the repository page, select the *Fork* button--you'll
-   be asked where to create the fork; select your GitHub account.
+From the top right of https://github.com/csdms/ivy-collaboration,
+select the *Fork* button--you'll be asked where to create the fork; select your GitHub account.
 
 After the fork is created,
 the path to the repository on GitHub will read
@@ -337,11 +371,10 @@ a pull request includes a title, a body,
 and, optionally, a comment thread.
 The title should be brief, yet descriptive,
 and written as an imperative.
-The body is used to explain your changes
+The body,
+written in [Markdown](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax),
+is used to explain your changes
 and to argue for their inclusion in the repository.
-To help make the text more descriptive,
-the body is written in [Markdown](https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax),
-a simple markup language.
 In the body,
 you can also `@` other GitHub users (e.g., `@BCampforts`)
 to include them on the pull request.
