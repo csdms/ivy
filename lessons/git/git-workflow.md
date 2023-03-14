@@ -475,6 +475,7 @@ This table summarizes `git` and GitHub concepts covered in this section:
 | Concept        | Description
 | ------------   | -----------
 | repository     | a storage area for files where history is tracked by version control
+| issue | a tool for tracking work on GitHub
 | fork           | a repository copied from elsewhere on GitHub that exists under your GitHub account
 | branch         | a pointer to a timeline of commits to a repository
 | current branch | the active repository branch accepting changes
