@@ -71,7 +71,7 @@ Create a title and add appropriate language to the body of the issue to make you
 After creating an issue,
 we can propose a change to the example repository.
 
-Start this process with a *fork*---a copy of a repository, a *remote*, placed under your GitHub account.
+Start this process with a *fork*--a copy of a repository, a *remote*, placed under your GitHub account.
 Forks are used for repositories where you don't have write access
 (meaning you can view files, but not change them).
 Note that forking is a GitHub, not a `git`, concept.
