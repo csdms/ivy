@@ -42,7 +42,7 @@ With an issue,
 you can report a bug,
 request a feature,
 or just ask a question about a repository.
-Issues are the primary vehicle for communicating with a repository owner on GitHub.
+Issues are the primary way to communicate with a repository owner on GitHub.
 
 An issue includes a title, a body,
 and, optionally, a comment thread.
@@ -54,7 +54,7 @@ In the body,
 you can also `@` other GitHub users (e.g., `@mcflugen`)
 to include them on the issue.
 The comment thread is used to discuss the issue.
-GitHub provides [much more information](https://docs.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
+GitHub provides [much more information](https://docs.github.com/en/issues/tracking-your-work-with-issues)
 on writing issues.
 
 Let's use the repository https://github.com/csdms/ivy-collaboration as an example.
