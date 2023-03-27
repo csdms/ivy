@@ -18,30 +18,30 @@ by identifying problems before they become serious.
 It takes time to learn how to write unit tests.
 It takes time to write the tests themselves.
 Why should you,
-a busy ESP scientist,
+a busy EPSP scientist,
 want to use unit testing as a part of your work?
 Here are some reasons why:
 
-* Models are software, and every piece of code you write should have
+1. Models are software, and every piece of code you write should have
   tests to ensure it produces expected results.
-* People may be relying on the software you write. Stop bugs before
-  they happen by writing tests.
-* You're probably writing code to analyze data for your thesis, or for
+1. You're probably writing code to analyze data for your thesis, or for
   a journal article. Write tests to check that the code is performing
   the analyses correctly.
-* Reviews on paper come back with requested revisions. When you modify
+1. Reviews on a paper come back with requested revisions. When you modify
   code to make those revisions, testing lets you know if you broke
   anything.
-* Testing is a job skill. Not everyone has a job in academia; knowing
+1. People may be relying on the software you write. Stop bugs before
+  they happen by writing tests.
+1. Testing is a job skill. Not everyone has a job in academia; knowing
   unit testing is a useful skill if you take a job in software or data
   science.
-* Testing is a productivity tool! This may seem counterintuitive,
+1. Testing is a productivity tool! This may seem counterintuitive,
   since there's always additional work in testing, but it also gives
   you the confidence to explore and try things, knowing that your
   tests will let you know if you break anything.
-* Testing can make a team more efficient because untested, and
+1. Testing can make a team more efficient because untested, and
   possibly faulty, code can be caught before it's checked in to a repository.
-* Testing can provide metrics of success to a funding agency; e.g.,
+1. Testing can provide metrics of success to a funding agency; e.g.,
   the reliability of code produced on a project as measured through
   coverage statistics.
 
