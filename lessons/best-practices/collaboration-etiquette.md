@@ -7,7 +7,7 @@ for working on a collaborative project<sup>[1](#cp-fn1)</sup>.
 
 Some recommendations:
 
-1. Use issues. A good issue should describe th problem. If an error is thrown,
+1. Use issues. A good issue should describe a problem. If an error is thrown,
   the text of the error message should be included. Don't screenshot the
   error--it's not searchable, and the text of the error can't be copy/pasted
   easily.
@@ -20,7 +20,7 @@ Some recommendations:
   repository owner gets to make the final decision on what solution
   should be implemented.
 
-1. Create a new branch to make any changes to the source code. Avoid
+1. Create a new branch to make any changes to source code. Avoid
   working on the default branch, if possible.
 
 1. Before making changes to an existing branch, always check its state
@@ -34,40 +34,41 @@ Some recommendations:
 
 1. Don't check in code unless it has tests, and the tests pass.
 
-1. Make tests that are as simple as possible, and only cover only the
+1. Make tests that are as simple as possible, and only cover the
   changes made. This can be difficult, but the payoff is that you
   know exactly what the problem is when the test fails.
 
 1. Writing good tests is a learned skill. It takes time.
 
 1. When you've finished making changes, and all your tests pass, make
-  a pull request from your branch back to the default branch of the
+  a pull request back to the
   upstream repository. Be sure to argue your case in your pull
   request! You have to convince the repository owner that your
-  proposed changes will improve the repository.
+  proposed changes will improve their code.
 
 1. It's a good idea to request a reviewer on a pull request.
+
+1. Avoid responding to GitHub issues and pull requests by email--it
+  obscures the context of the issue or pull request, and adds extra
+  text to the thread on GitHub.
 
 1. It's good to review the the test results from continuous integration on each
   pull request, even when successful.
 
 1. If you're the repository owner, only merge pull requests when all
-  tests pass. The default branch to always be clean and working.
+  tests pass. The default branch of a repository should always be clean and working.
 
 And here are a few recommendations that fall outside the workflow:
 
-1. Software isn't finished until it has tests and documentation.
-  (Greg Tucker: "Write for your *future self*")
-
-1. Avoid including data in a repository. There's some gray area for data
+1. Avoid including data in a source code repository. There's some gray area for data
   used in an example, but the data should be small.
 
 1. Use conda environments liberally; you can easily set up an
   environment for testing, then discard it when finished
 
-1. Avoid responding to GitHub issues and pull requests by email--it
-  obscures the context of the issue or pull request, and adds extra
-  text to the thread on GitHub.
+1. Software isn't finished until it has tests and documentation.
+
+1. Write code for your future self.
 
 If you have suggestions for other best practices,
 please submit them as an [issue](https://github.com/csdms/ivy/issues)
@@ -88,8 +89,8 @@ If all else fails, just remember: be kind.
 * A GitHub [blog post](https://github.blog/2015-01-21-how-to-write-the-perfect-pull-request/) on writing a good pull request
 
 
-<a name="cp-fn1">1</a>: *MP*--Many of these recommended behaviors are
-the result of mistakes I've made.
+<a name="cp-fn1">1</a>: Many of these recommended behaviors are
+the result of mistakes I've made. *--MP*
 
 ___
 
