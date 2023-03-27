@@ -171,7 +171,8 @@ This table summarizes the unit testing subcommands used in this section:
 * [*Code Complete*](https://wikipedia.org/wiki/Code_Complete) is a
   comprehensive reference for all aspects of software development;
   it includes a section on unit testing
-* [Clune and Rood (2011)](../../media/clune2011software.pdf) provide a case study on how unit testing helped a NASA project
+* [Clune and Rood (2011)](https://ntrs.nasa.gov/api/citations/20110015506/downloads/20110015506.pdf
+) [PDF] provide a case study on how unit testing helped a NASA project
 * [Ministry of Testing](https://ministryoftesting.com) is an online
   resource for software test engineers
 
