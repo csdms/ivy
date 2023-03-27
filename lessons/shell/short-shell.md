@@ -3,7 +3,7 @@
 # The shell, in brief
 
 This shortened introduction to the shell
-is designed to run on [EarthscapeHub][jhub]
+is designed to run on [EarthscapeHub](https://csdms.colorado.edu/wiki/JupyterHub).
 
 ## Files and directories
 
