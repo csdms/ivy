@@ -58,7 +58,7 @@ In this configuration file,
 we instruct Actions to run the "test" job on Linux,
 only on pushes and external pull requests to the repository,
 using a default Python distribution.
-We have very little code to test in the Ivy repository<sup>[1](#ci-fn1)</sup>,
+We have very little code to test in the Ivy repository,
 but we do have the unit testing example from the previous section.
 Use `pip` to install the *pytest* and *coverage* packages
 into the default Python distribution.
@@ -96,9 +96,6 @@ alerting a developer when a build or a test fails.
 * A (long, detailed) [blog post](https://martinfowler.com/articles/continuousIntegration.html) on CI by Martin Fowler (father of "refactoring")
 * GitHub Actions [documentation](https://docs.github.com/en/actions)
 
-
-<a name="ci-fn1">1</a>: There's code in the Jupyter Notebooks that can
-be tested, but this hasn't been set up yet.
 
 ___
 
