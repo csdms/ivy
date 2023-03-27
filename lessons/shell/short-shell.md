@@ -2,7 +2,7 @@
 
 # The shell, in brief
 
-This shortened introduction to the shell
+This introduction to the shell
 is designed to run on [EarthscapeHub](https://csdms.colorado.edu/wiki/JupyterHub).
 
 ## Files and directories
