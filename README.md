@@ -91,7 +91,7 @@ Cybertraining for Earth Surface Processes Modelers*
 [1924259](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1924259) and
 [1924185](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1924185)).
 
-Portions of the CSDMS Ivy shell and Python lessons are derived
+Portions of the CSDMS Ivy Python lessons are derived
 from material that is copyright
 [Software Carpentry][swc]
 and remixed under their [license][swc-license].
