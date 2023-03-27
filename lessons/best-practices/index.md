@@ -1,6 +1,6 @@
 ![Ivy logo](https://raw.githubusercontent.com/csdms/ivy/main/media/logo.png)
 
-# Best Practices in Software Development
+# Best Practices in Scientific Software Development
 
 In this lesson, we'll discuss four topics
 that fall under the category of *best practices*--software development techniques
