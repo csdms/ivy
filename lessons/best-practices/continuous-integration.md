@@ -15,9 +15,9 @@ While this varies from project to project,
 it typically includes building and testing the software in the pull request
 on Linux, macOS, and Windows.
 
-The Ivy repository is under CI: https://github.com/csdms/ivy/actions.
-The Actions configuration file ([test.yml](../../.github/workflows/test.yml))
-used for the Ivy repository is:
+The Ivy repository uses CI: https://github.com/csdms/ivy/actions.
+The original Actions configuration file, [test.yml](../../.github/workflows/test.yml),
+used for the Ivy repository looks like:
 ```yaml
 name: Test
 
@@ -69,16 +69,14 @@ view the coverage report.
 If anything fails in this process,
 Actions stops and issues an error message.
 
-The first run of the "test" job on the Ivy repository
-is [available](https://github.com/csdms/ivy/runs/2558250304?check_suite_focus=true)
-on GitHub.
+The first run of the "test" job on the Ivy repository [passed](https://github.com/csdms/ivy/runs/2558250304?check_suite_focus=true).
 Success!
 
 For more comprehensive examples of Actions configuration files,
 including multiple jobs,
-see, e.g., [pymt](https://github.com/csdms/pymt/tree/master/.github/workflows),
+see, e.g., [landlab](https://github.com/landlab/landlab/tree/master/.github/workflows),
 [babelizer](https://github.com/csdms/babelizer/tree/develop/.github/workflows), and
-[bmi-example-c](https://github.com/csdms/bmi-example-c/blob/master/.github/workflows/conda-and-cmake.yml).
+[bmi-example-python](https://github.com/csdms/bmi-example-python/tree/master/.github/workflows).
 
 
 ## Summary
