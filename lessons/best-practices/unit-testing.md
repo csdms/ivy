@@ -49,7 +49,7 @@ Here are some reasons why:
 ## The pytest testing framework
 
 There are several unit testing frameworks available in Python;
-e.g., `nose`, `pytest`, `unittest`, `lettuce`.
+e.g., `unittest`, `nose`, `pytest`, `lettuce`.
 At CSDMS, we use `pytest`.
 
 `pytest` recursively searches a path for Python files
@@ -166,11 +166,11 @@ This table summarizes the unit testing subcommands used in this section:
 
 ## Resources
 
+* `pytest` [documentation](https://docs.pytest.org)
 * Software Carpentry Incubator [lesson](http://carpentries-incubator.github.io/python-testing/) on unit testing and continuous integration (in development)
 * [*Code Complete*](https://wikipedia.org/wiki/Code_Complete) is a
   comprehensive reference for all aspects of software development;
   it includes a section on unit testing
-* `pytest` [documentation](https://docs.pytest.org)
 * [Clune and Rood (2011)](../../media/clune2011software.pdf) provide a case study on how unit testing helped a NASA project
 * [Ministry of Testing](https://ministryoftesting.com) is an online
   resource for software test engineers
