@@ -16,7 +16,7 @@ The topics:
 were selected because they're used on a near-daily basis at CSDMS
 for the development and maintenance of our software,
 and we believe they're helpful, in general,
-for the work of ESP scientists.
+for the work of EPSP scientists.
 
 
 *Learning objectives:*
