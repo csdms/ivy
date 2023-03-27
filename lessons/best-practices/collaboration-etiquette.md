@@ -58,13 +58,26 @@ Some recommendations:
 1. If you're the repository owner, only merge pull requests when all
   tests pass. The default branch of a repository should always be clean and working.
 
-And here are a few recommendations that fall outside the workflow:
+And here are a few recommendations for software development:
+
+1. Avoid using the system Python on a computer. It's usually a dependency for other operating system tools, which makes it hard to update. For stability, it's also often a few releases behind the current version.
+
+1. Instead, use a pre-packaged scientific Python distribution with a built-in package manager. We use Anaconda at CSDMS.
+
+1. Further, rather than the full install, use a smaller base install, such as through [miniconda](https://docs.conda.io/en/latest/miniconda.html) or [miniforge](https://github.com/conda-forge/miniforge).
+
+1. Create environments to install custom sets of packages; e.g., for testing. Environments are designed to be ephemeral, trash them when you're done.
+
+1. Don't mix packages from different `conda` channels. They may not be ABI-compatible.
+
+1. Tools installed with the operating system, like `git` or `make`, may also be out of date and hard to update. They can be installed through `conda`.
+
+1. Build scientific visualizations programmatically, ideally using an open source language or, secondarily, a scriptable open source visualization tool.
+
+1. Don't alter a visualization manually (e.g., using commercial software such as Adobe Illustrator) after creating it. This breaks reproducibility.
 
 1. Avoid including data in a source code repository. There's some gray area for data
   used in an example, but the data should be small.
-
-1. Use conda environments liberally; you can easily set up an
-  environment for testing, then discard it when finished
 
 1. Software isn't finished until it has tests and documentation.
 
