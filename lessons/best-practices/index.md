@@ -1,6 +1,6 @@
 ![Ivy logo](https://raw.githubusercontent.com/csdms/ivy/main/media/logo.png)
 
-# Best Practices in Software Development
+# Best Practices in Scientific Software Development
 
 In this lesson, we'll discuss four topics
 that fall under the category of *best practices*--software development techniques
@@ -16,7 +16,7 @@ The topics:
 were selected because they're used on a near-daily basis at CSDMS
 for the development and maintenance of our software,
 and we believe they're helpful, in general,
-for the work of ESP scientists.
+for the work of EPSP scientists.
 
 
 *Learning objectives:*
