@@ -17,21 +17,13 @@
 
 ## Glossary
 
-compute node
-:   A single computer in a cluster where computations are performed.
+The table below defines some terms described in this lesson.
 
-head node
-:   The entry point in a cluster computing system, where the job scheduler resides.
-
-job
-:   A unit of work encapsulated in a script on a cluster computer.
-
-job queue
-:   An ordered list of job assembled by the scheduling software on
-    a cluster computer.
-
-node
-:   An individual computer in a cluster.
-
-scheduler
-:   Software that controls when and where a job is run on a cluster.
+| Term | Definition |
+| ---- | ---------- |
+| compute node      | A single computer in a cluster where computations are performed
+| head node         | The entry point in a cluster computing system, where the job scheduler resides
+| job               | A unit of work encapsulated in a script on a cluster computer
+| job queue         | An ordered list of job assembled by the scheduling software on a cluster computer
+| node              | An individual computer in a cluster
+| scheduler         | Software that controls when and where a job is run on a cluster
