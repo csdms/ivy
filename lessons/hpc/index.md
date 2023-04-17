@@ -34,6 +34,6 @@ Cluster computing is explored in the following linked documents.
 
 ## Acknowledgment
 
-This work utilizes the Blanca condo computing resource at the University of Colorado Boulder. 
+This work utilizes the Blanca condo computing resource at the University of Colorado Boulder.
 Blanca is jointly funded by the University of Colorado Boulder and users such as CSDMS,
 which purchased nodes on Blanca through the National Science Foundation.
