@@ -23,7 +23,7 @@
 [coco]: https://github.com/CodeToCommunicate
 [coco-license]: https://github.com/CodeToCommunicate/CoCoLessons/blob/main/LICENSE
 [comses]: https://comses.net
-[comses-license]: https://github.com/comses/git-fair-clinic/blob/main/LICENSE
+[comses-license]: https://github.com/comses-education/fair-osg-template/blob/main/LICENSE
 
 # CSDMS Ivy
 
@@ -98,8 +98,8 @@ and remixed under their [license][swc-license].
 The Project Jupyter lesson
 is taken from the [Code to Communicate][coco] project
 and modified under their [license][coco-license].
-The FAIR software lesson is adapted,
+Material in the FAIR software lesson is adapted,
 under [license][comses-license],
-from a [CoMSES Net][comses] presentation.
+from a [CoMSES Net][comses] project.
 
 CSDMS Ivy is supported with funding from the National Science Foundation.
