@@ -14,6 +14,9 @@ authors:
   - family-names: Campforts
     given-names: Benjamin
     orcid: 'https://orcid.org/0000-0001-5699-6714'
+  - family-names: Hutton
+    given-names: Eric
+    orcid: 'https://orcid.org/0000-0002-5864-6459'
   - family-names: Overeem
     given-names: Irina
     orcid: 'https://orcid.org/0000-0002-8422-580X'
@@ -45,6 +48,6 @@ keywords:
   - shell
   - jupyter
 license: CC-BY-4.0
-commit: fadbf531910512e272c1e7e96f8766f3a1ef4101
-version: '2022.0'
-date-released: '2022-09-27'
+commit: 3464d7a6dc6f7183c82af002bb78b34860bfbe44
+version: '2023.0'
+date-released: '2023-04-18'
