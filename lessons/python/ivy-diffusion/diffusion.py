@@ -3,9 +3,9 @@ import numpy as np
 
 
 class Diffusion:
-    
+
     """Model one-dimensional diffusion with fixed boundary conditions.
-    
+
     Examples
     --------
     >>> import numpy as np
@@ -41,7 +41,7 @@ class Diffusion:
         self.diffusivity = diffusivity
         self.time = 0.0
         self.time_step = self.spacing**2 / (4.0 * self.diffusivity)
-        
+
         self.concentration = np.random.random(self.shape)
 
     def solve(self):

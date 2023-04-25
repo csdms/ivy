@@ -1,7 +1,6 @@
 """A solver for the one-dimensional diffusion equation."""
 import numpy as np
 
-
 np.set_printoptions(formatter={"float": "{: 5.1f}".format})
 
 
@@ -35,7 +34,7 @@ def solve1d(concentration, spacing=1.0, time_step=1.0, diffusivity=1.0):
     """
     flux = -diffusivity * np.diff(concentration) / spacing
     concentration[1:-1] -= time_step * np.diff(flux) / spacing
-    
+
     return concentration
 
 
