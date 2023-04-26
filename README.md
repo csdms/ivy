@@ -49,13 +49,13 @@ although the ordering below represents a typical progression.
 1. [Python Fundamentals][python]
 1. [Anaconda and conda][conda]
 1. [Version Control with git and GitHub][git]
-1. [Scientific Python][python]
+1. [Python for Modeling][python]
 1. [Landlab][landlab]
 1. [The Basic Model Interface (BMI)][bmi]
 1. [The Python Modeling Toolkit (pymt)][pymt]
 1. [Permamodel Toolkit][permamodel]
-1. [Best Practices in Scientific Software Development][best-practices]
 1. [Introduction to Cluster Computing][hpc]
+1. [Best Practices in Scientific Software Development][best-practices]
 
 The lessons can be run locally
 if a user installs Anaconda and a `git` client on their computer.
