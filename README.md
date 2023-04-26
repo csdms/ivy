@@ -49,7 +49,7 @@ although the ordering below represents a typical progression.
 1. [Python Fundamentals][python]
 1. [Anaconda and conda][conda]
 1. [Version Control with git and GitHub][git]
-1. [Scientific Python][python]
+1. [Python for Modeling][python]
 1. [Landlab][landlab]
 1. [The Basic Model Interface (BMI)][bmi]
 1. [The Python Modeling Toolkit (pymt)][pymt]
