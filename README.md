@@ -16,6 +16,11 @@
 [hpc]: https://github.com/csdms/ivy/blob/main/lessons/hpc/index.md
 [jhub-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2FREADME.ipynb%3Fautodecode&branch=main
 [jhub-info]: https://csdms.colorado.edu/wiki/JupyterHub
+[contributing]: https://github.com/csdms/ivy/blob/main/CONTRIBUTING.rst
+[conduct]: https://github.com/csdms/ivy/blob/main/CODE-OF-CONDUCT.rst
+[authors]: https://github.com/csdms/ivy/blob/main/AUTHORS.rst
+[license]: https://github.com/csdms/ivy/blob/main/LICENSE.md
+[citation]: https://github.com/csdms/ivy/blob/main/CITATION.cff
 [swc]: http://software-carpentry.org
 [swc-license]: https://github.com/swcarpentry/python-novice-inflammation/blob/gh-pages/LICENSE.md
 [coco]: https://github.com/CodeToCommunicate
@@ -72,13 +77,13 @@ to open the lessons directly on the EarthscapeHub *lab* instance!
 ## Contributing
 
 CSDMS Ivy is an open source project;
-[contributions](./CONTRIBUTING.rst) that follow
-the [contributor code of conduct](./CODE-OF-CONDUCT.rst) are welcomed
-and are [acknowledged](./AUTHORS.rst).
+[contributions][contributing] that follow
+the [contributor code of conduct][conduct] are welcomed
+and are [acknowledged][authors].
 All CSDMS Ivy course material is
-released under [CC BY 4.0 and MIT licenses](./LICENSE.md).
+released under [CC BY 4.0 and MIT licenses][license].
 If you use the CSDMS Ivy course material,
-please [cite](./CITATION.cff) it.
+please [cite][citation] it.
 
 ## Acknowledgments
 
