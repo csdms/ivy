@@ -20,7 +20,6 @@
 [conduct]: https://github.com/csdms/ivy/blob/main/CODE-OF-CONDUCT.rst
 [authors]: https://github.com/csdms/ivy/blob/main/AUTHORS.rst
 [license]: https://github.com/csdms/ivy/blob/main/LICENSE.md
-[citation]: https://github.com/csdms/ivy/blob/main/CITATION.cff
 [swc]: http://software-carpentry.org
 [swc-license]: https://github.com/swcarpentry/python-novice-inflammation/blob/gh-pages/LICENSE.md
 [coco]: https://github.com/CodeToCommunicate
@@ -83,7 +82,9 @@ and are [acknowledged][authors].
 All CSDMS Ivy course material is
 released under [CC BY 4.0 and MIT licenses][license].
 If you use the CSDMS Ivy course material,
-please [cite][citation] it.
+please cite it:
+
+[![DOI](https://zenodo.org/badge/278206679.svg)](https://zenodo.org/badge/latestdoi/278206679)
 
 ## Acknowledgments
 
