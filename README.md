@@ -29,11 +29,9 @@
 
 # CSDMS Ivy
 
-CSDMS Ivy is a collection of instructional materials on
-
-* modern, collaborative, scientific software development, and
-* use of community cyberinfrastructure tools
-
+CSDMS Ivy is a collection of instructional materials
+on modern, collaborative, scientific software development
+and use of community cyberinfrastructure tools
 for researchers in earth and planetary surface processes.
 
 CSDMS Ivy is
