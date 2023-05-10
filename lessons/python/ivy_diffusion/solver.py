@@ -1,7 +1,7 @@
 """A solver for the one-dimensional diffusion equation."""
 import numpy as np
 
-np.set_printoptions(formatter={"float": "{: 5.1f}".format})
+np.set_printoptions(formatter={"float": "{: 6.1f}".format})
 
 
 def solve1d(concentration, spacing=1.0, time_step=1.0, diffusivity=1.0):
@@ -52,9 +52,9 @@ def _run_example():
     dt = dx * dx / D / 2.1
     print("Time = 0\n", C)
 
-    for t in range(1, 3):
+    for t in range(1, 5):
         solve1d(C, dx, dt, D)
-        print(f"Time = {t}\n", C)
+        print(f"Time = {t*dt}\n", C)
 
 
 if __name__ == "__main__":
