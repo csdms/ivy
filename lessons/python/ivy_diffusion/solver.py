@@ -30,7 +30,7 @@ def solve1d(concentration, spacing=1.0, time_step=1.0, diffusivity=1.0):
     >>> z = np.zeros(5)
     >>> z[2] = 5
     >>> solve1d(z, diffusivity=0.25)
-    array([  0.0,   1.2,   2.5,   1.2,   0.0])
+    array([   0.0,    1.2,    2.5,    1.2,    0.0])
     """
     flux = -diffusivity * np.diff(concentration) / spacing
     concentration[1:-1] -= time_step * np.diff(flux) / spacing
