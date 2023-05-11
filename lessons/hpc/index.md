@@ -17,7 +17,7 @@ Cluster computing is explored in the following linked documents.
 
 1. [Overview of cluster computing](./cluster-computing-overview.md)
 1. [Blanca](https://curc.readthedocs.io/en/latest/access/blanca.html)
-1. [Getting a login on Blanca](https://curc.readthedocs.io/en/latest/access/rmacc.html)
+1. [Getting a login on Blanca](https://csdms.colorado.edu/wiki/HPC)
 1. [Logging in to Blanca](https://curc.readthedocs.io/en/latest/access/rmacc.html#logging-in-to-open-ondemand)
 1. [Modules](https://curc.readthedocs.io/en/latest/compute/modules.html)
 1. [Job scripting](https://curc.readthedocs.io/en/latest/running-jobs/batch-jobs.html)
