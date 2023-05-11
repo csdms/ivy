@@ -15,7 +15,7 @@ def solve1d(concentration, spacing=1.0, time_step=1.0, diffusivity=1.0):
         Grid spacing.
     time_step : float (optional)
         Time step.
-    alpha : float (optional)
+    diffusivity : float (optional)
         Diffusivity.
 
     Returns
