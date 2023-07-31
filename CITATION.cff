@@ -28,10 +28,9 @@ authors:
     orcid: 'https://orcid.org/0000-0002-6559-3412'
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.4000979
+    value: 10.5281/zenodo.8200572
     description: >-
-      Earth Surface Processes Institute (ESPIn) course
-      material
+      CSDMS Ivy: 2023.1
 repository-code: 'https://github.com/csdms/ivy'
 url: 'https://github.com/csdms/ivy'
 abstract: >-
@@ -48,6 +47,6 @@ keywords:
   - shell
   - jupyter
 license: CC-BY-4.0
-commit: 3464d7a6dc6f7183c82af002bb78b34860bfbe44
-version: '2023.0'
-date-released: '2023-04-18'
+commit: f20200c18401625e3cb18b6a52e1b2d80d54e446
+version: '2023.1'
+date-released: '2023-07-31'
