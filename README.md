@@ -82,6 +82,8 @@ released under [CC BY 4.0 and MIT licenses](./LICENSE.md).
 If you use the CSDMS Ivy course material,
 please [cite](./CITATION.cff) it.
 
+[![DOI](https://zenodo.org/badge/278206679.svg)](https://zenodo.org/badge/latestdoi/278206679)
+
 ## Acknowledgments
 
 CSDMS Ivy grew from a National Science Foundation Cybertraining pilot program,
