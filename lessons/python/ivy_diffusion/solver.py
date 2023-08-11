@@ -49,7 +49,7 @@ def solve1d(concentration, grid_spacing=1.0, time_step=1.0, diffusivity=1.0):
 
 def diffusion_example():
     """An example of using `solve1d` in a diffusion problem."""
-    print(example.__doc__)
+    print(diffusion_example.__doc__)
     D = 100  # diffusivity
     Lx = 10  # domain length
     dx = 0.5  # grid spacing
