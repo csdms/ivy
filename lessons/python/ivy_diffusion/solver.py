@@ -40,8 +40,11 @@ def solve1d(concentration, grid_spacing=1.0, time_step=1.0, diffusivity=1.0):
     >>> from solver import solve1d
     >>> z = np.zeros(5)
     >>> z[2] = 5
+    >>> z
+    array([0.0, 0.0, 5.0, 0.0, 0.0])
     >>> solve1d(z, diffusivity=0.25)
-    array([   0.0,    1.2,    2.5,    1.2,    0.0])
+    >>> z
+    array([0.0, 1.2, 2.5, 1.2, 0.0])
     """
     flux = -diffusivity * np.diff(concentration) / grid_spacing
     concentration[1:-1] -= time_step * np.diff(flux) / grid_spacing
