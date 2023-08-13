@@ -12,11 +12,10 @@ The module name is the filename.
 Code from a module can be imported
 into an interactive Python session, a notebook, or even other modules,
 just as we have with NumPy or Matplotlib functions.
-Code in a module can be executed from a shell prompt as a *script*.
+Code in a module can also be executed from a shell prompt as a *script*.
 
 A group of modules can be bound together as a *package*.
 Packages are the most effective way to share Python code.
-
 Because packages can be installed into an environment,
 path considerations aren't an issue.
 (More on this below.)
@@ -28,8 +27,7 @@ from the diffusion code we set up in the [functions](./functions.ipynb) lesson.
 
 ## Modules
 
-Modules are defined as files on the filesystem,
-not in notebooks.
+Modules are defined as files on the filesystem.
 
 Start by opening a terminal and making a new directory `ivy_diffusion`,
 in your home directory.
@@ -55,8 +53,7 @@ open `solver.py` in a text editor.
 Copy all of the imports and functions from the [functions](./functions.ipynb) notebook
 into `solver.py`.
 
-It should look like this:
-
+The result should look something like this:
 ~~~
 """A solver for the one-dimensional diffusion equation."""
 import numpy as np
@@ -122,7 +119,6 @@ def diffusion_example():
         solve1d(C, dx, dt, D)
         print(f"Time = {t*dt:.4f}\n", C)
 ~~~
-
 (You can instead copy/paste the above, if you wish.)
 
 By convention,
@@ -142,9 +138,9 @@ add the following code to the bottom of module file `solver.py`.
 if __name__ == "__main__":
     diffusion_example()
 ~~~
-This is an example of a main program.
+This is an example of a *main program*.
 
-Calling the `solver` module as a script
+Calling the `solver` module from a shell prompt as a *script*
 executes the main program.
 ```
 $ python solver.py
@@ -161,21 +157,24 @@ Time = 0.0048
  [500.0 474.3 464.0 359.6 328.7 171.3 140.4  36.0  25.7   0.0]
 ```
 
-Scripts are handy!
-
-Typically used to run an example that demonstrates the code in a module.
+Scripts are typically used to run an example that demonstrates the code in a module,
+but they're also just a handy way to execute Python code.
 
 ### Importing code from a module
 
-We can now import code from `solver.py` into a Python session.
+We can import code from `solver.py` into a Python session.
 
-First, because we'll need NumPy, make sure you're in the `ivy` environment.
+First, because we'll need NumPy,
+make sure you're in an environment that has it installed, such as `ivy`.
 ```
 $ source activate ivy
 ```
 
-Now,
-from your `ivy_diffusion` directory,
+We'll try three different cases.
+
+### Import from current directory
+
+From your `ivy_diffusion` directory,
 start a Python session
 and attempt to import the `solve1d` function from the `solver` module.
 ```
@@ -184,7 +183,9 @@ and attempt to import the `solve1d` function from the `solver` module.
 <function solve1d at 0x105845300>
 ```
 We successfully imported the function.
-Exit the Python session (`Ctrl-D` or `exit()`),
+Exit the Python session (`Ctrl-D` or `exit()`).
+
+### Import from parent directory
 
 Next,
 change to your home directory
@@ -197,7 +198,9 @@ try to import the `solve1d` function.
 <function solve1d at 0x103495300>
 ```
 This also works.
-Exit the Python session (`Ctrl-D` or `exit()`),
+Exit the Python session (`Ctrl-D` or `exit()`).
+
+### Import from arbitrary directory
 
 Last,
 change to an arbitrary location on your filesystem;
@@ -215,6 +218,7 @@ ImportError: attempted relative import with no known parent package
 Look at the error message:
 because of the change in path,
 there's no way to get to the `solver` module.
+Exit the Python session.
 
 One way to address this is by modifying Python's path,
 but this isn't a good idea because it's not portable and doesn't scale well.
@@ -223,26 +227,37 @@ A better solution is packaging.
 
 ## Packaging
 
-What is a package?
+A *package* is a group of Python modules.
+Packages can be installed into a Python distribution or environment
+so that they're automatically included in Python's path,
+thereby making them accessible anywhere on a filesystem.
 
-Configure a directory structure for the package.
+Let's create a package for the `solver.py` module.
+
+Start by configuring a directory structure for the package.
 ```
 $ mkdir ~/ivy-diffusion && cd ~/ivy-diffusion
-$ mv ivy_diffusion .
+$ mv ~/ivy_diffusion .
 $ touch pyproject.toml
 ```
-Note the hyphen in the top directory.
+Note the hyphen in the top directory, `ivy-diffusion`.
 
-Your directory structure should look like this:
+The resulting directory structure should look like this:
 ```
 ivy-diffusion
 ├── pyproject.toml
 └── ivy_diffusion
     └── solver.py
 ```
-(This directory structure is ready to become a `git` repository.)
+This is the bare minimum set of files required to build a package.
+(As an aside,
+this directory structure is also ready to become a `git` repository.)
 
-A bare minimum `pyproject.toml` file.
+The `pyproject.toml` file is a configuration file
+that contains information used to build the package.
+Here, we'll use a very simple `pyproject.toml` file.
+With a text editor,
+copy/paste the following into your `pyproject.toml` file.
 ~~~
 [build-system]
 requires = [
@@ -255,20 +270,40 @@ build-backend = "setuptools.build_meta"
 name = "ivy-diffusion"
 version = "0.1"
 ~~~
+The information we've added configures the build system,
+and gives a name and an initial version to our project.
 
+For more information on setting up a `pyproject.toml` file,
+see the Python Packaging Authority (PyPA)
+[tutorial](https://packaging.python.org/en/latest/tutorials/packaging-projects/) and
+[sample project](https://github.com/pypa/sampleproject).
 
-Install the `ivy-diffusion` package into the `ivy` environment with:
+Last,
+use the package installer for Python, `pip`,
+to install the `ivy-diffusion` package into the `ivy` environment with:
 ```
 pip install -e .
 ```
+More information on `pip` can be found in its [documentation](https://pip.pypa.io/en/stable/).
 
 Once the package is installed,
 you can start a Python interpreter from anywhere on your file system
 and import definitions from the packaged `solver` module.
 ```
 >>> from ivy_diffusion.solver import solve1d, diffusion_example
+>>> diffusion_example()
+An example of using `solve1d` in a diffusion problem.
+Time = 0
+ [500.0 500.0 500.0 500.0 500.0   0.0   0.0   0.0   0.0   0.0]
+Time = 0.0012
+ [500.0 500.0 500.0 500.0 261.9 238.1   0.0   0.0   0.0   0.0]
+Time = 0.0024
+ [500.0 500.0 500.0 386.6 363.9 136.1 113.4   0.0   0.0   0.0]
+Time = 0.0036
+ [500.0 500.0 446.0 429.8 266.2 233.8  70.2  54.0   0.0   0.0]
+Time = 0.0048
+ [500.0 474.3 464.0 359.6 328.7 171.3 140.4  36.0  25.7   0.0]
 ```
-
 
 ## Summary
 
