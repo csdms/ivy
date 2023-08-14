@@ -3,22 +3,16 @@
 # Modules, scripts, and the basics of packaging
 
 Jupyter Notebooks can get you a long way,
-but to really advance your Python (and scientific programming) skills,
-you'll need to write source code in modules.
-A *module* is a file containing Python statements and definitions.
-It uses the `.py` extension.
-The module name is the filename.
-
+but to really advance your scientific programming skills,
+you'll need to write Python source code in a *module*.
 Code from a module can be imported
 into an interactive Python session, a notebook, or even other modules,
-just as we have with NumPy or Matplotlib functions.
+just as we can with NumPy or Matplotlib functions.
 Code in a module can also be executed from a shell prompt as a *script*.
-
 A group of modules can be bound together as a *package*.
 Packages are the most effective way to share Python code.
 Because packages can be installed into an environment,
 path considerations aren't an issue.
-(More on this below.)
 Code from an installed package can be run at any location on a filesystem.
 The NumPy and Matplotlib libraries are packages.
 
@@ -27,7 +21,9 @@ from the diffusion code we set up in the [functions](./functions.ipynb) lesson.
 
 ## Modules
 
-Modules are defined as files on the filesystem.
+A *module* is a file containing Python statements and definitions.
+It uses the `.py` extension.
+The module name is the filename.
 
 Start by opening a terminal and making a new directory `ivy_diffusion`,
 in your home directory.
@@ -129,6 +125,11 @@ One extra decoration--a module docstring--has been added at the top of the file.
 Before continuing,
 be sure to save the file `solver.py` in your text editor.
 
+Also, because we'll need NumPy in the next few sections,
+make sure you're in an environment that has it installed, such as `ivy`.
+```
+$ source activate ivy
+```
 
 ### Scripts
 
@@ -163,14 +164,7 @@ but they're also just a handy way to execute Python code.
 ### Importing code from a module
 
 We can import code from `solver.py` into a Python session.
-
-First, because we'll need NumPy,
-make sure you're in an environment that has it installed, such as `ivy`.
-```
-$ source activate ivy
-```
-
-We'll try three different cases.
+Let's try three different cases.
 
 ### Import from current directory
 
@@ -220,8 +214,8 @@ because of the change in path,
 there's no way to get to the `solver` module.
 Exit the Python session.
 
-One way to address this is by modifying Python's path,
-but this isn't a good idea because it's not portable and doesn't scale well.
+One way to address this problem is by modifying Python's path,
+but this isn't a good idea because it's not portable and it doesn't scale well.
 
 A better solution is packaging.
 
@@ -241,7 +235,6 @@ $ mv ~/ivy_diffusion .
 $ touch pyproject.toml
 ```
 Note the hyphen in the top directory, `ivy-diffusion`.
-
 The resulting directory structure should look like this:
 ```
 ivy-diffusion
@@ -270,9 +263,8 @@ build-backend = "setuptools.build_meta"
 name = "ivy-diffusion"
 version = "0.1"
 ~~~
-The information we've added configures the build system,
+The information we've added configures the build system
 and gives a name and an initial version to our project.
-
 For more information on setting up a `pyproject.toml` file,
 see the Python Packaging Authority (PyPA)
 [tutorial](https://packaging.python.org/en/latest/tutorials/packaging-projects/) and
@@ -280,7 +272,7 @@ see the Python Packaging Authority (PyPA)
 
 Last,
 use the package installer for Python, `pip`,
-to install the `ivy-diffusion` package into the `ivy` environment with:
+to install the `ivy-diffusion` package into the current environment.
 ```
 pip install -e .
 ```
@@ -313,6 +305,4 @@ of the Python documentation was used to write this lesson.
 While this lesson introduces the basics of packaging,
 there's much more to learn,
 and the best place to look for more information
-is the [Python Packaging User Guide](https://packaging.python.org/).
-
-Build and upload packaged code to PyPI for others to use.
+is the PyPA's [Python Packaging User Guide](https://packaging.python.org/).
