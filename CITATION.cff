@@ -14,6 +14,9 @@ authors:
   - family-names: Campforts
     given-names: Benjamin
     orcid: 'https://orcid.org/0000-0001-5699-6714'
+  - family-names: Hutton
+    given-names: Eric
+    orcid: 'https://orcid.org/0000-0002-5864-6459'
   - family-names: Overeem
     given-names: Irina
     orcid: 'https://orcid.org/0000-0002-8422-580X'
@@ -25,10 +28,9 @@ authors:
     orcid: 'https://orcid.org/0000-0002-6559-3412'
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.4000979
+    value: 10.5281/zenodo.8200572
     description: >-
-      Earth Surface Processes Institute (ESPIn) course
-      material
+      CSDMS Ivy: 2023.1
 repository-code: 'https://github.com/csdms/ivy'
 url: 'https://github.com/csdms/ivy'
 abstract: >-
@@ -45,6 +47,6 @@ keywords:
   - shell
   - jupyter
 license: CC-BY-4.0
-commit: fadbf531910512e272c1e7e96f8766f3a1ef4101
-version: '2022.0'
-date-released: '2022-09-27'
+commit: f20200c18401625e3cb18b6a52e1b2d80d54e446
+version: '2023.1'
+date-released: '2023-07-31'

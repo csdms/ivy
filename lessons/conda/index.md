@@ -5,11 +5,19 @@
 One feature of Python that makes it a great language for science
 is its abundance of packages (numpy! scipy! pandas! xarray! landlab!).
 Package management can be difficult, though,
-especially when a typical Python installation contains dozens of packages.
+especially when a typical Python installation may contain dozens of packages.
 
 This is where the `conda` *package manager* is handy,
 and a primary reason why CSDMS uses (and we recommend)
 the [Anaconda Distribution](https://www.anaconda.com/products/distribution).
+
+*Learning objectives:*
+
+* Learn what a package manager is, and why it's useful
+* Understand what a virtual environment is
+* Execute basic `conda` commands to set up a vitual environment
+
+## Conda
 
 With `conda`, you can:
 
@@ -30,7 +38,7 @@ so that you can use all of the CSDMS Ivy course material locally.
 
 Further,
 to ensure you have all the correct packages needed to use the course material,
-we ask that you set up an *environment*,
+we ask that you set up a *virtual environment*,
 an independent, isolated, Python installation managed by `conda`.
 To do so,
 we'll need an *environment file* from the Ivy repository.
@@ -38,8 +46,6 @@ we'll need an *environment file* from the Ivy repository.
 In a terminal,
 change to the Ivy repository directory and view the file **environment.yaml** with `cat`:
 ```
-$ cd ~/ivy
-$ cat environment.yaml
 # A conda environment file for the CSDMS Ivy lessons.
 #
 # This file is used to create the `ivy` environment on Linux, macOS, and
@@ -54,25 +60,27 @@ name: ivy
 channels:
   - conda-forge
 dependencies:
-  - python =3
-  - pip
-  - numpy
-  - scipy
-  - pandas
-  - notebook
-  - rasterio
-  - pytest
-  - coverage
+  - python >=3.9
+  - bmi-topography
   - bmipy
-  # - bmi-example-python
-  - pymt >=1.3
+  - imageio
   - landlab >=2.5
-  - terrainbento
+  - matplotlib
+  - notebook
+  - numpy
+  - pandas
+  - pip
+  - pymt >=1.3
   - pymt_child
   - pymt_hydrotrend
-  - bmi-topography
-  - imageio
+  - rasterio
+  - scipy
+  - terrainbento
   - tqdm
+  - coverage  # testing
+  - pytest  # testing
+  - pip:
+    - git+https://github.com/csdms/bmi-example-python.git
 ```
 
 The environment file lists the packages needed to run the course material.
@@ -114,7 +122,7 @@ $ conda remove -n ivy --all
 ```
 to fully remove the environment and all its packages from your Anaconda installation.
 
-## Mamba
+### Mamba
 
 `mamba` is a drop-in replacement for `conda`.
 It supports most `conda` commands,

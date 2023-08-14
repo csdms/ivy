@@ -23,7 +23,7 @@
 [coco]: https://github.com/CodeToCommunicate
 [coco-license]: https://github.com/CodeToCommunicate/CoCoLessons/blob/main/LICENSE
 [comses]: https://comses.net
-[comses-license]: https://github.com/comses/git-fair-clinic/blob/main/LICENSE
+[comses-license]: https://github.com/comses-education/fair-osg-template/blob/main/LICENSE
 
 # CSDMS Ivy
 
@@ -46,16 +46,16 @@ although the ordering below represents a typical progression.
 1. [Project Jupyter][jupyter]
 1. [Introduction to the Shell][shell]
 1. [Text Editors and Development Environments][editors]
-1. [Anaconda and conda][conda]
 1. [Python Fundamentals][python]
+1. [Anaconda and conda][conda]
 1. [Version Control with git and GitHub][git]
-1. [Scientific Python][python]
+1. [Python for Modeling][python]
 1. [Landlab][landlab]
 1. [The Basic Model Interface (BMI)][bmi]
 1. [The Python Modeling Toolkit (pymt)][pymt]
 1. [Permamodel Toolkit][permamodel]
-1. [Best Practices in Scientific Software Development][best-practices]
 1. [Introduction to Cluster Computing][hpc]
+1. [Best Practices in Scientific Software Development][best-practices]
 
 The lessons can be run locally
 if a user installs Anaconda and a `git` client on their computer.
@@ -82,6 +82,8 @@ released under [CC BY 4.0 and MIT licenses](./LICENSE.md).
 If you use the CSDMS Ivy course material,
 please [cite](./CITATION.cff) it.
 
+[![DOI](https://zenodo.org/badge/278206679.svg)](https://zenodo.org/badge/latestdoi/278206679)
+
 ## Acknowledgments
 
 CSDMS Ivy grew from a National Science Foundation Cybertraining pilot program,
@@ -98,8 +100,8 @@ and remixed under their [license][swc-license].
 The Project Jupyter lesson
 is taken from the [Code to Communicate][coco] project
 and modified under their [license][coco-license].
-The FAIR software lesson is adapted,
+Material in the FAIR software lesson is adapted,
 under [license][comses-license],
-from a [CoMSES Net][comses] presentation.
+from a [CoMSES Net][comses] project.
 
 CSDMS Ivy is supported with funding from the National Science Foundation.

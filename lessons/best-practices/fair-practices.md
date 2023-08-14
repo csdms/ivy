@@ -9,25 +9,54 @@
 * Interoperable
 * Reproducible
 
+The FAIR principles for Research Software (FAIR4RS) have been officially endorsed by the [Research Data Alliance](https://www.rd-alliance.org/) and have been published at https://doi.org/10.15497/RDA00068.
+
+Why would you want to make your code FAIR?
+
+From the article:
+
+> The ultimate goal of FAIR is to increase the transparency, reproducibility, and reusability of research. For this to happen, software needs to be well-described (by metadata), inspectable, documented and appropriately structured so that it can be executed, replicated, built-upon, combined, reinterpreted, reimplemented, and/or used in different settings. The FAIR4RS Principles aim to guide software creators and owners on how to make their software FAIR. The FAIR4RS Principles are also relevant to the larger ecosystem and various stakeholders that support research software (e.g., repositories and registries).
+
 What steps can you take to make your code FAIR?
 
-1. License your code
+### Findable
 
-    https://choosealicense.com/
+> Software and its associated metadata should be easy for both humans and machines to find.
 
-1. Document your code
+Create a persistent identifier,
+such as a [digital object identifier](https://www.doi.org/the-identifier/what-is-a-doi/) (DOI) from [Zenodo](https://zenodo.org/),
+for each released or published version of your work.
 
-    - Narrative documentation and descriptive metadata
-    - Explicit, versioned, software, system, and data dependencies community / domain specific standards
+For example:
 
-1. Archive your code
+* Ivy [![DOI](https://zenodo.org/badge/278206679.svg)](https://zenodo.org/badge/latestdoi/278206679)
+* BMI [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3955010.svg)](https://doi.org/10.5281/zenodo.3955010) and
+* Landlab [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3776837.svg)](https://doi.org/10.5281/zenodo.3776837)
 
-    - TRUSTed digital repository or software registry (e.g., [Zenodo](https://zenodo.org/) for GitHub repositories)
+all have DOIs assigned through Zenodo.
 
-1. Use version control (the hard part)
+### Accessible
 
-    - Descriptive commit messages
-    - Clear provenance (goals: small focused commits, clean history, linkages between commits, issues, and pull requests, continuous integration)
+> Software and its metadata is retrievable via standardized protocols
+
+Make your software open source,
+ensure that it is well documented with descriptive metadata and narrative documentation in durable text formats (e.g., PDF with no special extensions, .odt OpenOffice Document file, Markdown / plaintext),
+and make sure that this metadata remains accessible even if the software is not.
+
+This one is easily accomplished as long as you make your source code available on a community-supported scientific registry or repository, or via GitHub and Zenodo.
+
+### Interoperable
+
+> Software interoperates with other software by exchanging data and/or metadata, and/or through interaction via application programming interfaces (APIs), described through standards.
+
+Your software should read, write, and exchange data using domain-relevant open community standards (e.g., netCDF, HDF, domain-specific controlled vocabularies or ontologies, etc.).
+Your software should also include qualified references to other digital research objects.
+
+### Reusable
+
+> Software is both usable (can be executed) and reusable (can be understood, modified, built upon, or incorporated into other software).
+
+Software can be executed and understood, modified, built upon, or incorporated into other software---a clear and accessible license (https://choosealicense.com/), detailed provenance metadata, qualified persistent references to other software dependencies, domain-relevant community standards
 
 ## Resources
 
