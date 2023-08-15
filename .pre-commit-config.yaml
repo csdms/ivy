@@ -72,7 +72,13 @@ repos:
   hooks:
   - id: file-name-check-whitespace
   - id: nb-check-kernel
-    args: [ --verbose, --kernel-name=python3, --kernel-language=python]
+    args: [
+      --verbose,
+      --fix,
+      --kernel-name=ivy,
+      --kernel-display-name=Ivy,
+      --kernel-language=python
+    ]
   - id: nb-check-hidden-cells
     args: [--tags=solution, --solution-suffix=.a.ipynb, --diff]
   - id: notebook-check-heading-levels
