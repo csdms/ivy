@@ -1,0 +1,32 @@
+/* This is the start of the first group */
+[ 'Grain 1 (bedload)' ]
+grain size (microns):                400.0
+grain density (kg/m^3):              2625.0
+saturated density (kg/m^3):          1850.0
+minimum void ratio (-):              0.3
+diffusion coefficient (-):           0.25
+removal rate (1/day):                50
+consolidation coefficient (m^2/yr):  100000
+compaction coefficient (-):          0.0000000368
+
+/* The rest of the groups */
+[ 'Grain 2' ]
+grain size (microns):                150.0
+grain density (kg/m^3):              2600.0
+saturated density (kg/m^3):          1800.0
+minimum void ratio (-):              0.2
+diffusion coefficient (-):           0.25
+removal rate (1/day):                16.8
+consolidation coefficient (m^2/yr):  10000
+compaction coefficient (-):          0.00000005
+
+/* The rest of the groups */
+[ 'Grain 3' ]
+grain size (microns):                50.0
+grain density (kg/m^3):              2400.0
+saturated density (kg/m^3):          1600.0
+minimum void ratio (-):              0.1
+diffusion coefficient (-):           0.25
+removal rate (1/day):                1.0
+consolidation coefficient (m^2/yr):  10000
+compaction coefficient (-):          0.00000005
