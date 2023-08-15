@@ -8,3 +8,6 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ivy-diffusion"
 version = "0.1"
+dependencies = [
+    "numpy",
+]
