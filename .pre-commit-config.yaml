@@ -36,7 +36,9 @@ repos:
               lessons/landlab/landlab/create_a_component.ipynb|
               lessons/landlab/landlab/intro-to-grids.ipynb|
               lessons/landlab/landlab/landlab-fault-scarp-for-espin.ipynb|
-              lessons/landlab/landlab/practice-your-skills.ipynb
+              lessons/landlab/landlab/practice-your-skills.ipynb|
+              lessons/landlab/landlab/01-intro.ipynb|
+              lessons/landlab/landlab/05-components.ipynb
           )
 
 - repo: https://github.com/pycqa/flake8
