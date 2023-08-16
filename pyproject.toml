@@ -1,2 +1,9 @@
 [tool.nbqa.skip_celltags]
 flake8 = ["skip-flake8", "flake8-skip"]
+
+[tool.isort]
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+combine_as_imports = true
+line_length = 88
