@@ -11,7 +11,7 @@
 [python]: ./lessons/python/index.ipynb
 [git]: ./lessons/git/index.md
 [bmi]: ./lessons/bmi/index.ipynb
-[landlab]: ./lessons/landlab/index.ipynb
+[landlab]: ./lessons/landlab/landlab/00_welcome.ipynb
 [pymt]: ./lessons/pymt/index.ipynb
 [permamodel]: ./lessons/permamodel/index.ipynb
 [best-practices]: ./lessons/best-practices/index.md
