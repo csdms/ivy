@@ -262,9 +262,13 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ivy-diffusion"
 version = "0.1"
+dependencies = [
+    "numpy",
+]
 ~~~
 The information we've added configures the build system
 and gives a name and an initial version to our project.
+It also specifies that the NumPy library is required.
 For more information on setting up a `pyproject.toml` file,
 see the Python Packaging Authority (PyPA)
 [tutorial](https://packaging.python.org/en/latest/tutorials/packaging-projects/) and
