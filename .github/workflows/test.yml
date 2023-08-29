@@ -58,4 +58,6 @@ jobs:
         run: pip install nox
 
       - name: Test
+        env:
+          MPLBACKEND: "Agg"
         run: nox -s test-notebooks
