@@ -9,7 +9,7 @@
 [editors]: ./lessons/editors/index.md
 [conda]: ./lessons/conda/index.md
 [python]: ./lessons/python/index.ipynb
-[git]: ./lessons/git/index.md
+[git]: ./lessons/git/README.md
 [bmi]: ./lessons/bmi/index.ipynb
 [landlab]: ./lessons/landlab/landlab/00_welcome.ipynb
 [pymt]: ./lessons/pymt/index.ipynb
