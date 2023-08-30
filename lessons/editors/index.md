@@ -1,5 +1,3 @@
-![Ivy logo](https://raw.githubusercontent.com/csdms/ivy/main/media/logo.png)
-
 # Text Editors and Development Environments
 
 In this short lesson

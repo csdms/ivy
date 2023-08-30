@@ -1,5 +1,3 @@
-![Ivy logo](https://raw.githubusercontent.com/csdms/ivy/main/media/logo.png)
-
 # Project Jupyter
 
 <img align="right" width="150" height="150" src="https://jupyter.org/assets/homepage/main-logo.svg">

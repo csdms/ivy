@@ -1,5 +1,3 @@
-![Ivy logo](https://raw.githubusercontent.com/csdms/ivy/main/media/logo.png)
-
 # The shell, in brief
 
 This introduction to the shell
