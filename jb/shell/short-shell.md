@@ -1,0 +1,1 @@
+../../lessons/shell/short-shell.md

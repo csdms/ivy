@@ -1,0 +1,9 @@
+title: CSDMS Ivy
+author: The Community Surface Dynamics Modeling System
+copyright: "2023"
+logo: assets/logo.png
+
+execute:
+  execute_notebooks: cache
+  timeout: 300
+ 

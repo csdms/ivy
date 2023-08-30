@@ -1,0 +1,21 @@
+format: jb-book
+root: README.md
+chapters:
+- file: jupyter/index.md
+- file: shell/index.md
+  sections:
+  - file: shell/short-shell.md
+- file: editors/index.md
+- file: git/README.md
+  sections:
+  - file: git/configuring-git.md
+  - file: git/github-authentication.md
+  - file: git/git-workflow.md
+- file: pymt/index.ipynb
+  sections:
+  - file: pymt/01_model_setup.ipynb
+  - file: pymt/02_run_a_model.ipynb
+  - file: pymt/03_unit_conversion.ipynb
+  - file: pymt/04_modify.ipynb
+  - file: pymt/05_coupling.ipynb
+- file: AUTHORS.rst

@@ -1,0 +1,1 @@
+../../lessons/git/configuring-git.md
