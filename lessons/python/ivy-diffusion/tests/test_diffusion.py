@@ -10,13 +10,13 @@ ZMAX = 5.0
 
 def test_defaults():
     m = Diffusion()
-    assert type(m) == Diffusion
+    assert isinstance(m, Diffusion)
     assert m.shape == SHAPE
     assert m.spacing == SPACING
     assert m.diffusivity == DIFFUSIVITY
     assert m.time == 0.0
     assert m.time_step > 0.0
-    assert type(m.concentration) == np.ndarray
+    assert type(m.concentration) is np.ndarray
     assert len(m.concentration) == SHAPE
 
 
