@@ -1,8 +1,8 @@
 """Test the solver module."""
 import math
-import numpy as np
 
-from ivy_diffusion.solver import (calculate_time_step, set_initial_profile, solve1d)
+import numpy as np
+from ivy_diffusion.solver import calculate_time_step, set_initial_profile, solve1d
 
 DOMAIN_SIZE = 100
 GRID_SPACING = 1.0
@@ -27,7 +27,7 @@ def test_initial_profile_defaults():
 
 def test_solve1d():
     z = np.zeros(DOMAIN_SIZE)
-    z[DOMAIN_SIZE//2] = ZMAX
+    z[DOMAIN_SIZE // 2] = ZMAX
     solve1d(z, time_step=TIME_STEP)
     assert type(z) == np.ndarray
     assert len(z) == DOMAIN_SIZE

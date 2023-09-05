@@ -1,6 +1,5 @@
 """Tests for the diffusion module."""
 import numpy as np
-
 from ivy_diffusion.diffusion import Diffusion
 
 SHAPE = 10
@@ -24,7 +23,7 @@ def test_defaults():
 def test_update():
     m = Diffusion()
     m.concentration = np.zeros(SHAPE)
-    m.concentration[SHAPE//2] = ZMAX
+    m.concentration[SHAPE // 2] = ZMAX
     m.update()
     assert m.time > 0.0
     assert m.concentration.max() < ZMAX
