@@ -12,6 +12,9 @@ def test(session: nox.Session) -> None:
     session.install("matplotlib", "pandas")
     session.install("pytest", "pytest-xdist")
 
+    with session.chdir("lessons/python/ivy-diffusion"):
+        session.install("-e", ".")
+
     args = [
         "-n",
         "auto",
