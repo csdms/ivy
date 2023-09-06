@@ -12,6 +12,9 @@ def test(session: nox.Session) -> None:
     session.install("matplotlib", "pandas")
     session.install("pytest", "pytest-xdist")
 
+    with session.chdir("lessons/python/ivy-diffusion"):
+        session.install("-e", ".")
+
     args = [
         "-n",
         "auto",
@@ -33,6 +36,7 @@ def test_notebooks(session: nox.Session) -> None:
     args = [
         "pytest",
         "lessons",
+        "--ignore-glob=*py",
         "--nbmake",
         "--nbmake-kernel=python3",
         "--nbmake-timeout=3000",
