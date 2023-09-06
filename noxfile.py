@@ -36,6 +36,7 @@ def test_notebooks(session: nox.Session) -> None:
     args = [
         "pytest",
         "lessons",
+        "--ignore-glob=*py",
         "--nbmake",
         "--nbmake-kernel=python3",
         "--nbmake-timeout=3000",
