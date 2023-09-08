@@ -1,6 +1,4 @@
 """Modeling the one-dimensional diffusion equation."""
-import numpy as np
-
 from .solver import calculate_time_step, set_initial_profile, solve1d
 
 
