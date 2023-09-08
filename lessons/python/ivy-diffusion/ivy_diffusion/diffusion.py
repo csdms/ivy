@@ -12,9 +12,11 @@ class Diffusion:
     >>> from .diffusion import Diffusion
     >>> m = Diffusion(diffusivity=0.25)
     >>> m.concentration = np.zeros(m.shape)
-    >>> m.concentration[int(m.shape/2)] = 5
+    >>> m.concentration[m.shape//2] = 5
     >>> m.concentration
     array([0.0, 0.0, 0.0, 0.0, 0.0, 5.0, 0.0, 0.0, 0.0, 0.0])
+    >>> m.time_step
+    1.0
     >>> m.time
     0.0
     >>> m.update()
@@ -22,6 +24,11 @@ class Diffusion:
     1.0
     >>> m.concentration
     array([0.0, 0.0, 0.0, 0.0, 1.2, 2.5, 1.2, 0.0, 0.0, 0.0])
+    >>> m.update()
+    >>> m.time
+    2.0
+    >>> m.concentration
+    array([0.0, 0.0, 0.0, 0.3, 1.2, 1.9, 1.2, 0.3, 0.0, 0.0])
     """
 
     def __init__(self, shape=10, spacing=1.0, diffusivity=1.0):
