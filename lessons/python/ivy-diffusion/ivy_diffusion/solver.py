@@ -5,7 +5,7 @@ np.set_printoptions(precision=1, floatmode="fixed")
 
 
 def calculate_time_step(grid_spacing, diffusivity):
-    return grid_spacing**2 / diffusivity / 2.1
+    return grid_spacing**2 / diffusivity / 4.0
 
 
 def set_initial_profile(domain_size=100, boundary_left=500, boundary_right=0):

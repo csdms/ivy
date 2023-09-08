@@ -7,7 +7,7 @@ from ivy_diffusion.solver import calculate_time_step, set_initial_profile, solve
 DOMAIN_SIZE = 100
 GRID_SPACING = 1.0
 DIFFUSIVITY = 1.0
-TIME_STEP = 0.475
+TIME_STEP = 0.25
 TOLERANCE = 0.01
 ZMAX = 500.0
 
