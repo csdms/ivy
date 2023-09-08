@@ -9,7 +9,7 @@ class Diffusion:
     Examples
     --------
     >>> import numpy as np
-    >>> from diffusion import Diffusion
+    >>> from .diffusion import Diffusion
     >>> m = Diffusion(diffusivity=0.25)
     >>> m.concentration = np.zeros(m.shape)
     >>> m.concentration[int(m.shape/2)] = 5

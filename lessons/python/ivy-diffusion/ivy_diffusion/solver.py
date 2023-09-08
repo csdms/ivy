@@ -37,7 +37,7 @@ def solve1d(concentration, grid_spacing=1.0, time_step=1.0, diffusivity=1.0):
     Examples
     --------
     >>> import numpy as np
-    >>> from solver import solve1d
+    >>> from .solver import solve1d
     >>> z = np.zeros(5)
     >>> z[2] = 5
     >>> z
