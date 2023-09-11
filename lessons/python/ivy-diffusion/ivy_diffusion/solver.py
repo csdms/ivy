@@ -5,7 +5,7 @@ np.set_printoptions(precision=1, floatmode="fixed")
 
 
 def calculate_time_step(grid_spacing, diffusivity):
-    return grid_spacing**2 / diffusivity / 2.1
+    return grid_spacing**2 / diffusivity / 4.0
 
 
 def set_initial_profile(domain_size=100, boundary_left=500, boundary_right=0):
@@ -37,7 +37,7 @@ def solve1d(concentration, grid_spacing=1.0, time_step=1.0, diffusivity=1.0):
     Examples
     --------
     >>> import numpy as np
-    >>> from solver import solve1d
+    >>> from .solver import solve1d
     >>> z = np.zeros(5)
     >>> z[2] = 5
     >>> z
