@@ -30,7 +30,7 @@ def test(session: nox.Session) -> None:
     session.run("pytest", *args)
 
 
-@nox.session(name="test-notebooks", venv_backend="mamba")
+@nox.session(name="test-notebooks", venv_backend="mamba", python="3.11")
 def test_notebooks(session: nox.Session) -> None:
     """Run the notebooks."""
     args = [

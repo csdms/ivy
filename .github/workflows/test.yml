@@ -60,4 +60,4 @@ jobs:
       - name: Test
         env:
           MPLBACKEND: "Agg"
-        run: nox -s test-notebooks
+        run: nox -s test-notebooks --python "3.11"
