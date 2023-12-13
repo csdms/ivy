@@ -17,6 +17,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ### Added
 
+- Add changelog instructions ([da37453](https://github.com/csdms/ivy/commit/da374536f4030e3932e171bf948f4112b0a6fd20) by Mark Piper).
+- Add changelog created with git-changelog ([388361f](https://github.com/csdms/ivy/commit/388361f91b8b2d393d06ed39d7b61be38c2e13c5) by Mark Piper).
 - Add a package definition file for relative imports ([9bc8393](https://github.com/csdms/ivy/commit/9bc8393ea932976b058cbda7b32aac24a6afcd9c) by Mark Piper).
 - Add tests for Diffusion class ([dd4cd41](https://github.com/csdms/ivy/commit/dd4cd41c317f1649a691e1b236ebbb51eb26daa8) by Mark Piper).
 - Add tests for solver module ([f8450af](https://github.com/csdms/ivy/commit/f8450afb70de66b833eff2a103bb30820b0d6b63) by Mark Piper).
@@ -58,6 +60,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Remove unused imports ([fef801b](https://github.com/csdms/ivy/commit/fef801bdd537fd5cf985b330c99b78cfb4e335e9) by Mark Piper).
 
 <!-- insertion marker -->
+
 ## [v2023.1](https://github.com/csdms/ivy/releases/tag/v2023.1) - 2023-05-15
 
 <small>[Compare with v2023.0](https://github.com/csdms/ivy/compare/v2023.0...v2023.1)</small>
@@ -255,4 +258,3 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Removed
 
 - Remove index Notebook in favor of md file ([06bd408](https://github.com/csdms/ivy/commit/06bd4080df722e7d16f6b77cb2dbe92964fd0a31) by Mark Piper).
-
