@@ -2,7 +2,7 @@
 
 All notable changes to CSDMS Ivy will be documented in this file.
 
-Automatically add updates with:
+Use [git-changelog](https://pawamoy.github.io/git-changelog/) to update:
 ```bash
 git-changelog --in-place --output CHANGES.md
 ```
