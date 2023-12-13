@@ -11,9 +11,9 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 <!-- insertion marker -->
-## Unreleased
+## [v2023.2](https://github.com/csdms/ivy/releases/tag/v2023.2) - 2023-12-13
 
-<small>[Compare with latest](https://github.com/csdms/ivy/compare/v2023.1...HEAD)</small>
+<small>[Compare with v2023.1](https://github.com/csdms/ivy/compare/v2023.1...v2023.2)</small>
 
 ### Added
 
@@ -59,7 +59,6 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Remove lint ([0f396a7](https://github.com/csdms/ivy/commit/0f396a7db6bf665f6ee92f833e66c18025badba6) by Mark Piper).
 - Remove unused imports ([fef801b](https://github.com/csdms/ivy/commit/fef801bdd537fd5cf985b330c99b78cfb4e335e9) by Mark Piper).
 
-<!-- insertion marker -->
 
 ## [v2023.1](https://github.com/csdms/ivy/releases/tag/v2023.1) - 2023-05-15
 
