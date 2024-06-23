@@ -307,6 +307,7 @@ The [Modules](https://docs.python.org/3/tutorial/modules.html) section
 of the Python documentation was used to write this lesson.
 
 While this lesson introduces the basics of packaging,
-there's much more to learn,
-and the best place to look for more information
-is the PyPA's [Python Packaging User Guide](https://packaging.python.org/).
+there's much more to learn.
+For more information,
+see the PyPA's [Python Packaging User Guide](https://packaging.python.org/)
+and pyOpenSci's [Python Package Guide](https://www.pyopensci.org/python-package-guide/).
