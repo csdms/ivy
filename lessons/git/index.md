@@ -56,13 +56,14 @@ This lesson on version control continues in the following sections.
 
 ## Resources
 
-* A [git command cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf) from GitHub
 * The full [git documentation](https://git-scm.com/docs)
 * The full [GitHub documentation](https://docs.github.com)
 * In the GitHub documentation:
   * [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
   * [Generating a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
   * [Adding a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
+* A [git command cheatsheet](https://education.github.com/git-cheat-sheet-education.pdf) from GitHub
 * A (great) BSSw blog post: [A Different Way of Looking at Git](https://bssw.io/blog_posts/a-different-way-of-looking-at-git)
 * [The Basics of Git and GitHub](https://github.com/comses-education/github-starter-course) from [CoMSES Net](https://comses.net/)
+* [Top 12 Git commands every developer must know](https://github.blog/2024-06-10-top-12-git-commands-every-developer-must-know/) from the [GitHub blog](https://github.blog/)
 * Software Carpentry [lesson](https://swcarpentry.github.io/git-novice/) on version control
