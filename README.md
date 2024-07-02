@@ -74,8 +74,8 @@ to open the lessons directly on the EarthscapeHub *lab* instance!
 ## Contributing
 
 CSDMS Ivy is an open source project;
-[contributions](./CONTRIBUTING.rst) that follow
-the [contributor code of conduct](./CODE-OF-CONDUCT.rst) are welcomed
+[contributions](./CONTRIBUTING.md) that follow
+the [contributor code of conduct](./CODE-OF-CONDUCT.md) are welcomed
 and are [acknowledged](./AUTHORS.rst).
 All CSDMS Ivy course material is
 released under [CC BY 4.0 and MIT licenses](./LICENSE.md).
