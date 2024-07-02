@@ -60,4 +60,5 @@ jobs:
       - name: Test
         env:
           MPLBACKEND: "Agg"
+          OPENTOPOGRAPHY_API_KEY: ${{ secrets.OPENTOPOGRAPHY_API_KEY }}
         run: nox -s test-notebooks --python "3.11"
