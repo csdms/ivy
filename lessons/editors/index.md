@@ -54,7 +54,6 @@ text editors that are typically installed on a UNIX-based operating system inclu
 A sampling of other prominent text editors (some of which you have to pay for) includes
 [VS Code][code],
 [Sublime Text][sublime],
-[Atom][atom],
 [TextMate][textmate] (macOS),
 [Nova][nova] (macOS), and
 [Notepad++][nppp] (Windows).
@@ -116,7 +115,6 @@ Don't get so attached to your text editor that you think your choice is superior
 
 <!-- Links (by alpha) -->
 
-[atom]: https://en.wikipedia.org/wiki/Atom_(text_editor)
 [code]: https://en.wikipedia.org/wiki/Visual_Studio_Code
 [editor-war]: https://en.wikipedia.org/wiki/Editor_war
 [emacs]: https://en.wikipedia.org/wiki/Emacs
