@@ -1,8 +1,8 @@
 ![Ivy logo](https://raw.githubusercontent.com/csdms/ivy/main/media/logo.png)
 
-# Configuring git
+# Configuring Git
 
-When using `git` for the first time on a computer,
+When using Git for the first time on a computer,
 some setup is required.
 Start by opening a terminal
 (your preferred terminal app on Linux or macOS;
@@ -31,10 +31,8 @@ You can also set the default editor used with `git`:
 $ git config --global core.editor "nano -w"
 ```
 We'll use `nano` by default,
-but if you prefer a different editor,
-the Software Carpentry [lesson](https://swcarpentry.github.io/git-novice/02-setup/index.html)
-on version control has a summary table
-with configuration commands for various editors.
+but if you prefer a different editor (like `vim` or `emacs`),
+this is how it can be set.
 
 Check the configuration you set:
 ```
@@ -86,7 +84,7 @@ the full [git documentation](https://git-scm.com/docs) is available online.
 
 `git`:
 
-* needs to be configured on a computer before it's used
+* should be configured on a computer before it's used
 * uses subcommands
 * provides several ways to get help
 

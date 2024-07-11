@@ -1,10 +1,10 @@
 ![Ivy logo](https://raw.githubusercontent.com/csdms/ivy/main/media/logo.png)
 
-# Introduction to version control with git and GitHub
+# Introduction to version control with Git and GitHub
 
 In this lesson we'll learn about *version control*,
 a process for tracking changes to files on a computer.
-We'll use [git](https://git-scm.com/),
+We'll use [Git](https://git-scm.com/),
 a free and open source distributed version control system,
 and [GitHub](https://github.com/),
 a company that provides hosting for software development and version control
@@ -13,7 +13,7 @@ built on `git`.
 *Learning objectives:*
 
 * Understand version control concepts
-* Configure `git` and GitHub on a computer
+* Configure Git and GitHub on a computer
 * Understand basic `git` commands
 * Get exposure to some intermediate/advanced `git` commands
 * Know where to get help, or more information
@@ -49,14 +49,14 @@ Here are some examples...
 
 This lesson on version control continues in the following sections.
 
-1. [Configuring git and GitHub](./configuring-git.md)
+1. [Configuring Git and GitHub](./configuring-git.md)
 1. [GitHub authentication](./github-authentication.md)
 1. [A version control workflow](./git-workflow.md)
 
 
 ## Resources
 
-* The full [git documentation](https://git-scm.com/docs)
+* The full [Git documentation](https://git-scm.com/docs)
 * The full [GitHub documentation](https://docs.github.com)
 * In the GitHub documentation:
   * [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
