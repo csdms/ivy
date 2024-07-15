@@ -18,9 +18,11 @@ Through the use of specially designed software,
 the nodes of a cluster
 act as a single computer.
 
-A typical cluster is diagrammed here:
+A typical cluster is diagrammed Figure 1:
 
 ![A typical cluster computer configuration. (Public domain image from https://en.wikipedia.org/wiki/File:Beowulf.png)](https://upload.wikimedia.org/wikipedia/commons/4/40/Beowulf.png)
+
+*Figure 1: A typical cluster computer configuration, showing head and compute nodes. (Public domain image from https://en.wikipedia.org/wiki/File:Beowulf.png).*
 
 Note how the outside world can only communicate with the cluster through the server
 (i.e., the head node, in the terminology we're using);
