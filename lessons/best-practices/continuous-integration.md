@@ -26,51 +26,70 @@ on: [push, pull_request]
 jobs:
 
   test:
-    # We want to run on external PRs, but not on our own internal PRs as they'll be run
-    # by the push to the branch. Without this if check, checks are duplicated since
-    # internal PRs match both the push and pull_request events.
     if:
       github.event_name == 'push' ||
       github.event.pull_request.head.repo.full_name != github.repository
 
-    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest, windows-latest]
+        python-version: ["3.9", "3.10", "3.11", "3.12"]
+
+    runs-on: ${{ matrix.os }}
+
+    defaults:
+      run:
+        shell: bash -l {0}
 
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+      - uses: actions/checkout@v4
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          python-version: "${{ matrix.python-version }}"
+          miniforge-variant: Mambaforge
+          miniforge-version: latest
 
-      - name: Install dependencies
-        run: pip install pytest coverage
+      - name: Install nox
+        run: pip install nox
 
-      - name: Test for files
-        run: |
-          test -d ./lessons/best-practices
-          test -f ./lessons/best-practices/examples.py
-          test -f ./lessons/best-practices/test_examples.py
+      - name: Test
+        run: nox -s test
 
-      - name: Run pytest and coverage
-        run: coverage run -m pytest
+  test-notebooks:
 
-      - name: Show coverage report
-        run: coverage report
+    if:
+      github.event_name == 'push' ||
+      github.event.pull_request.head.repo.full_name != github.repository
+
+    name: Test the notebooks
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          python-version: "3.11"
+          miniforge-variant: Mambaforge
+          miniforge-version: latest
+
+      - name: Install nox
+        run: pip install nox
+
+      - name: Test
+        env:
+          MPLBACKEND: "Agg"
+          OPENTOPOGRAPHY_API_KEY: ${{ secrets.OPENTOPOGRAPHY_API_KEY }}
+        run: nox -s test-notebooks --python "3.11"
 ```
+
 In this configuration file,
-we instruct Actions to run the "test" job on Linux,
-only on pushes and external pull requests to the repository,
-using a default Python distribution.
-We have very little code to test in the Ivy repository,
-but we do have the unit testing example from the previous section.
-Use `pip` to install the *pytest* and *coverage* packages
-into the default Python distribution.
-Run `pytest` and `coverage` from the root of the repository,
-checking beforehand that the sample files exist.
-Afterward,
-view the coverage report.
+we instruct Actions to run the *test* and *test-notebooks* jobs on Linux, macOS, and Windows,
+for a set of Python versions,
+but only on pushes and external pull requests to the repository.
 If anything fails in this process,
 Actions stops and issues an error message.
 
-The first run of the "test" job on the Ivy repository [passed](https://github.com/csdms/ivy/runs/2558250304?check_suite_focus=true).
-Success!
+Check the [history of runs](https://github.com/csdms/ivy/actions/workflows/test.yml) of the *test* and *test-notebooks* jobs on the Ivy repository.
 
 For more comprehensive examples of Actions configuration files,
 including multiple jobs,
