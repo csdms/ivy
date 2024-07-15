@@ -15,6 +15,7 @@ Contributors
 
 * Jordan Adams
 * Katy Barnhart
+* Tian Gan
 * Eric Hutton
 * Albert Kettner
 * Allen Lee
