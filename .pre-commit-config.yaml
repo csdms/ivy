@@ -70,7 +70,7 @@ repos:
     files: \.py$
 
 - repo: https://github.com/mcflugen/heartfelt-hooks
-  rev: v0.3.2
+  rev: v1.3.3
   hooks:
   - id: file-name-check-whitespace
   - id: nb-check-kernel
