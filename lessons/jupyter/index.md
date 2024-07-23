@@ -29,9 +29,9 @@ Click this button:
 
 [![Run on EarthscapeHub][badge]][jhub-link]
 
-to open the lessons directly on the EarthscapeHub *lab* instance!
+to open the lessons directly on the EarthscapeHub *explore* instance!
 
-> **Note:** The EarthscapeHub *lab* instance is password-protected.
+> **Note:** The EarthscapeHub *explore* instance is password-protected.
   Please contact your instructor about obtaining a login,
   or visit [this][jhub-info] CSDMS wiki page for more information.
 
@@ -88,8 +88,8 @@ The majority of the CSDMS Ivy course material is built as notebooks.
 <!-- Links, by alpha -->
 
 [badge]: https://img.shields.io/badge/Run%20on-EarthscapeHub-orange
-[jhub]: https://lab.openearthscape.org
-[jhub-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2FREADME.ipynb%3Fautodecode&branch=main
+[jhub]: https://explore.openearthscape.org
+[jhub-link]: https://explore.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2FREADME.ipynb%3Fautodecode&branch=main
 [jhub-info]: https://csdms.colorado.edu/wiki/JupyterHub
 [ipython]: https://ipython.org/
 [jupyter]: https://jupyter.org/
