@@ -72,18 +72,11 @@ repos:
 - repo: https://github.com/mcflugen/heartfelt-hooks
   rev: v1.3.3
   hooks:
-  - id: file-name-check-whitespace
-  - id: nb-check-kernel
-    args: [
-      --verbose,
-      --fix,
-      --kernel-name=ivy,
-      --kernel-display-name=Ivy,
-      --kernel-language=python
-    ]
-  - id: nb-check-hidden-cells
-    args: [--tags=solution, --solution-suffix=.a.ipynb, --diff]
-  - id: notebook-check-heading-levels
+  - id: check-whitespace
+  # - id: check-mixed-case
+  # - id: check-snake-case
+  - id: check-heading-levels
+  # - id: hide-solution-cells
 
 - repo: https://github.com/pre-commit/pre-commit-hooks
   rev: v4.4.0
