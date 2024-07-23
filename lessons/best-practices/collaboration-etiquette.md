@@ -2,10 +2,10 @@
 
 # Collaborative projects ("Gitiquette")
 
-This lesson describes some best practices
-for working on a collaborative project<sup>[1](#cp-fn1)</sup>.
+This lesson describes some recommended<sup>[1](#cp-fn1)</sup> best practices
+for working on a collaborative project.
 
-Some recommendations:
+## Issues
 
 1. Use issues. A good issue should describe a problem. If an error is thrown,
   the text of the error message should be included. Don't screenshot the
@@ -20,12 +20,20 @@ Some recommendations:
   repository owner gets to make the final decision on what solution
   should be implemented.
 
+1. Avoid responding to GitHub issues by email--it
+  obscures the context of the issue and adds extra
+  text to the thread on GitHub.
+
+## Branches
+
 1. Create a new branch to make any changes to source code. Avoid
   working on the default branch, if possible.
 
 1. Before making changes to an existing branch, always check its state
   on your local repository and pull down changes from the remote, if
   necessary.
+
+## Tests
 
 1. Write new tests to address any changes you make. Don't remove old
   tests; if necessary, modify them, e.g., if the changes aren't
@@ -40,6 +48,8 @@ Some recommendations:
 
 1. Writing good tests is a learned skill. It takes time.
 
+## Pull requests
+
 1. When you've finished making changes, and all your tests pass, make
   a pull request back to the
   upstream repository. Be sure to argue your case in your pull
@@ -48,17 +58,13 @@ Some recommendations:
 
 1. It's a good idea to request a reviewer on a pull request.
 
-1. Avoid responding to GitHub issues and pull requests by email--it
-  obscures the context of the issue or pull request, and adds extra
-  text to the thread on GitHub.
-
 1. It's good to review the the test results from continuous integration on each
   pull request, even when successful.
 
 1. If you're the repository owner, only merge pull requests when all
   tests pass. The default branch of a repository should always be clean and working.
 
-And here are a few recommendations for software development:
+## Python distribution
 
 1. Avoid using the system Python on a computer. It's usually a dependency for other operating system tools, which makes it hard to update. For stability, it's also often a few releases behind the current version.
 
@@ -72,19 +78,23 @@ And here are a few recommendations for software development:
 
 1. Tools installed with the operating system, like `git` or `make`, may also be out of date and hard to update. They can be installed through `conda`.
 
+## General
+
+1. Avoid including data (input or output) in a source code repository. There's some gray area for data
+  used in an example, but the data should be small.
+
 1. Build scientific visualizations programmatically, ideally using an open source language or, secondarily, a scriptable open source visualization tool.
 
 1. Don't alter a visualization manually (e.g., using commercial software such as Adobe Illustrator) after creating it. This breaks reproducibility.
 
-1. Avoid including data in a source code repository. There's some gray area for data
-  used in an example, but the data should be small.
+1. Don't use ChatGPT. It provides answer-shaped objects, not answers. Use collected wisdom sites like Stack Overflow instead.
 
 1. Software isn't finished until it has tests and documentation.
 
 1. Write code for your future self.
 
-If you have suggestions for other best practices,
-please submit them as an [issue](https://github.com/csdms/ivy/issues)
+If you have a suggestion for a best practice,
+please submit it as an [issue](https://github.com/csdms/ivy/issues)
 to the Ivy repository!
 
 
@@ -102,7 +112,7 @@ If all else fails, just remember: be kind.
 * A GitHub [blog post](https://github.blog/2015-01-21-how-to-write-the-perfect-pull-request/) on writing a good pull request
 
 
-<a name="cp-fn1">1</a>: Many of these recommended behaviors are
+<a name="cp-fn1">1</a>: Many of these recommendations are
 the result of mistakes I've made. *--MP*
 
 ___

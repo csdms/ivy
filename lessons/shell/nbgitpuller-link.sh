@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 # Make links through the nbgitpuller-link CLI.
 
-HUB=https://lab.openearthscape.org
+HUB=https://explore.openearthscape.org
 REPO=https://github.com/csdms/ivy
 BRANCH=main
 FILE=lessons/pymt/index.ipynb

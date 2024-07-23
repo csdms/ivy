@@ -51,9 +51,11 @@ We can drill down through directories by providing arguments to `ls`.
 For example, to see the contents of the **ivy** directory, type:
 ```
 $ ls ivy
-AUTHORS.rst          CONTRIBUTING.rst  README.md              lessons     pytest.ini
-CITATION.cff         LICENSE.md        environment.unix.yaml  media
-CODE-OF-CONDUCT.rst  README.ipynb      environment.yaml       noxfile.py
+AUTHORS.rst           LICENSE.md            lessons
+CHANGES.md            README.ipynb          media
+CITATION.cff          README.md             noxfile.py
+CODE-OF-CONDUCT.md    environment.unix.yaml pyproject.toml
+CONTRIBUTING.md       environment.yaml      pytest.ini
 ```
 
 You can see that the CSDMS Ivy lesson files
@@ -62,8 +64,10 @@ We can drill further; for example,
 to see into the directory containing lessons, type:
 ```
 $ ls ivy/lessons
-best-practices  conda    git  jupyter  permamodel  python           shell
-bmi             editors  hpc  landlab  pymt        requirements.in
+best-practices  git             permamodel      shell
+bmi             hpc             pymt
+conda           jupyter         python
+editors         landlab         requirements.in
 ```
 
 ## Changing directories

@@ -16,7 +16,7 @@
 [permamodel]: ./lessons/permamodel/index.ipynb
 [best-practices]: ./lessons/best-practices/index.md
 [hpc]: ./lessons/hpc/index.md
-[jhub-link]: https://lab.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2FREADME.ipynb%3Fautodecode&branch=main
+[jhub-link]: https://explore.openearthscape.org/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2Fcsdms%2Fivy&urlpath=lab%2Ftree%2Fivy%2FREADME.ipynb%3Fautodecode&branch=main
 [jhub-info]: https://csdms.colorado.edu/wiki/JupyterHub
 [swc]: http://software-carpentry.org
 [swc-license]: https://github.com/swcarpentry/python-novice-inflammation/blob/gh-pages/LICENSE.md
@@ -65,17 +65,17 @@ Click this button:
 
 [![Run on EarthscapeHub][badge]][jhub-link]
 
-to open the lessons directly on the EarthscapeHub *lab* instance!
+to open the lessons directly on the EarthscapeHub *explore* instance!
 
-> **Note:** The EarthscapeHub *lab* instance is password-protected.
+> **Note:** The EarthscapeHub *explore* instance is password-protected.
   Please contact your instructor about obtaining a login,
   or visit [this][jhub-info] CSDMS wiki page for more information.
 
 ## Contributing
 
 CSDMS Ivy is an open source project;
-[contributions](./CONTRIBUTING.rst) that follow
-the [contributor code of conduct](./CODE-OF-CONDUCT.rst) are welcomed
+[contributions](./CONTRIBUTING.md) that follow
+the [contributor code of conduct](./CODE-OF-CONDUCT.md) are welcomed
 and are [acknowledged](./AUTHORS.rst).
 All CSDMS Ivy course material is
 released under [CC BY 4.0 and MIT licenses](./LICENSE.md).

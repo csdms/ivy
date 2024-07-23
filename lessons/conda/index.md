@@ -77,8 +77,7 @@ dependencies:
   - scipy
   - terrainbento
   - tqdm
-  - coverage  # testing
-  - pytest  # testing
+  - nox
   - pip:
     - git+https://github.com/csdms/bmi-example-python.git
 ```
