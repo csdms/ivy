@@ -1,4 +1,4 @@
-![Ivy logo](./media/logo.png)
+![Ivy logo](https://raw.githubusercontent.com/csdms/project/main/assets/CSDMS-logo-color-tagline-hor.png)
 
 <!-- Links -->
 
