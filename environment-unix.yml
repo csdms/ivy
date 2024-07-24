@@ -4,7 +4,7 @@
 # See https://stackoverflow.com/a/43873901/1563298
 #
 # Usage:
-#   $ conda env update --name ivy --file environment.unix.yaml --prune
+#   $ conda env update --name ivy --file environment-unix.yaml --prune
 
 channels:
   - conda-forge
