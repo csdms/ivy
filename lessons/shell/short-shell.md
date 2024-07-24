@@ -1,4 +1,4 @@
-![Ivy logo](https://raw.githubusercontent.com/csdms/ivy/main/media/logo.png)
+![Ivy logo](https://raw.githubusercontent.com/csdms/project/main/assets/CSDMS-logo-color-tagline-hor.png)
 
 # The shell, in brief
 
@@ -201,7 +201,7 @@ $ cat readme.md
 Similar to `cat` are `head` and `tail`, which by default show the first and last 10 lines of a file:
 ```
 $ head readme.md
-![Ivy logo](./media/logo.png)
+![Ivy logo](https://raw.githubusercontent.com/csdms/project/main/assets/CSDMS-logo-color-tagline-hor.png)
 
 <!-- Links -->
 

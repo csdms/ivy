@@ -1,4 +1,4 @@
-<a href="https://csdms.colorado.edu"><img style="float: center; width: 75%" src="https://raw.githubusercontent.com/csdms/ivy/main/media/logo.png"></a>
+<a href="https://csdms.colorado.edu"><img style="float: center; width: 75%" src="https://raw.githubusercontent.com/csdms/project/main/assets/CSDMS-logo-color-tagline-hor.png"></a>
 
 # Modules, scripts, and the basics of packaging
 
