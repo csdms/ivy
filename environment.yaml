@@ -1,7 +1,7 @@
 # A conda environment file for the CSDMS Ivy lessons.
 #
 # This file is used to create the `ivy` environment on Linux, macOS, and
-# Windows. See "environment.unix.yaml" for additional packages that aren't
+# Windows. See "environment-unix.yaml" for additional packages that aren't
 # available on Windows.
 #
 # Usage:
@@ -12,11 +12,12 @@ name: ivy
 channels:
   - conda-forge
 dependencies:
-  - python >=3.9
+  - python >=3.10
   - bmi-topography
   - bmipy
   - imageio
-  - landlab >=2.5
+  - ipykernel
+  - landlab >=2.8
   - matplotlib
   - notebook
   - numpy
@@ -27,8 +28,10 @@ dependencies:
   - pymt_hydrotrend
   - rasterio
   - scipy
-  - terrainbento
+#  - terrainbento
   - tqdm
   - nox
   - pip:
     - git+https://github.com/csdms/bmi-example-python.git
+    - git+https://github.com/terrainbento/terrainbento.git
+
