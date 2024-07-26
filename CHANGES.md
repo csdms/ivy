@@ -11,6 +11,20 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 <!-- insertion marker -->
+## [v2024.0](https://github.com/csdms/ivy/releases/tag/v2024.0) - 2024-07-26
+
+<small>[Compare with v2023.2](https://github.com/csdms/ivy/compare/v2023.2...v2024.0)</small>
+
+### Added
+
+- Add a rainfall-runoff modeling tutorial (#138) ([6fc043f](https://github.com/csdms/ivy/commit/6fc043f90716153972d79bf53ac752517b33d812) by gantian127).
+- add a placeholder for hidden code ([6ffdabc](https://github.com/csdms/ivy/commit/6ffdabceb27179e0883747ddcb6fe3208ac74c56) by mcflugen).
+- add placeholder cells for answers ([150f090](https://github.com/csdms/ivy/commit/150f090bf88fcb1a713e20425c9168244ea1ff44) by mcflugen).
+
+### Removed
+
+- Remove top-level media directory (#139) ([4160b2f](https://github.com/csdms/ivy/commit/4160b2fe292306fe52b090c4ac40f7587d381f42) by Mark Piper).
+
 ## [v2023.2](https://github.com/csdms/ivy/releases/tag/v2023.2) - 2023-12-13
 
 <small>[Compare with v2023.1](https://github.com/csdms/ivy/compare/v2023.1...v2023.2)</small>
