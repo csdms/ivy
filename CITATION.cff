@@ -31,9 +31,9 @@ authors:
     orcid: 'https://orcid.org/0000-0002-6559-3412'
 identifiers:
   - type: doi
-    value: 10.5281/zenodo.8200572
+    value: 10.5281/zenodo.4000978
     description: >-
-      CSDMS Ivy: 2023.1
+      CSDMS Ivy
 repository-code: 'https://github.com/csdms/ivy'
 url: 'https://github.com/csdms/ivy'
 abstract: >-
@@ -50,6 +50,6 @@ keywords:
   - shell
   - jupyter
 license: CC-BY-4.0
-commit: f20200c18401625e3cb18b6a52e1b2d80d54e446
-version: '2023.1'
-date-released: '2023-07-31'
+commit: be832698a2fe3811cf27707e8314c2109d982942
+version: '2024.0'
+date-released: '2024-07-26'
