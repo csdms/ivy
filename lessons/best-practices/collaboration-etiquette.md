@@ -80,6 +80,8 @@ for working on a collaborative project.
 
 ## General
 
+1. Don't hardcode model configuration values; use a configuration file in a plain text format like cfg, yaml, or toml, and read in the values.
+
 1. Avoid including data (input or output) in a source code repository. There's some gray area for data
   used in an example, but the data should be small.
 
