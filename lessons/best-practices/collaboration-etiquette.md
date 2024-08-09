@@ -83,6 +83,8 @@ for working on a collaborative project.
 1. Avoid including data (input or output) in a source code repository. There's some gray area for data
   used in an example, but the data should be small.
 
+1. If a function takes up more than one screen, it may be too long. Consider factoring it into smaller programs.
+
 1. Build scientific visualizations programmatically, ideally using an open source language or, secondarily, a scriptable open source visualization tool.
 
 1. Don't alter a visualization manually (e.g., using commercial software such as Adobe Illustrator) after creating it. This breaks reproducibility.
