@@ -13,6 +13,7 @@ channels:
   - conda-forge
 dependencies:
   - python >=3.10
+  - bmi-geotiff
   - bmi-topography
   - bmipy
   - imageio
