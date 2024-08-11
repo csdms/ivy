@@ -80,8 +80,14 @@ for working on a collaborative project.
 
 ## General
 
+1. Don't hardcode model configuration values; use a configuration file in a plain text format like cfg, yaml, or toml, and read in the values.
+
+1. You don't need an upstream remote when you own a repository. If your team or organization owns a repository, an upstream remote may not be necessary (depending on org rules or practices), but it may still be a good idea.
+
 1. Avoid including data (input or output) in a source code repository. There's some gray area for data
   used in an example, but the data should be small.
+
+1. If a function takes up more than one screen, it may be too long. Consider factoring it into smaller programs.
 
 1. Build scientific visualizations programmatically, ideally using an open source language or, secondarily, a scriptable open source visualization tool.
 
