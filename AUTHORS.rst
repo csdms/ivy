@@ -22,6 +22,7 @@ Contributors
 * Nathan Lyons
 * Margaux Mouchene
 * Mariela Perignon
+* Ethan Pierce
 * Katherine Ratliff
 * Greg Tucker
 * Kang Wang
