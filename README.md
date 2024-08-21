@@ -76,7 +76,7 @@ to open the lessons directly on the EarthscapeHub *explore* instance!
 CSDMS Ivy is an open source project;
 [contributions](./CONTRIBUTING.md) that follow
 the [contributor code of conduct](./CODE-OF-CONDUCT.md) are welcomed
-and are [acknowledged](./AUTHORS.rst).
+and are [acknowledged](./AUTHORS.md).
 All CSDMS Ivy course material is
 released under [CC BY 4.0 and MIT licenses](./LICENSE.md).
 If you use the CSDMS Ivy course material,
