@@ -61,6 +61,7 @@ Software can be executed and understood, modified, built upon, or incorporated i
 ## Resources
 
 * Five recommendations for FAIR software: https://fair-software.eu
+* [Responsible Scientific Software Practices](https://www.youtube.com/playlist?list=PLjgV-BPJumxuMqDIiAEtmZSsVTollSup_), a video tutorial series from [CoMSES Net](https://www.comses.net/)
 * Barba (2022): [Defining the role of open source software in research reproducibility](https://arxiv.org/abs/2204.12564)
 * Lamprecht *et al.* (2020): [Towards FAIR principles for research software](https://doi.org/10.3233/DS-190026)
     * Anna-Lena Lamprecht's 2021 CSDMS webinar: [FAIR & Research Software](https://csdms.colorado.edu/wiki/Presenters-0548)
