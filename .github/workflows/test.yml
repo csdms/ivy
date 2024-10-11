@@ -28,7 +28,6 @@ jobs:
       - uses: conda-incubator/setup-miniconda@v3
         with:
           python-version: "${{ matrix.python-version }}"
-          miniforge-variant: Mambaforge
           miniforge-version: latest
 
       - name: Install nox
@@ -51,7 +50,6 @@ jobs:
       - uses: conda-incubator/setup-miniconda@v3
         with:
           python-version: "3.11"
-          miniforge-variant: Mambaforge
           miniforge-version: latest
 
       - name: Install nox
