@@ -70,7 +70,7 @@ repos:
     files: \.py$
 
 - repo: https://github.com/mcflugen/heartfelt-hooks
-  rev: v1.3.3
+  rev: v0.3.3
   hooks:
   - id: check-whitespace
   # - id: check-mixed-case
