@@ -5,10 +5,21 @@ A record of changes to CSDMS Ivy.
 ## [v2024.0](https://github.com/csdms/ivy/releases/tag/v2024.0) (2024-07-26)
 <small>[Compare with v2023.2](https://github.com/csdms/ivy/compare/v2023.2...v2024.0)</small>
 
+* Tian/update (#140)
+* Remove top-level media directory (#139)
+* Add a rainfall-runoff modeling tutorial (#138)
+* Prepare for 2024 release (#137)
+* Add answer cells in landlab notebooks (#135)
 
 ## [v2023.2](https://github.com/csdms/ivy/releases/tag/v2023.2) (2023-12-13)
 <small>[Compare with v2023.1](https://github.com/csdms/ivy/compare/v2023.1...v2023.2)</small>
 
+* Adjust CFL formula (#133)
+* Use functions from solver module in Diffusion class (#132)
+* Add a note on reference copying (#130)
+* Add tests for ivy-diffusion package (#127)
+* Use a static matplotlib backend in CI (#125)
+* Add new landlab lessons (#124)
 * Add additional linters (#123)
 * Rearrange Python lessons (#120)
 * Restructure the functions lesson (#119)
