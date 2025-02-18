@@ -2,6 +2,17 @@
 
 A record of changes to CSDMS Ivy.
 
+## Unreleased
+
+* Test notebooks with a separate CI workflow (#151)
+* Remove python 3.9 and 3.10 from testing (#150)
+* Update setup miniconda action (#149)
+* Update landlab component notebook for roadshow (#148)
+* Update author list (#146)
+* Fix problems found during ESPIn 2024 (#145)
+* Apply updated formatting (#144)
+* Yet another OOP lesson (#141)
+
 ## [v2024.0](https://github.com/csdms/ivy/releases/tag/v2024.0) (2024-07-26)
 <small>[Compare with v2023.2](https://github.com/csdms/ivy/compare/v2023.2...v2024.0)</small>
 
