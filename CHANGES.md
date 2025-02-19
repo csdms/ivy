@@ -2,8 +2,10 @@
 
 A record of changes to CSDMS Ivy.
 
-## Unreleased
+## [v2025.0](https://github.com/csdms/ivy/releases/tag/v2025.0) (2025-02-18)
+<small>[Compare with v2024.0](https://github.com/csdms/ivy/compare/v2024.0...v2025.0)</small>
 
+* Fix changelog (#154)
 * Test notebooks with a separate CI workflow (#151)
 * Remove python 3.9 and 3.10 from testing (#150)
 * Update setup miniconda action (#149)
