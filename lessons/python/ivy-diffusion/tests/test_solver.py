@@ -1,4 +1,5 @@
 """Test the solver module."""
+
 import math
 
 import numpy as np

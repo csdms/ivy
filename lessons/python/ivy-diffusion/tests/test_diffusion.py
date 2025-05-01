@@ -1,4 +1,5 @@
 """Tests for the diffusion module."""
+
 import numpy as np
 from ivy_diffusion.diffusion import Diffusion
 

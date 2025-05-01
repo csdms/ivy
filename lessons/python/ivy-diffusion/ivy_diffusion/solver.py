@@ -1,4 +1,5 @@
 """A solver for the one-dimensional diffusion equation."""
+
 import numpy as np
 
 np.set_printoptions(precision=1, floatmode="fixed")
