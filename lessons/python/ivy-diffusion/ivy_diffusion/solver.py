@@ -64,7 +64,7 @@ def diffusion_example():
     print("Time = 0\n", C)
     for t in range(1, 5):
         solve1d(C, dx, dt, D)
-        print(f"Time = {t*dt:.4f}\n", C)
+        print(f"Time = {t * dt:.4f}\n", C)
 
 
 if __name__ == "__main__":
