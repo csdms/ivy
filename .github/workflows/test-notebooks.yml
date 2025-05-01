@@ -14,15 +14,14 @@ jobs:
 
     name: Test the notebooks
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
-      - uses: conda-incubator/setup-miniconda@v3
+      - name: Install Python
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
-          miniforge-variant: Miniforge3
-          miniforge-version: latest
-          auto-update-conda: true
+          python-version: 3.11
 
       - name: Install nox
         run: pip install nox
