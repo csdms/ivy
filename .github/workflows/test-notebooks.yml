@@ -21,7 +21,7 @@ jobs:
       - name: Install Python
         uses: actions/setup-python@v5
         with:
-          python-version: 3.11
+          python-version: 3.13
 
       - name: Install nox
         run: pip install nox
@@ -30,4 +30,4 @@ jobs:
         env:
           MPLBACKEND: "Agg"
           OPENTOPOGRAPHY_API_KEY: ${{ secrets.OPENTOPOGRAPHY_API_KEY }}
-        run: nox -s test-notebooks --python "3.11"
+        run: nox -s test-notebooks --python "3.13"
