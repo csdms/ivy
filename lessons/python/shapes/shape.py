@@ -12,5 +12,4 @@ class Shape(ABC):
         self.area = None
 
     @abstractmethod
-    def calculate_area(self) -> None:
-        ...
+    def calculate_area(self) -> None: ...

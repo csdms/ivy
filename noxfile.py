@@ -30,7 +30,7 @@ def test(session: nox.Session) -> None:
     session.run("pytest", *args)
 
 
-@nox.session(name="test-notebooks", venv_backend="conda", python="3.11")
+@nox.session(name="test-notebooks", venv_backend="conda", python="3.13")
 def test_notebooks(session: nox.Session) -> None:
     """Run the notebooks."""
     args = [
@@ -45,8 +45,8 @@ def test_notebooks(session: nox.Session) -> None:
         "-vvv",
     ] + session.posargs
 
-    session.conda_install("nbmake", "pytest", "pytest-xdist")
-    session.conda_install("--file", "lessons/requirements.in")
+    session.conda_install("nbmake", "pytest", "pytest-xdist", channel="conda-forge")
+    session.conda_install("--file", "lessons/requirements.in", channel="conda-forge")
     session.install("git+https://github.com/csdms/bmi-example-python.git")
 
     session.run(*args)

@@ -1,9 +1,9 @@
 """Modeling the one-dimensional diffusion equation."""
+
 from .solver import calculate_time_step, set_initial_profile, solve1d
 
 
 class Diffusion:
-
     """Model one-dimensional diffusion with fixed boundary conditions.
 
     Examples

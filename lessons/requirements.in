@@ -1,15 +1,15 @@
 # bmi-example-python
+# pymt_child
+# pymt_hydrotrend
 bmi-topography
 bmipy
 imageio
-landlab >=2.5
+landlab >=2.9.2
 matplotlib
 notebook
 numpy
 pandas
-pymt >=1.3
-pymt_child
-pymt_hydrotrend
+pymt >=1.3.2
 rasterio
 scipy
 terrainbento
