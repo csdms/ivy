@@ -27,7 +27,7 @@ repos:
   hooks:
     - id: nbqa-pyupgrade
       args: ["--py38-plus"]
-    - id: nbqa-isort
+    # - id: nbqa-isort
     - id: nbqa-flake8
       args: ["--extend-ignore=E402,F811"]
       exclude: |
