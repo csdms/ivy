@@ -29,7 +29,7 @@ repos:
       args: ["--py38-plus"]
     # - id: nbqa-isort
     - id: nbqa-flake8
-      args: ["--extend-ignore=E402,F811"]
+      args: ["--extend-ignore=E402,F811,F821"]
       exclude: |
           (?x)^(
               lessons/landlab/landlab-terrainbento/|
