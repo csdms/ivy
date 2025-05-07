@@ -115,6 +115,8 @@ Change to it and view its contents:
 ```
 cd ivy-collaboration
 ls
+```
+```
 CONTRIBUTORS.md LICENSE   README.md
 ```
 
@@ -126,6 +128,8 @@ The next step in the workflow isn't isn't necessary at this point, but it's some
 Use the `git status` subcommand to check on the current state of the repository:
 ```
 git status
+```
+```
 On branch main
 Your branch is up to date with 'origin/main'.
 
@@ -176,6 +180,8 @@ is still the default `main` branch,
 as we can see with `git branch`:
 ```
 git branch
+```
+```
 * main
   mdpiper/update-contributors
 ```
@@ -202,6 +208,8 @@ has a file, `CONTRIBUTORS.md`.
 View the files in the repository:
 ```
 ls
+```
+```
 CONTRIBUTORS.md LICENSE   README.md
 ```
 With your favorite text editor,
@@ -215,6 +223,8 @@ Now that we've changed a file that's under version control,
 view the changes with `git diff`:
 ```
 git diff CONTRIBUTORS.md
+```
+```diff
 diff --git a/CONTRIBUTORS.md b/CONTRIBUTORS.md
 index 23d368e..41f5c9b 100644
 --- a/CONTRIBUTORS.md
@@ -230,6 +240,8 @@ index 23d368e..41f5c9b 100644
 Then check on the state of the repository with `git status`:
 ```
 git status
+```
+```
 On branch mdpiper/update-contributors
 Your branch is up-to-date with 'origin/main'.
 Changes not staged for commit:
@@ -256,6 +268,8 @@ git add CONTRIBUTORS.md
 Check the result of this command with `git status`:
 ```
 git status
+```
+```
 On branch mdpiper/update-contributors
 Your branch is up-to-date with 'origin/main'.
 Changes to be committed:
@@ -279,6 +293,8 @@ To finalize the changes to the repository,
 we *commit* them with `git commit`:
 ```
 git commit -m "Add member to contributor list"
+```
+```
 [mdpiper/update-contributors 4c9565b] Add member to contributor list
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
@@ -291,6 +307,8 @@ It's also a convention to use imperative case.
 Check the result with `git status`:
 ```
 git status
+```
+```
 On branch mdpiper/update-contributors
 nothing to commit, working directory clean
 ```
@@ -307,6 +325,8 @@ Our local repository now differs from its remotes.
 View the history of revisions to the repository with `git log`:
 ```
 git log
+```
+```
 commit 4c9565be25ca5c91d66867631112c68301250991
 Author: Mark Piper <mark.piper@colorado.edu>
 Date:   Mon Jun 7 15:19:32 2021 -0600
@@ -337,6 +357,8 @@ you must have write access on the remote.
 Therefore, push the changes with:
 ```
 git push origin mdpiper/update-contributors
+```
+```
 Counting objects: 3, done.
 Delta compression using up to 16 threads.
 Compressing objects: 100% (3/3), done.
@@ -410,6 +432,8 @@ First,
 use the `git remote` subcommand to view what remotes are being tracked by your local repository:
 ```
 git remote -v
+```
+```
 origin	git@github.com:mdpiper/ivy-collaboration.git (fetch)
 origin	git@github.com:mdpiper/ivy-collaboration.git (push)
 ```
@@ -424,6 +448,8 @@ git remote add upstream git@github.com:csdms/ivy-collaboration.git
 Check the result with another call to `git remote`:
 ```
 git remote -v
+```
+```
 origin	git@github.com:mdpiper/ivy-collaboration.git (fetch)
 origin	git@github.com:mdpiper/ivy-collaboration.git (push)
 upstream	git@github.com:csdms/ivy-collaboration.git (fetch)
@@ -434,6 +460,8 @@ Next, switch back to the *main* branch in your local repository.
 This is the branch into which the pull request was merged.
 ```
 git checkout main
+```
+```
 Switched to branch 'main'
 Your branch is up-to-date with 'origin/main'.
 ```
