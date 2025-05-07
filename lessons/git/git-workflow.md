@@ -98,14 +98,14 @@ copy of the current state of the original.
 
 On your computer, open a terminal and change to your home directory:
 ```
-$ cd
+cd
 ```
 Note that this is a convenience; you can do the following steps anywhere on the filesystem.
 
 Now clone your repository from GitHub.
 The syntax for the `git clone` subcommand is
 ```
-$ git clone [repository-url]
+git clone [repository-url]
 ```
 where the bracketed text should be replaced with the SSH URL of your new repository.
 You'll be prompted to enter the passphrase for your SSH key.
@@ -113,8 +113,8 @@ You'll be prompted to enter the passphrase for your SSH key.
 The repository is cloned into the directory `ivy-collaboration`.
 Change to it and view its contents:
 ```
-$ cd ivy-collaboration
-$ ls
+cd ivy-collaboration
+ls
 CONTRIBUTORS.md LICENSE   README.md
 ```
 
@@ -125,7 +125,7 @@ The next step in the workflow isn't isn't necessary at this point, but it's some
 
 Use the `git status` subcommand to check on the current state of the repository:
 ```
-$ git status
+git status
 On branch main
 Your branch is up to date with 'origin/main'.
 
@@ -166,7 +166,7 @@ let's name this branch `update-contributors`.
 If your GitHub username is `@mdpiper`,
 this would be:
 ```
-$ git branch mdpiper/update-contributors
+git branch mdpiper/update-contributors
 ```
 
 Although we've created a new branch,
@@ -175,7 +175,7 @@ the one accepting changes,
 is still the default `main` branch,
 as we can see with `git branch`:
 ```
-$ git branch
+git branch
 * main
   mdpiper/update-contributors
 ```
@@ -185,7 +185,7 @@ To change the current branch,
 use the `git checkout` subcommand
 (again, for a hypothetical user `@mdpiper`):
 ```
-$ git checkout mdpiper/update-contributors
+git checkout mdpiper/update-contributors
 Switched to branch 'mdpiper/update-contributors
 ```
 You can verify that the new branch is current with `git branch` or `git status`.
@@ -201,7 +201,7 @@ Recall that the `ivy-collaboration` repository
 has a file, `CONTRIBUTORS.md`.
 View the files in the repository:
 ```
-$ ls
+ls
 CONTRIBUTORS.md LICENSE   README.md
 ```
 With your favorite text editor,
@@ -214,7 +214,7 @@ Save the file.
 Now that we've changed a file that's under version control,
 view the changes with `git diff`:
 ```
-$ git diff CONTRIBUTORS.md
+git diff CONTRIBUTORS.md
 diff --git a/CONTRIBUTORS.md b/CONTRIBUTORS.md
 index 23d368e..41f5c9b 100644
 --- a/CONTRIBUTORS.md
@@ -229,7 +229,7 @@ index 23d368e..41f5c9b 100644
 
 Then check on the state of the repository with `git status`:
 ```
-$ git status
+git status
 On branch mdpiper/update-contributors
 Your branch is up-to-date with 'origin/main'.
 Changes not staged for commit:
@@ -250,12 +250,12 @@ At this point, `git` is aware that a file has changed in the repository.
 The next step is to call `git add` on this file
 so that `git` knows that its changes are intended to be included in the repository.
 ```
-$ git add CONTRIBUTORS.md
+git add CONTRIBUTORS.md
 ```
 
 Check the result of this command with `git status`:
 ```
-$ git status
+git status
 On branch mdpiper/update-contributors
 Your branch is up-to-date with 'origin/main'.
 Changes to be committed:
@@ -278,7 +278,7 @@ to stage a subset of related changes to be grouped into a single commit.
 To finalize the changes to the repository,
 we *commit* them with `git commit`:
 ```
-$ git commit -m "Add member to contributor list"
+git commit -m "Add member to contributor list"
 [mdpiper/update-contributors 4c9565b] Add member to contributor list
  1 file changed, 1 insertion(+), 1 deletion(-)
 ```
@@ -290,7 +290,7 @@ describing why the change is being made.
 It's also a convention to use imperative case.
 Check the result with `git status`:
 ```
-$ git status
+git status
 On branch mdpiper/update-contributors
 nothing to commit, working directory clean
 ```
@@ -306,7 +306,7 @@ Our local repository now differs from its remotes.
 
 View the history of revisions to the repository with `git log`:
 ```
-$ git log
+git log
 commit 4c9565be25ca5c91d66867631112c68301250991
 Author: Mark Piper <mark.piper@colorado.edu>
 Date:   Mon Jun 7 15:19:32 2021 -0600
@@ -336,7 +336,7 @@ Note that in order to push changes to a remote,
 you must have write access on the remote.
 Therefore, push the changes with:
 ```
-$ git push origin mdpiper/update-contributors
+git push origin mdpiper/update-contributors
 Counting objects: 3, done.
 Delta compression using up to 16 threads.
 Compressing objects: 100% (3/3), done.
@@ -409,7 +409,7 @@ We can *sync* these repositories in a few steps.
 First,
 use the `git remote` subcommand to view what remotes are being tracked by your local repository:
 ```
-$ git remote -v
+git remote -v
 origin	git@github.com:mdpiper/ivy-collaboration.git (fetch)
 origin	git@github.com:mdpiper/ivy-collaboration.git (push)
 ```
@@ -418,12 +418,12 @@ By default,
 the only remote tracked is *origin*.
 We can track the *upstream* remote, as well, with:
 ```
-$ git remote add upstream git@github.com:csdms/ivy-collaboration.git
+git remote add upstream git@github.com:csdms/ivy-collaboration.git
 ```
 
 Check the result with another call to `git remote`:
 ```
-$ git remote -v
+git remote -v
 origin	git@github.com:mdpiper/ivy-collaboration.git (fetch)
 origin	git@github.com:mdpiper/ivy-collaboration.git (push)
 upstream	git@github.com:csdms/ivy-collaboration.git (fetch)
@@ -433,7 +433,7 @@ upstream	git@github.com:csdms/ivy-collaboration.git (push)
 Next, switch back to the *main* branch in your local repository.
 This is the branch into which the pull request was merged.
 ```
-$ git checkout main
+git checkout main
 Switched to branch 'main'
 Your branch is up-to-date with 'origin/main'.
 ```
@@ -441,14 +441,14 @@ Your branch is up-to-date with 'origin/main'.
 Now *pull* the changes from the *upstream* remote into you local repository
 with the `git pull` subcommand:
 ```
-$ git pull upstream main
+git pull upstream main
 ```
 
 Your local repository is now in sync with the *upstream* remote.
 
 Finally, sync the *origin* remote by pushing the changes from your local repository:
 ```
-$ git push origin main
+git push origin main
 ```
 
 All three repositories,
