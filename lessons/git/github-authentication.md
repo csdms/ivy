@@ -57,6 +57,8 @@ Follow the prompts and enter a passphrase for the key.
 Check the contents of your **.ssh** directory (which will now exist if it didn't before):
 ```
 ls ~/.ssh
+```
+```
 id_ed25519      id_ed25519.pub
 ```
 You now have an SSH key pair (private, public).
@@ -76,6 +78,8 @@ Start by copying the public key.
 Print the key to the terminal with `cat`:
 ```
 cat ~/.ssh/id_ed25519.pub
+```
+```
 ssh-ed25519 AA4WC3NzqC45ZD81NTR5AQAAIBbFO9USDsVFLRIiBJ9Y6wJil4AFrW5ysRrGNCd5wDvy mark.piper@colorado.edu
 ```
 then select the text and copy it.
