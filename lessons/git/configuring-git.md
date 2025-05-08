@@ -10,13 +10,13 @@ Git Bash on Windows).
 
 Make sure `git` is installed and in the application search path:
 ```
-$ git --version
+git --version
 ```
 
 Configure `git` on your machine with the following commands:
 ```
-$ git config --global user.name "YOUR NAME"
-$ git config --global user.email "YOUR EMAIL"
+git config --global user.name "YOUR NAME"
+git config --global user.email "YOUR EMAIL"
 ```
 Substitute your name and email address above,
 keeping the quote marks.
@@ -28,7 +28,7 @@ please [sign up](https://github.com/signup) for an account on GitHub.)
 
 You can also set the default editor used with `git`:
 ```
-$ git config --global core.editor "nano -w"
+git config --global core.editor "nano -w"
 ```
 We'll use `nano` by default,
 but if you prefer a different editor (like `vim` or `emacs`),
@@ -36,7 +36,7 @@ this is how it can be set.
 
 Check the configuration you set:
 ```
-$ git config --list
+git config --list
 ```
 
 
@@ -55,7 +55,7 @@ We'll see other software (e.g., `conda`) that uses a similar subcommand syntax.
 `git` provides several ways to get help.
 Get help on the `git` command itself:
 ```
-$ git --help
+git --help
 ```
 The output from this command shows the most common subcommands.
 Get help on a specific subcommand with:
@@ -68,7 +68,7 @@ on all of the options for the `config` subcommand.
 
 To see a list of all subcommands, try:
 ```
-$ git --help -a
+git --help -a
 ```
 
 `git` also has a (very long) `man` page:

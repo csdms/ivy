@@ -24,7 +24,7 @@ Before we create a new SSH key,
 let's check if you already have one on your system.
 Open a terminal and type
 ```
-$ ls ~/.ssh
+ls ~/.ssh
 ```
 
 GitHub supports three types of keys.
@@ -45,7 +45,7 @@ proceed to the next section.
 To create a new SSH key,
 type the following into a terminal:
 ```
-$ ssh-keygen -t ed25519 -C "YOUR EMAIL"
+ssh-keygen -t ed25519 -C "YOUR EMAIL"
 ```
 The `-t` flag specifies the type of key to create;
 in this case,
@@ -56,7 +56,9 @@ Follow the prompts and enter a passphrase for the key.
 
 Check the contents of your **.ssh** directory (which will now exist if it didn't before):
 ```
-$ ls ~/.ssh
+ls ~/.ssh
+```
+```
 id_ed25519      id_ed25519.pub
 ```
 You now have an SSH key pair (private, public).
@@ -75,7 +77,9 @@ we need to add the public key to GitHub.
 Start by copying the public key.
 Print the key to the terminal with `cat`:
 ```
-$ cat ~/.ssh/id_ed25519.pub
+cat ~/.ssh/id_ed25519.pub
+```
+```
 ssh-ed25519 AA4WC3NzqC45ZD81NTR5AQAAIBbFO9USDsVFLRIiBJ9Y6wJil4AFrW5ysRrGNCd5wDvy mark.piper@colorado.edu
 ```
 then select the text and copy it.
@@ -96,7 +100,7 @@ That's it!
 
 To check that GitHub has your SSH key, type the following in a terminal:
 ```
-$ ssh -T git@github.com
+ssh -T git@github.com
 ```
 You'll be prompted to enter the passphrase for your key.
 
