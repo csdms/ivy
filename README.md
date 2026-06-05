@@ -1,5 +1,7 @@
 ![Ivy logo](https://raw.githubusercontent.com/csdms/project/main/assets/CSDMS-logo-color-tagline-hor.png)
 
+<!-- skip-header-image -->
+
 <!-- Links -->
 
 [jhub]: https://csdms.colorado.edu/wiki/JupyterHub
