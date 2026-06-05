@@ -6,6 +6,7 @@
 
 [jhub]: https://csdms.colorado.edu/wiki/JupyterHub
 [badge]: https://img.shields.io/badge/Run%20on-EarthscapeHub-orange
+[miniforge]: https://github.com/conda-forge/miniforge
 [jupyter]: ./lessons/jupyter/index.md
 [shell]: ./lessons/shell/index.md
 [editors]: ./lessons/editors/index.md
@@ -29,11 +30,9 @@
 
 # CSDMS Ivy
 
-CSDMS Ivy is a collection of instructional materials on
-
-* modern, collaborative, scientific software development, and
-* use of community cyberinfrastructure tools
-
+CSDMS Ivy is a collection of instructional materials
+on modern, collaborative, scientific software development
+and use of community cyberinfrastructure tools
 for researchers in earth and planetary surface processes.
 
 CSDMS Ivy is
@@ -50,7 +49,7 @@ although the ordering below represents a typical progression.
 1. [Text Editors and Development Environments][editors]
 1. [Python Fundamentals][python]
 1. [Anaconda and conda][conda]
-1. [Version Control with git and GitHub][git]
+1. [Version Control with Git and GitHub][git]
 1. [Python for Modeling][python]
 1. [Landlab][landlab]
 1. [The Basic Model Interface (BMI)][bmi]
@@ -60,7 +59,7 @@ although the ordering below represents a typical progression.
 1. [Best Practices in Scientific Software Development][best-practices]
 
 The lessons can be run locally
-if a user installs Anaconda and a `git` client on their computer.
+if a user installs [Miniforge][miniforge] and a Git client on their computer.
 All lessons are also available to run
 on [EarthscapeHub][jhub].
 Click this button:
