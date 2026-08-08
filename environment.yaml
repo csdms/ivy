@@ -18,9 +18,9 @@ dependencies:
   - bmipy
   - imageio
   - ipykernel
+  - jupyter
   - landlab >=2.10
   - matplotlib
-  - notebook
   - numpy
   - pandas
   - pip
