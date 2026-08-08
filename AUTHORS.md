@@ -15,6 +15,7 @@
 - Albert Kettner
 - Allen Lee
 - Nathan Lyons
+- Susannah Morey
 - Margaux Mouchene
 - Irina Overeem
 - Mariela Perignon
