@@ -2,6 +2,23 @@
 
 A record of changes to CSDMS Ivy.
 
+## Unreleased
+<small>[Compare with v2025.0](https://github.com/csdms/ivy/compare/v2025.0...main)</small>
+
+* Add Landlab noteboos for ESPIn 2026 (#170, #171)
+* Fix broken link to image in OOP lesson (#169)
+* Increment versions in CI and venv (#167)
+* Use OT demo key (#165)
+* Add intro lesson on package managers (#164)
+* Add documentation and unit test tutorial (#163)
+* Remove the `$` prompt from the Ivy GitHub lessons (#162)
+* Update the opentopography key (#161)
+* Minor edits of the landlab notebooks (#160)
+* Add intro slides to media directory (#159)
+* Add lessons on scripting and OOP (#158)
+* Update linters and actions (#157)
+* Curriculum updates (#156)
+
 ## [v2025.0](https://github.com/csdms/ivy/releases/tag/v2025.0) (2025-02-18)
 <small>[Compare with v2024.0](https://github.com/csdms/ivy/compare/v2024.0...v2025.0)</small>
 

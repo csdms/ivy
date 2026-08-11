@@ -18,15 +18,16 @@ dependencies:
   - bmipy
   - imageio
   - ipykernel
+  - jupyter
   - landlab >=2.10
   - matplotlib
-  - notebook
   - numpy
   - pandas
   - pip
   - pymt >=1.3
   # - pymt_child
   # - pymt_hydrotrend
+  - pytest
   - rasterio
   - scipy
   - terrainbento
@@ -34,4 +35,3 @@ dependencies:
   - nox
   - pip:
     - git+https://github.com/csdms/bmi-example-python.git
-    # - git+https://github.com/terrainbento/terrainbento.git
